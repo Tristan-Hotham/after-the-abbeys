@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>What Became of the Abbeys?</title>
+<meta name="description" content="What is each of the {{n_houses|int}} monasteries Henry VIII closed between 1536 and 1540 now: ruin, cathedral, parish church, country house, farm, or nothing at all? And did the Cistercians really choose empty places?">
+<meta property="og:title" content="What Became of the Abbeys?">
+<meta property="og:description" content="{{n_houses|int}} English and Welsh religious houses closed 1536 to 1540, traced to what stands on their sites today, and a test of the Cistercians' reputation for wild, empty places.">
+<meta property="og:image" content="https://tristan-hotham.github.io/after-the-abbeys/header.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800;9..144,900&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+/* Limestone page. Moss = the Cistercians and the accent. Slate = the Benedictines. */
+:root{
+  --bg:#EEEBE3; --panel:#E4E0D5; --fg:#22241F; --muted:#62665C; --rule:#D3CEC1; --card:#F8F6F0; --border:#BDB7A8;
+  --hot:#4E7A2E; --slate:#4A5563; --gold:#A06E12; --sea:#DFE3DF;
+  --o0:#2F3A4A; --o1:#5E8C34; --o2:#B07A1F; --o3:#2E7C82; --o4:#7E4A87; --o5:#B5532A; --o6:#2F5C9A; --o7:#8C6E54; --o8:#A33A3A; --o9:#8F8B80; --o10:#B9B4A7;
+  --display:"Fraunces",Georgia,"Times New Roman",serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#171915; --panel:#20231D; --fg:#ECEAE2; --muted:#A3A597; --rule:#34382F; --card:#1F221C; --border:#474C40;
+  --hot:#8DBB5E; --slate:#9AA6B6; --gold:#D9A441; --sea:#131614;
+  --o0:#A9B6CA; --o1:#8DBB5E; --o2:#D9A441; --o3:#5DB3B8; --o4:#C08ACB; --o5:#E0805A; --o6:#7FA6E0; --o7:#BFA185; --o8:#E07A7A; --o9:#A8A498; --o10:#6D6A61; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#171915; --panel:#20231D; --fg:#ECEAE2; --muted:#A3A597; --rule:#34382F; --card:#1F221C; --border:#474C40;
+  --hot:#8DBB5E; --slate:#9AA6B6; --gold:#D9A441; --sea:#131614;
+  --o0:#A9B6CA; --o1:#8DBB5E; --o2:#D9A441; --o3:#5DB3B8; --o4:#C08ACB; --o5:#E0805A; --o6:#7FA6E0; --o7:#BFA185; --o8:#E07A7A; --o9:#A8A498; --o10:#6D6A61; color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 18px/1.62 var(--body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));overflow-x:hidden}
+.wrap{max-width:680px;margin:0 auto;padding-block:28px 64px}
+.wrap .bleed{width:min(1080px,calc(100vw - 32px));margin-left:calc((100% - min(1080px,100vw - 32px))/2);margin-right:0}
+a{color:inherit;text-decoration-color:var(--hot);text-underline-offset:3px}
+.kicker{font:500 12px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.kicker b{background:var(--hot);color:#fff;padding:5px 8px;font-weight:500}
+header.hero{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px 24px;align-items:end;border-bottom:6px double var(--fg);padding-bottom:22px;margin-top:18px}
+h1{font:900 clamp(50px,12.5vw,104px)/.88 var(--display);letter-spacing:-.02em;margin:0;text-wrap:balance;font-variation-settings:"SOFT" 50}
+h1 em{font-style:normal;color:var(--hot)}
+.mark{width:clamp(86px,19vw,160px);height:auto;display:block}
+.dek{grid-column:1/-1;font-size:21px;line-height:1.42;margin:8px 0 0;max-width:44ch}
+.byline{font:400 13px/1.4 var(--mono);color:var(--muted);margin-top:14px}
+h2{font:800 34px/1.04 var(--display);letter-spacing:-.01em;margin:52px 0 10px;text-wrap:balance}
+h2 .n{font:500 13px/1 var(--mono);color:var(--hot);display:block;letter-spacing:.1em;margin-bottom:10px}
+h3{font:600 20px/1.25 var(--display);margin:28px 0 6px}
+p{margin:0 0 16px}
+.lede::first-letter{font:900 72px/.8 var(--display);float:left;margin:6px 10px 0 0;color:var(--hot)}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);margin:26px 0 8px}
+.stats div{background:var(--card);padding:14px 12px}
+.stats b{display:block;font:900 clamp(28px,6vw,40px)/1 var(--display);color:var(--fg)}
+.stats b.h{color:var(--hot)}
+.stats span{font:400 12px/1.35 var(--mono);color:var(--muted);display:block;margin-top:6px}
+@media (max-width:600px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.figure{margin:26px 0 30px}
+.fig-h{font:600 19px/1.25 var(--display);margin:0 0 4px}
+.fig-sub{font:400 13px/1.45 var(--mono);color:var(--muted);margin:0 0 12px}
+.src{font:400 12px/1.45 var(--mono);color:var(--muted);margin-top:10px}
+.chart{width:100%;position:relative}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+svg text{font-family:var(--mono);fill:var(--fg)}
+.lab{font-size:12px}.lab.m{fill:var(--muted)}.lab.b{font-weight:500}.lab.s{font-size:11px}
+.tip{position:absolute;pointer-events:none;background:var(--fg);color:var(--bg);font:400 12px/1.45 var(--mono);padding:8px 10px;border-radius:3px;max-width:270px;z-index:1000;transform:translate(-50%,calc(-100% - 12px));display:none}
+.tip b{font-weight:500}
+.controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:0 0 10px}
+.btn{font:500 12px/1 var(--mono);background:var(--card);color:var(--fg);border:1px solid var(--border);border-radius:3px;padding:8px 10px;cursor:pointer;min-height:36px}
+.btn[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.btn:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--hot);outline-offset:2px}
+.seg{display:inline-flex;flex-wrap:wrap;border:1px solid var(--border);border-radius:3px;overflow:hidden}
+.seg .btn{border:0;border-radius:0;border-right:1px solid var(--border)}
+.seg .btn:last-child{border-right:0}
+input[type=search],select{font:400 14px/1 var(--mono);background:var(--card);color:var(--fg);border:1px solid var(--border);border-radius:3px;padding:9px 10px;min-height:36px;min-width:0}
+input[type=search]{flex:1 1 180px}
+.mapgrid{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:18px;align-items:start}
+@media (max-width:820px){.mapgrid{grid-template-columns:1fr}}
+#map{height:clamp(440px,74vh,660px);border:1px solid var(--border);background:var(--sea);border-radius:2px;z-index:0}
+.legend{display:flex;gap:6px 14px;flex-wrap:wrap;font:400 12px/1.3 var(--mono);color:var(--muted);margin-top:8px;align-items:center}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+.legend svg{width:14px;height:14px;vertical-align:-2px;margin-right:4px}
+.side{display:flex;flex-direction:column;gap:12px}
+.card{background:var(--card);border:1px solid var(--border);border-left:4px solid var(--hot);padding:12px 14px;font:400 13px/1.5 var(--mono)}
+.card.empty{border-left-color:var(--border);color:var(--muted)}
+.card b{font:600 18px/1.2 var(--display);display:block;margin-bottom:6px}
+.card dl{display:grid;grid-template-columns:auto 1fr;gap:2px 12px;margin:6px 0 8px}
+.card dt{color:var(--muted)}.card dd{margin:0}
+.card q{display:block;margin-top:6px;color:var(--fg);font-style:italic}
+.counts{list-style:none;margin:0;padding:0;font:400 12.5px/1.3 var(--mono);border:1px solid var(--rule);background:var(--card)}
+.counts li{display:grid;grid-template-columns:20px minmax(0,1fr) auto;gap:8px;padding:6px 10px;border-bottom:1px solid var(--rule);align-items:center;cursor:pointer}
+.counts li:hover{background:var(--panel)}
+.counts li[aria-pressed="true"]{background:var(--panel);font-weight:500}
+.counts svg{width:16px;height:16px}
+.counts .v{color:var(--muted)}
+.pull{font:600 26px/1.25 var(--display);border-left:6px solid var(--hot);padding:4px 0 4px 18px;margin:30px 0}
+.note{background:var(--panel);border:1px solid var(--rule);padding:14px 16px;font-size:16px;margin:22px 0}
+.note h3{margin-top:0}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 18px}
+.chips span{font:400 12.5px/1 var(--mono);border:1px solid var(--border);background:var(--card);padding:6px 8px;border-radius:14px}
+table.t{width:100%;border-collapse:collapse;font:400 13px/1.35 var(--mono)}
+table.t th{text-align:left;font-weight:500;color:var(--muted);border-bottom:2px solid var(--fg);padding:6px 8px 6px 0}
+table.t td{border-bottom:1px solid var(--rule);padding:7px 8px 7px 0;vertical-align:top}
+table.t td.num,table.t th.num{text-align:right}
+.tablewrap{overflow-x:auto}
+.local{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:18px 0}
+@media (max-width:600px){.local{grid-template-columns:1fr}}
+.local .card{border-left-color:var(--o1)}
+.cta{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}
+.cta a{font:500 13px/1 var(--mono);text-decoration:none;border:1px solid var(--fg);padding:11px 14px;border-radius:3px}
+.cta a.p{background:var(--hot);border-color:var(--hot);color:#fff}
+footer{border-top:6px double var(--fg);margin-top:56px;padding-top:16px;font:400 13px/1.55 var(--mono);color:var(--muted)}
+footer p{margin:0 0 10px}
+.theme{position:fixed;right:12px;bottom:12px;z-index:1001}
+.leaflet-container{font:400 12px/1.4 var(--mono);background:var(--sea)}
+.leaflet-control-attribution{background:color-mix(in srgb,var(--card) 85%,transparent)!important;color:var(--muted)!important;font-size:10px}
+.leaflet-control-attribution a{color:var(--fg)!important}
+.leaflet-bar a{background:var(--card);color:var(--fg);border-bottom-color:var(--border)}
+.leaflet-bar a:hover{background:var(--panel)}
+.leaflet-bar{border:1px solid var(--border)!important}
+.gl{background:none;border:0}
+.gl svg{width:100%;height:100%;overflow:visible}
+.gl.sel svg{filter:drop-shadow(0 0 3px var(--fg))}
+@media print{.theme,.controls{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="kicker"><b>Data study</b><span>History × landscape</span><span>England and Wales</span></div>
+<header class="hero">
+  <h1>What became of the <em>abbeys?</em></h1>
+  <svg class="mark" viewBox="-100 -110 200 210" aria-hidden="true"><g id="heroMark"></g></svg>
+  <p class="dek">Henry VIII closed the monasteries of England and Wales between 1536 and 1540. I traced {{n_houses|int}} of them to what stands on their sites today, then tested an old guidebook claim: that the Cistercians chose wild, empty places.</p>
+</header>
+<div class="byline">Dr Tristan Hotham, Independent researcher · October 2026 · Data: Wikipedia lists of monastic houses, Wikidata, Domesday Book (Hull Domesday Project)</div>
+
+<div class="stats">
+  <div><b>{{n_houses|int}}</b><span>houses closed 1536 to 1540, each placed on the map</span></div>
+  <div><b class="h">{{by_year.1538|int}}</b><span>closed in 1538 alone, the busiest year</span></div>
+  <div><b>{{standing_share_of_known|pct0}}</b><span>of sites with a recorded fate still have something standing</span></div>
+  <div><b class="h">{{setting.Cistercian monks.pct_median|f0}}th</b><span>percentile: how busy a typical Cistercian site was in 1086, against its own county</span></div>
+</div>
+
+<p class="lede">Every ruined abbey in Britain has the same opening scene. The commissioners arrive, the monks sign the surrender, the lead comes off the roof, and the stone is carted off to build somebody's house. But that is the story of the ruins, and ruins are only one of the things that happened. Some abbey churches became cathedrals. Many more became the parish church. Some were turned into country houses that still carry the word Abbey on the gate. Some became farms, schools, pubs and car parks. Many vanished.</p>
+<p>I wanted to see the whole pattern rather than the famous few. So I built a list of every religious house closed between 1536 and 1540 that I could find in the Wikipedia county lists of monastic houses and in Wikidata: {{n_houses|int}} of them, {{n_england|int}} in England and {{n_wales|int}} in Wales. For each one I recorded the order, the year it closed, and what the lists say about the site now.</p>
+<p>Then I used the same map to test something guidebooks say about the Cistercians, the white monks of Fountains, Rievaulx and Tintern: that they sought out remote, empty valleys, far from other people. Domesday Book gives a census of sorts for 1086, before almost all Cistercian houses were founded, so I can ask how many households lived near each future abbey site before the monks arrived.</p>
+
+<h2><span class="n">01 · The map</span>Every house, and what it is now</h2>
+<p>Each symbol is a religious house, coloured by its order. The shape says what is on the site now: a spire for a cathedral, a cross for a church still in use, a roof for a house, a broken arch for a ruin, an empty ring where nothing visible is left. Tap a symbol for the details and the words of the list it came from. Filter by order or by fate, or search for a house.</p>
+<div class="figure bleed">
+  <div class="controls">
+    <div class="seg" role="group" aria-label="Order" id="ordseg"></div>
+    <input type="search" id="q" placeholder="Find a house, e.g. Whalley Abbey" aria-label="Find a house" list="names">
+    <datalist id="names"></datalist>
+  </div>
+  <div class="mapgrid">
+    <div>
+      <div id="map" role="application" aria-label="Map of {{n_with_coords|int}} religious houses closed 1536 to 1540, coloured by order, with symbols for what is on each site now"></div>
+      <div class="legend" id="legend"></div>
+    </div>
+    <div class="side">
+      <div class="card empty" id="card">Tap a symbol, or search for a house, to see its order, closing date and what is there now.</div>
+      <div class="fig-h" style="margin-top:4px">What the sites are now</div>
+      <div class="fig-sub" style="margin:0">Tap a line to show only that kind of site.</div>
+      <ul class="counts" id="counts"></ul>
+    </div>
+  </div>
+  <div class="src">Houses and their fates: Wikipedia county lists of monastic houses (CC BY-SA 4.0) and Wikidata (CC0). The fate is my classification of the list's words, by fixed rules (section 06). {{n_without_coords|int}} houses have no usable coordinates and are not mapped.</div>
+</div>
+
+<h2><span class="n">02 · Four and a half years</span>The houses fell in two waves</h2>
+<p>The closures came in two waves. The Act of 1536 took the smaller houses, those worth less than £200 a year: {{by_year.1536|int}} houses in my list closed in 1536 and {{by_year.1537|int}} in 1537. Then came the great surrenders, house by house. {{by_year.1538|int}} houses closed in 1538, the year the friars went: {{friars_1538|int}} of the {{by_order.Friars|int}} friaries in my list closed that year. {{by_year.1539|int}} more closed in 1539, the Benedictines' worst year ({{benedictine_1539|int}} of their houses), and the last {{by_year.1540|int}} in 1540, among them {{military_1540|int}} houses of the Knights Hospitaller and other military orders.</p>
+<div class="figure">
+  <div class="fig-h">Every house, by the year it closed</div>
+  <div class="fig-sub">One square per mapped house, coloured by order. Hover or tap a square for its name.</div>
+  <div class="chart" id="timeline"></div>
+  <div class="src">Year of closure as given in the Wikipedia lists ({{n_year_from_wikidata|int}} houses take it from Wikidata because their row gives none). A few dates are disputed in the sources; I use the first year between 1530 and 1545 that the list gives.</div>
+</div>
+
+<h2><span class="n">03 · Afterlives</span>Houses, churches, ruins, and nothing at all</h2>
+<p>For {{afterlife_known_n|int}} houses the lists say clearly what is on the site now. Among those, the most common fate is a house: {{afterlife.house|int}} sites ({{afterlife_known_share.house|pct0}}) have a mansion, manor house or other home built on or out of the monastery, sometimes now a hotel. Close behind come churches still in use: {{afterlife.church|int}} sites ({{afterlife_known_share.church|pct0}}), where the nave, the choir, or a later church on the same ground still serves a parish. Another {{afterlife.cathedral|int}} became or remain cathedrals.</p>
+<p>Ruins, the image we all carry, account for {{afterlife.ruin|int}} sites ({{afterlife_known_share.ruin|pct0}}). Nothing visible is left at {{afterlife.nothing|int}} ({{afterlife_known_share.nothing|pct0}}), and only earthworks at {{afterlife.earthworks|int}}. In all, {{standing_share_of_known|pct0}} of the sites with a recorded fate still have something standing, and {{in_use_share_of_known|pct0}} are in some kind of use. Just {{afterlife.monastic|words}} are monasteries again.</p>
+<div class="figure">
+  <div class="fig-h">What stands on the site today</div>
+  <div class="fig-sub">All {{n_houses|int}} houses. The grey bars are houses whose fate the lists do not record.</div>
+  <div class="chart" id="afterbars"></div>
+</div>
+<p>That leaves a large grey area, and I want to be plain about it. For {{afterlife.unclear|int}} houses the list rows say nothing about the present, and for {{afterlife.protected|int}} more the only clue is that Wikidata records a listed building or scheduled monument on the site, which tells us something survives but not what. The shares above are shares of the houses with a recorded fate, not of all of them.</p>
+
+<h3>Each order went its own way</h3>
+<p>The orders met very different ends. The Benedictines, the oldest order, often sat in towns with a parish attached, and their great churches were the easiest to keep: {{afterlife_known_share_by_order.Benedictine.church|pct0}} of Benedictine sites with a recorded fate have a church in use, and {{afterlife_known_share_by_order.Benedictine.cathedral|pct0}} are cathedrals. The Cistercians are the opposite. Their churches served no parish, and a third of their sites ({{afterlife_known_share_by_order.Cistercian.ruin|pct0}}) are ruins. The friars, in the middle of towns, were built over: {{afterlife_known_share_by_order.Friars.nothing|pct0}} of friary sites with a recorded fate have nothing visible left.</p>
+<div class="figure">
+  <div class="fig-h">Fate of the site, by order</div>
+  <div class="fig-sub">Share of houses with a recorded fate. The number after each order is how many that is.</div>
+  <div class="chart" id="byorder"></div>
+</div>
+<p>And the country houses kept their names. {{kept_name_n|int}} of the {{house_n|int}} houses on monastic sites carry a monastic word in the name the list gives them, {{kept_name_abbey_n|int}} of them "Abbey":</p>
+<div class="chips" id="kept"></div>
+
+<h2><span class="n">04 · The Cistercian question</span>Did the white monks choose empty places?</h2>
+<p>The Cistercian rule told monks to build far from towns and villages, and the order's own writers liked to describe their sites as wilderness. Guidebooks repeat it. Wikipedia's article on the order says the thirteen Cistercian houses in Wales were "all in remote locations". But a founder's grant was usually land someone already owned and farmed, and some Cistercian houses are said to have moved or cleared villages to make way for their granges. So how empty were these places before the monks came?</p>
+<p>Domesday Book (1086) records the households of thousands of places in England, {{domesday_located_places|int}} of which can be located today. It was made a generation or more before the first Cistercian house in England in 1128. For every house in the parts of England where the survey gives household counts, I added up the 1086 households recorded within 5 km. Because some counties were far busier than others in 1086, I then ranked each site against 400 random spots in its own county. A site at the 50th percentile was exactly as busy as a typical spot in that county; a site at the 10th was emptier than nine in ten.</p>
+<div class="figure">
+  <div class="fig-h">How busy was the site in 1086, compared with its own county?</div>
+  <div class="fig-sub">Each dot is one house closed 1536 to 1540: its percentile among 400 random points in the same county, by 1086 households within 5 km. Bar: median and 95% interval. Groups with at least five houses.</div>
+  <div class="chart" id="strip"></div>
+  <div class="src">Domesday households: Hull Domesday Project (CC BY-NC-SA) via the realm-domesday and Domesday Destiny datasets. Excludes Wales, the far north, Lancashire, Greater Manchester and Merseyside (no usable household counts), London and Winchester (not in Domesday Book). {{dom_area_n|int}} houses.</div>
+</div>
+<p>The answer is a qualified yes, and the qualification matters. The typical Cistercian monastery stood at the {{setting.Cistercian monks.pct_median|f0}}th percentile of its county: about as busy as an ordinary spot in the countryside. The Benedictine monks' houses stood at the {{setting.Benedictine monks.pct_median|f0}}th, the Augustinian canons' at the {{setting.Augustinian canons.pct_median|f0}}th and the friars, who wanted towns, at the {{setting.Friars.pct_median|f0}}th. In raw numbers, the typical Cistercian site had {{setting.Cistercian monks.hh5_median|f0}} households recorded within 5 km in 1086, against {{setting.Benedictine monks.hh5_median|f0}} for Benedictine monks.</p>
+<p class="pull">The Cistercians did not find the wilderness. They found ordinary countryside, while everyone else was in the villages and towns.</p>
+<p>The gap is real but modest. Comparing houses in the same county, Cistercian sites had about {{regression.effects.Cistercian monks.pct_change|abs}}% fewer 1086 households within 5 km than Benedictine sites (95% interval {{regression.effects.Cistercian monks.ci.1|abs}}% to {{regression.effects.Cistercian monks.ci.0|abs}}% fewer). Only {{cist_vs_ben.share_cist_bottom_quarter|pct0}} of Cistercian sites were in the emptiest quarter of their county, hardly more than the {{cist_vs_ben.share_ben_bottom_quarter|pct0}} of Benedictine sites. The order with genuinely empty sites was a different one: the Carthusians, the near-hermit monks of houses such as Mount Grace and Hinton, at the {{setting.Carthusian.pct_median|f0}}th percentile, though there are only {{setting.Carthusian.n|words}} of them in the comparison.</p>
+<div class="figure">
+  <div class="fig-h">Households nearby in 1086, against Benedictine monks in the same county</div>
+  <div class="fig-sub">Percentage difference in 1086 households within 5 km, from a regression with a separate baseline for each county. Lines: 95% intervals.</div>
+  <div class="chart" id="forest"></div>
+</div>
+<p>Yorkshire, the Cistercian heartland, needs a warning. Much of it was recorded as waste in 1086 after William the Conqueror's harrying of the north, so every kind of house there sat in thin country. Within Yorkshire the {{yorkshire.Yorkshire.Cistercian monks.n|words}} Cistercian sites and {{yorkshire.Yorkshire.Benedictine monks.n|words}} Benedictine sites look alike (the {{yorkshire.Yorkshire.Cistercian monks.pct_median|f0}}th and {{yorkshire.Yorkshire.Benedictine monks.pct_median|f0}}th percentiles of their county). Outside Yorkshire the gap is clearer: the {{yorkshire.Rest of England.Cistercian monks.pct_median|f0}}th against the {{yorkshire.Rest of England.Benedictine monks.pct_median|f0}}th. If I widen the test to every house in the lists with a known order, whenever it closed, the picture holds: the {{robust_all_listed.Cistercian monks.pct_median|f0}}th percentile for {{robust_all_listed.Cistercian monks.n|int}} Cistercian sites against the {{robust_all_listed.Benedictine monks.pct_median|f0}}th for {{robust_all_listed.Benedictine monks.n|int}} Benedictine ones.</p>
+<p>Where the Cistercians do stand out is in the ground itself. Their sites sit higher (a median of {{setting.Cistercian monks.elev_median|f0}} m against {{setting.Benedictine monks.elev_median|f0}} m for Benedictine monks) in hillier country: the ground within 1 km rises and falls by {{setting.Cistercian monks.relief_median|f0}} m against {{setting.Benedictine monks.relief_median|f0}} m. In Wales, where Domesday is silent, the difference is starker: {{wales_terrain.Cistercian monks.relief_median|f0}} m of relief around the {{wales_terrain.Cistercian monks.n|words}} Cistercian houses against {{wales_terrain.Benedictine monks.relief_median|f0}} m around the {{wales_terrain.Benedictine monks.n|words}} Benedictine ones. The white monks' valleys were steep, and that may be what made them feel remote.</p>
+
+<h2><span class="n">05 · Close to home</span>Whalley and Sawley</h2>
+<p>Two Cistercian houses stood {{local.distance_km|f0}} km apart in the Ribble valley. Sawley was founded in 1147 as a daughter house of Newminster in Northumberland, and Wikipedia calls it "a relatively poor establishment". Whalley's monks came from Stanlow on the Mersey estuary, moving to Whalley in 1296. Both were caught up in the Pilgrimage of Grace, the great northern rising of 1536.</p>
+<div class="local">
+  <div class="card"><b>Sawley Abbey</b><dl><dt>Order</dt><dd>Cistercian monks</dd><dt>Closed</dt><dd>{{local.Sawley Abbey.dissolved|raw}}</dd><dt>Now</dt><dd>Ruin, in the care of English Heritage</dd><dt>1086</dt><dd>{{local.Sawley Abbey.dom_n5|words}} Domesday places named within 5 km</dd><dt>Ground</dt><dd>{{local.Sawley Abbey.elev|f0}} m up, {{local.Sawley Abbey.relief|f0}} m of relief</dd></dl><q>on 12 October, supported by the rebels, the monks returned to the empty abbey.</q></div>
+  <div class="card"><b>Whalley Abbey</b><dl><dt>Order</dt><dd>Cistercian monks</dd><dt>Closed</dt><dd>{{local.Whalley Abbey.dissolved_text|raw}}</dd><dt>Now</dt><dd>Ruins, a gateway and a later house; a Church retreat house</dd><dt>1086</dt><dd>{{local.Whalley Abbey.dom_n5|words}} Domesday places named within 5 km</dd><dt>Ground</dt><dd>{{local.Whalley Abbey.elev|f0}} m up, {{local.Whalley Abbey.relief|f0}} m of relief</dd></dl><q>it is now the Retreat and Conference House of the Diocese of Blackburn of the Church of England.</q></div>
+</div>
+<p>Sawley was closed in 1536 as a small house, and its monks were put back in by the rebels that October. Whalley's last abbot, Paslew, was executed for high treason for his part in events around the rising, and the abbey was taken in March 1537. Today their afterlives split along the usual lines. Sawley is a ruin, open to the public in English Heritage's care. At Whalley only the foundations of the church remain, a large house was built where the abbot's house and infirmary stood, a gateway is listed Grade I, and the whole is a retreat and conference house of the Church of England. My Domesday comparison cannot reach either: modern Lancashire has almost no household counts in the survey. Domesday Book does name {{local.Sawley Abbey.dom_n5|words}} places within 5 km of Sawley and {{local.Whalley Abbey.dom_n5|words}} within 5 km of Whalley, so neither valley was empty of settlement.</p>
+
+<h2><span class="n">06 · Method</span>How I did this</h2>
+<p><b>The houses.</b> The core list is the set of English Wikipedia county lists of monastic houses: 46 English county pages and the Welsh page. The analysis machine could reach only GitHub, so I read each English page with a web reader instructed to copy, row by row, the name, the status mark after it, the communities in bold, the words after "dissolved", every later-use clause verbatim, and the coordinates. The Welsh and Lancashire pages were also available as raw wikitext, which I parsed directly. As a check, the reader's copy of the Lancashire page agreed with the raw wikitext on all {{extraction_check.matched_names|int}} rows for the status mark, the order and the year. The Isle of Wight page could not be fetched, so its houses come from Wikidata only.</p>
+<p>I read {{list_rows_read|int}} rows, dropped {{list_rows_xref|int}} cross-references to other counties and merged {{list_rows_duplicates_merged|int}} rows that describe the same house twice. I joined each row to the Wikidata items for UK monasteries ({{wikidata_ew_items|int}} in England and Wales) by name and distance, which adds listed-building and scheduled-monument designations, and added {{n_wikidata_only|words}} houses closed 1536 to 1541 that are in Wikidata but not in the lists. Where both give coordinates, the median gap is {{coord_check.median_m|int}} m and {{coord_check.share_within_500m|pct0}} agree within 500 m. The main set is every house whose closing year falls in 1536 to 1541: {{n_houses|int}} houses. Wikipedia's article on the Dissolution says there were "nearly 900" religious houses in England, so my {{n_england|int}} English houses are roughly {{share_of_900|pct0}} of that figure. Part of the gap is surely among the {{list_rows_no_year|int}} list rows that give no dissolution year at all, which I leave out.</p>
+<p><b>The fate of each site.</b> I classified the list's later-use text with fixed rules, in this order of priority: cathedral; monastery again; church in use; house or hotel; school or college; farm; other use (museum, inn, shops, offices and so on); ruin (including sites in the care of English Heritage, Cadw or the National Trust); earthworks only; nothing visible. Clauses that describe the past ("until", "demolished", "possibly") do not count. The list's own marks are used too: + (church use), ^ (other use), $ (earthworks), # (no trace), * (monastic). Where the list is silent, Wikidata's "monastery ruins" and "destroyed monastery" types fill in, and a protected designation alone gives "protected, use unrecorded". Everything else is "unclear". In a random check of {{audit.n|int}} classified houses against their source text, I judged {{audit.consistent|int}} consistent; two earlier rounds of checking were used to improve the rules. Each house's deciding phrase is in the data file, so any call can be checked.</p>
+<p><b>The order.</b> The last community the list names before closure (so a Savigniac house that became Cistercian in 1147 counts as Cistercian). Nunneries are kept separate where the order allows. Friars of every kind are grouped together, as are the Templars and Hospitallers.</p>
+<p><b>1086 households.</b> From the Hull Domesday Project's data as joined to Open Domesday places in the realm-domesday repository and my Domesday Destiny project: households recorded for every located Domesday place within 5 km of the site. Random comparison points: 400 per county, drawn inside the county outline. The regression is ordinary least squares on log(1 + households) with a fixed effect for each county and robust standard errors. Height and relief come from AWS Terrain Tiles (about 100 m pixels here); relief is the range of ground height across the site and 16 points 500 m and 1 km away.</p>
+<div class="note"><h3>Caveats</h3><p>The Wikipedia lists are a volunteer compilation, uneven from county to county, and their notes on the present state of a site are often silent or out of date. My rules read words, not stones: a "house built on site" may hold no medieval fabric at all. Domesday Book is not a census, it is thin in the north and silent for Wales, much of Lancashire, London and Winchester, and it describes 1086, decades before most of these houses existed and centuries before they closed. The comparison says where the monks settled relative to where people lived in 1086, not whether they later emptied the land around them.</p></div>
+
+<h2><span class="n">07 · Sources</span>Data, licences and code</h2>
+<div class="cta"><a class="p" href="https://doi.org/10.5281/zenodo.23677173">Read the paper</a><a href="https://github.com/Tristan-Hotham/after-the-abbeys">Data and code</a><a href="https://blog.tristanhotham.com/">Blog home</a></div>
+<p>Related: <a href="https://tristan-hotham.github.io/domesday-destiny/">Is Domesday Destiny?</a>, which uses the same 1086 households, and <a href="https://tristan-hotham.github.io/lost-villages/">Lost Villages</a>.</p>
+<ul>
+<li>Wikipedia, "List of monastic houses in England" and its county lists, and "List of monastic houses in Wales" (CC BY-SA 4.0). Wikipedia articles "Dissolution of the Monasteries", "Cistercians", "Whalley Abbey" and "Sawley Abbey" (CC BY-SA 4.0).</li>
+<li>Wikidata, UK monasteries with order, dates and heritage designations (CC0).</li>
+<li>Domesday households: Hull Domesday Project, Professor J.J.N. Palmer, George Slater and the University of Hull (CC BY-NC-SA), via the <a href="https://github.com/embabel-worlds/realm-domesday">realm-domesday</a> repository and Open Domesday by Anna Powell-Smith.</li>
+<li>County outlines: Office for National Statistics, Open Government Licence v3. Contains OS data © Crown copyright and database right. OS Open Rivers (OGL v3).</li>
+<li>Elevation: AWS Terrain Tiles by Mapzen/Tilezen, built from sources including SRTM, GMTED2010, ETOPO1 and national datasets.</li>
+</ul>
+
+<footer>
+  <p>Dr Tristan Hotham, researcher on social media, campaigns and politics. Independent researcher. ORCID <a href="https://orcid.org/0000-0003-4931-9349">0000-0003-4931-9349</a>.</p>
+  <p>Cite as: Hotham, T. (2026) What Became of the Abbeys? <a href="https://doi.org/10.5281/zenodo.23677173">https://doi.org/10.5281/zenodo.23677173</a></p>
+  <p>Licences: the house table (Wikipedia and Wikidata derived) is CC BY-SA 4.0. The 1086 measures, the page text and the paper are CC BY-NC-SA 4.0, because the Domesday data are. Code is MIT. Base map tiles © Esri, HERE, Garmin, © OpenStreetMap contributors, and the GIS user community. Map library: Leaflet.</p>
+  <p>I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.</p>
+</footer>
+</div>
+<div class="tip" id="tip"></div>
+<button class="btn theme" id="theme" aria-label="Toggle dark mode">◐</button>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+/*DATA*/
+const NS = "http://www.w3.org/2000/svg";
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const el = (t, a = {}, p) => { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); if (p) p.appendChild(e); return e; };
+const tip = document.getElementById("tip");
+function showTip(h, x, y) { tip.innerHTML = h; tip.style.display = "block"; const w = tip.offsetWidth; x = Math.max(w / 2 + 8, Math.min(innerWidth - w / 2 - 8, x)); tip.style.left = x + scrollX + "px"; tip.style.top = y + scrollY + "px"; }
+function hideTip() { tip.style.display = "none"; }
+function hover(node, h) { node.style.cursor = "pointer"; const s = () => { const r = node.getBoundingClientRect(); showTip(h, r.left + r.width / 2, r.top); }; node.addEventListener("pointerenter", s); node.addEventListener("pointerleave", hideTip); node.addEventListener("click", e => { e.stopPropagation(); s(); }); }
+document.addEventListener("click", hideTip);
+const redraws = [];
+function resp(box, render) { let last = 0; const go = force => { const w = Math.max(280, Math.round(box.clientWidth)); if (!force && Math.abs(w - last) < 4) return; last = w; box.innerHTML = ""; render(w, w < 560); }; new ResizeObserver(() => go()).observe(box); redraws.push(() => go(true)); go(); }
+const lbl = (svg, x, y, s, cls = "lab", anchor = "start") => { const t = el("text", { x, y, class: cls, "text-anchor": anchor }, svg); t.textContent = s; return t; };
+const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const R = D.R;
+document.getElementById("theme").onclick = () => { const r = document.documentElement; const dark = r.dataset.theme ? r.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches; r.dataset.theme = dark ? "light" : "dark"; redraws.forEach(f => f()); window.__restyle && window.__restyle(); };
+const isDark = () => { const r = document.documentElement; return r.dataset.theme ? r.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches; };
+
+/* orders, groups, fates */
+const ORD = D.orders, GRP = D.groups, AFT = D.after;
+const ordVar = o => `var(--o${Math.max(0, ORD.indexOf(o))})`;
+const grpOrder = g => g.startsWith("Benedictine") ? "Benedictine" : g.startsWith("Cistercian") ? "Cistercian" : g.startsWith("Augustinian") ? "Augustinian" : g;
+const ALAB = { cathedral: "Cathedral", monastic: "Monastery again", church: "Church in use", house: "House or hotel", school: "School or college", farm: "Farm", other: "Other use", ruin: "Ruin", earthworks: "Earthworks only", nothing: "Nothing visible", protected: "Protected, use unrecorded", unclear: "Unclear" };
+/* glyphs in a 16 x 16 box */
+const GLYPH = {
+  cathedral: '<path d="M8 0.5 L11.2 6 V15.5 H4.8 V6 Z"/><rect x="2" y="9" width="12" height="6.5"/>',
+  monastic: '<path d="M2.5 15.5 V8 Q2.5 2 8 0.8 Q13.5 2 13.5 8 V15.5 Z"/><circle cx="8" cy="8.5" r="2.2" fill="var(--card)"/>',
+  church: '<path d="M6.8 0.5 H9.2 V3.5 H12 V5.9 H9.2 V15.5 H6.8 V5.9 H4 V3.5 H6.8 Z"/>',
+  house: '<path d="M1 8 L8 1.5 L15 8 H13.3 V15.5 H2.7 V8 Z"/>',
+  school: '<path d="M1 4 L8 1 L15 4 L8 7 Z"/><path d="M3.5 6 V11 Q8 14 12.5 11 V6 L8 8 Z"/>',
+  farm: '<path d="M1 15.5 V7 L4.5 3 H11.5 L15 7 V15.5 Z"/><path d="M6 15.5 V10 H10 V15.5" fill="var(--card)"/>',
+  other: '<path d="M8 1 L15 8 L8 15 L1 8 Z"/>',
+  ruin: '<path d="M2 15.5 V8.5 Q2 3 7 1.2 L7.6 3.6 Q4.6 5 4.6 8.5 V15.5 Z"/><path d="M14 15.5 V9 Q14 6.2 12.2 4.6 L10.6 6.4 Q11.4 7.4 11.4 9 V15.5 Z"/><rect x="1" y="14" width="14" height="1.6"/>',
+  earthworks: '<path d="M1 12 Q8 4 15 12" fill="none" stroke-width="2.4"/><path d="M3.5 15 Q8 9.5 12.5 15" fill="none" stroke-width="2"/>',
+  nothing: '<circle cx="8" cy="8" r="5.6" fill="none" stroke-width="2"/>',
+  protected: '<path d="M8 0.8 L14 3 V8 Q14 13.2 8 15.4 Q2 13.2 2 8 V3 Z"/>',
+  unclear: '<circle cx="8" cy="8" r="3.6"/>'
+};
+const glyphSVG = (a, col, size = 16) => `<svg viewBox="0 0 16 16" width="${size}" height="${size}" style="fill:${col};stroke:${col}">${GLYPH[a]}</svg>`;
+const H = D.h.map((r, i) => ({ i, lat: r[0], lon: r[1], name: r[2], county: D.counties[r[3]], group: GRP[r[4]], order: ORD[r[5]], year: r[6], aft: AFT[r[7]], ev: r[8], kept: r[9], hh5: r[10], pct: r[11], elev: r[12], wiki: r[13], later: r[14], dtext: r[15] }));
+
+/* hero mark: a broken Gothic arch over a moss mound */
+(() => { const g = document.getElementById("heroMark");
+  el("path", { d: "M-98 92 Q-40 60 0 66 Q50 58 98 92 Z", fill: "var(--hot)", opacity: .28 }, g);
+  el("path", { d: "M-62 90 V10 Q-62 -60 -8 -98 L-2 -78 Q-40 -46 -40 10 V90 Z", fill: "var(--fg)" }, g);
+  el("path", { d: "M62 90 V18 Q62 -18 40 -44 L28 -30 Q40 -10 40 18 V90 Z", fill: "var(--fg)" }, g);
+  el("path", { d: "M-50 8 Q-50 -40 -14 -70", fill: "none", stroke: "var(--bg)", "stroke-width": 3, opacity: .5 }, g);
+  [[-30, -72], [-18, -60], [22, -52], [10, -64]].forEach(([x, y], i) => el("rect", { x, y, width: 7, height: 5, fill: "var(--fg)", opacity: .55 - i * .1, transform: `rotate(${i * 23} ${x} ${y})` }, g));
+  el("path", { d: "M-70 90 H70", stroke: "var(--fg)", "stroke-width": 4 }, g);
+  for (let i = 0; i < 6; i++) el("circle", { cx: -48 + i * 19, cy: 80 - (i % 2) * 4, r: 5 + (i % 3), fill: "var(--hot)" }, g);
+})();
+
+/* ===== map ===== */
+(() => {
+  const card = document.getElementById("card");
+  const names = document.getElementById("names");
+  H.forEach(h => { const o = document.createElement("option"); o.value = h.name; names.appendChild(o); });
+  const ORDF = ["All", "Benedictine", "Cistercian", "Augustinian", "Friars", "Other orders"];
+  let ordSel = "All", aftSel = null, sel = null;
+  const seg = document.getElementById("ordseg");
+  ORDF.forEach(o => { const b = document.createElement("button"); b.className = "btn"; b.textContent = o === "Other orders" ? "Others" : o; b.setAttribute("aria-pressed", o === ordSel); b.onclick = () => { ordSel = o; [...seg.children].forEach(x => x.setAttribute("aria-pressed", x === b)); draw(); }; seg.appendChild(b); });
+  const big = ["Benedictine", "Cistercian", "Augustinian", "Friars"];
+  const okOrd = h => ordSel === "All" || (ordSel === "Other orders" ? !big.includes(h.order) : h.order === ordSel);
+  const okAft = h => !aftSel || h.aft === aftSel;
+  // legend: orders
+  const lg = document.getElementById("legend");
+  lg.innerHTML = ORD.filter(o => o !== "Unknown").map(o => `<span><i style="background:${ordVar(o)}"></i>${o}</span>`).join("");
+  // counts list
+  const cl = document.getElementById("counts");
+  function counts() {
+    const c = {}; H.filter(okOrd).forEach(h => c[h.aft] = (c[h.aft] || 0) + 1);
+    cl.innerHTML = "";
+    AFT.forEach(a => { if (!c[a]) return; const li = document.createElement("li"); li.setAttribute("aria-pressed", aftSel === a); li.tabIndex = 0;
+      li.innerHTML = `${glyphSVG(a, "var(--fg)")}<span>${ALAB[a]}</span><span class="v">${c[a]}</span>`;
+      li.onclick = () => { aftSel = aftSel === a ? null : a; draw(); }; li.onkeydown = e => { if (e.key === "Enter") li.onclick(); };
+      cl.appendChild(li); });
+  }
+  if (!window.L) { document.getElementById("map").innerHTML = '<p style="padding:16px;font:400 13px/1.5 var(--mono)">The map library did not load. The charts below still work.</p>'; counts(); return; }
+  const map = L.map("map", { scrollWheelZoom: false, zoomSnap: .25, minZoom: 5, maxZoom: 15 }).fitBounds([[50.0, -5.6], [55.7, 1.8]]);
+  map.attributionControl.setPrefix('<a href="https://leafletjs.com">Leaflet</a>');
+  map.on("focus", () => map.scrollWheelZoom.enable()); map.on("blur", () => map.scrollWheelZoom.disable());
+  const tileUrl = () => `https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/${isDark() ? "World_Dark_Gray_Base" : "World_Light_Gray_Base"}/MapServer/tile/{z}/{y}/{x}`;
+  const tiles = L.tileLayer(tileUrl(), { maxZoom: 16, attribution: 'Tiles &copy; Esri, HERE, Garmin, &copy; OpenStreetMap contributors, and the GIS user community · Houses: Wikipedia lists (CC BY-SA), Wikidata' }).addTo(map);
+  window.__restyle = () => tiles.setUrl(tileUrl());
+  const layer = L.layerGroup().addTo(map);
+  const size = () => map.getZoom() >= 9 ? 20 : map.getZoom() >= 7 ? 15 : 11;
+  function show(h) {
+    sel = h;
+    const pct = h.pct == null ? "outside the 1086 comparison" : `${Math.round(h.pct)}th percentile of its county (${Math.round(h.hh5)} households within 5 km)`;
+    const wiki = h.wiki ? `<a href="https://en.wikipedia.org/wiki/${encodeURIComponent(h.wiki)}">Wikipedia</a>` : "";
+    card.className = "card"; card.style.borderLeftColor = ordVar(h.order);
+    card.innerHTML = `<b>${esc(h.name)}</b><dl><dt>Order</dt><dd>${esc(h.group)}</dd><dt>County</dt><dd>${esc(h.county)}</dd><dt>Closed</dt><dd>${esc(h.dtext || h.year)}</dd><dt>Now</dt><dd>${glyphSVG(h.aft, ordVar(h.order), 13)} ${ALAB[h.aft]}${h.kept ? ` (${esc(h.kept)})` : ""}</dd><dt>In 1086</dt><dd>${pct}</dd></dl>${h.ev ? `<div>Why: <q>${esc(h.ev)}</q></div>` : ""}${h.later && h.later !== h.ev ? `<div style="margin-top:6px;color:var(--muted)">List notes: ${esc(h.later)}</div>` : ""}<div style="margin-top:6px">${wiki}</div>`;
+    draw();
+  }
+  function draw() {
+    layer.clearLayers(); counts();
+    const s = size();
+    H.filter(h => okOrd(h) && okAft(h)).sort((a, b) => (a === sel) - (b === sel)).forEach(h => {
+      const ic = L.divIcon({ className: "gl" + (h === sel ? " sel" : ""), html: glyphSVG(h.aft, ordVar(h.order), s), iconSize: [s, s], iconAnchor: [s / 2, s / 2] });
+      const m = L.marker([h.lat, h.lon], { icon: ic, title: h.name, keyboard: false, riseOnHover: true }).addTo(layer);
+      m.on("click", () => show(h));
+    });
+  }
+  map.on("zoomend", draw);
+  document.getElementById("q").addEventListener("change", e => { const h = H.find(x => x.name.toLowerCase() === e.target.value.toLowerCase()); if (h) { ordSel = "All"; aftSel = null; [...seg.children].forEach((x, i) => x.setAttribute("aria-pressed", i === 0)); map.setView([h.lat, h.lon], 11); show(h); } });
+  draw();
+})();
+
+/* ===== timeline: one square per house ===== */
+resp(document.getElementById("timeline"), (W, small) => {
+  const years = [1536, 1537, 1538, 1539, 1540];
+  const by = {}; years.forEach(y => by[y] = []);
+  const rank = o => ORD.indexOf(o);
+  H.concat([]).filter(h => by[h.year]).sort((a, b) => rank(a.order) - rank(b.order)).forEach(h => by[h.year].push(h));
+  const gap = small ? 8 : 16, colW = (W - 40 - gap * 4) / 5;
+  const per = Math.max(6, Math.floor(colW / (small ? 6.5 : 9)));
+  const sq = colW / per, rows = Math.ceil(Math.max(...years.map(y => by[y].length)) / per);
+  const Hh = rows * sq + 46;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${Hh}` });
+  years.forEach((y, j) => {
+    const x0 = 40 + j * (colW + gap);
+    by[y].forEach((h, k) => { const r = el("rect", { x: x0 + (k % per) * sq, y: Hh - 30 - (Math.floor(k / per) + 1) * sq, width: sq - 1, height: sq - 1, fill: ordVar(h.order) }, svg); hover(r, `<b>${esc(h.name)}</b><br>${esc(h.group)} · ${h.year}`); });
+    lbl(svg, x0 + colW / 2, Hh - 12, `${y}`, "lab b", "middle");
+    lbl(svg, x0 + colW / 2, Hh - 34 - Math.ceil(by[y].length / per) * sq, `${by[y].length}`, "lab m", "middle");
+  });
+  document.getElementById("timeline").appendChild(svg);
+  const lg = document.createElement("div"); lg.className = "legend"; lg.innerHTML = ORD.filter(o => o !== "Unknown").map(o => `<span><i style="background:${ordVar(o)};border-radius:0"></i>${o}</span>`).join(""); document.getElementById("timeline").appendChild(lg);
+});
+
+/* ===== afterlife bars ===== */
+resp(document.getElementById("afterbars"), (W, small) => {
+  const c = R.afterlife; const keys = AFT.filter(a => c[a]);
+  const rowH = 30, L0 = small ? 158 : 230, Hh = keys.length * rowH + 8, max = Math.max(...keys.map(k => c[k]));
+  const svg = el("svg", { viewBox: `0 0 ${W} ${Hh}` });
+  keys.forEach((a, i) => { const y = i * rowH; const grey = a === "unclear" || a === "protected";
+    const g = el("g", { transform: `translate(0 ${y + 6})` }, svg); g.innerHTML = `<g transform="scale(1)" style="fill:var(--fg);stroke:var(--fg)">${GLYPH[a]}</g>`;
+    lbl(svg, 24, y + 18, small && a === "protected" ? "Protected only" : small && a === "school" ? "School/college" : ALAB[a], "lab");
+    const w = (W - L0 - 50) * c[a] / max;
+    const r = el("rect", { x: L0, y: y + 5, width: w, height: rowH - 10, fill: grey ? "var(--border)" : a === "ruin" ? "var(--o1)" : "var(--slate)" }, svg);
+    hover(r, `<b>${ALAB[a]}</b><br>${c[a]} houses`);
+    lbl(svg, L0 + w + 6, y + 19, c[a], "lab b");
+  });
+  document.getElementById("afterbars").appendChild(svg);
+});
+
+/* ===== by order, 100% bars ===== */
+resp(document.getElementById("byorder"), (W, small) => {
+  const ords = ["Benedictine", "Augustinian", "Cistercian", "Premonstratensian", "Cluniac", "Gilbertine", "Friars"];
+  const cats = ["cathedral", "church", "house", "school", "farm", "other", "monastic", "ruin", "earthworks", "nothing"];
+  const col = { cathedral: "#2F3A4A", church: "#55657A", house: "#A06E12", school: "#C9A35A", farm: "#B5532A", other: "#8F8B80", monastic: "#7E4A87", ruin: "#5E8C34", earthworks: "#9DB97E", nothing: "#D8D3C6" };
+  const L0 = small ? 120 : 160, rowH = small ? 34 : 30, Hh = ords.length * rowH + (small ? 120 : 70);
+  const svg = el("svg", { viewBox: `0 0 ${W} ${Hh}` });
+  const A = R.afterlife_known_share_by_order;
+  ords.forEach((o, i) => { const y = i * rowH; let x = L0; const d = A[o];
+    lbl(svg, 0, y + 19, o, "lab"); lbl(svg, L0 - 8, y + 19, d.n, "lab m", "end");
+    cats.forEach(k => { const v = d[k] || 0; if (!v) return; const w = (W - L0) * v; const r = el("rect", { x, y: y + 4, width: Math.max(0, w - 1), height: rowH - 8, fill: col[k] }, svg); hover(r, `<b>${o}</b><br>${ALAB[k]}: ${Math.round(v * 100)}%`); if (w > 30) { const t = lbl(svg, x + w / 2, y + 19, Math.round(v * 100) + "%", "lab s", "middle"); t.style.fill = ["nothing", "earthworks", "school"].includes(k) ? "#22241F" : "#fff"; } x += w; });
+  });
+  const lgY = ords.length * rowH + 18; let lx = 0, ly = lgY;
+  cats.forEach(k => { const t = ALAB[k]; const w = t.length * 7.4 + 26; if (lx + w > W) { lx = 0; ly += 20; } el("rect", { x: lx, y: ly - 10, width: 12, height: 12, fill: col[k] }, svg); lbl(svg, lx + 17, ly, t, "lab s m"); lx += w; });
+  svg.setAttribute("viewBox", `0 0 ${W} ${ly + 12}`);
+  document.getElementById("byorder").appendChild(svg);
+});
+
+/* kept names */
+document.getElementById("kept").innerHTML = R.kept_name_examples.filter((v, i, a) => a.indexOf(v) === i).map(n => `<span>${esc(n)}</span>`).join("");
+
+/* ===== strip chart of county percentiles ===== */
+resp(document.getElementById("strip"), (W, small) => {
+  const gs = Object.keys(R.setting);
+  const L0 = small ? 132 : 190, rowH = 34, Hh = gs.length * rowH + 40;
+  const x = v => L0 + (W - L0 - 10) * v / 100;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${Hh}` });
+  [0, 25, 50, 75, 100].forEach(v => { el("line", { x1: x(v), x2: x(v), y1: 0, y2: gs.length * rowH, stroke: v === 50 ? "var(--fg)" : "var(--rule)", "stroke-dasharray": v === 50 ? "4 3" : "" }, svg); lbl(svg, x(v), gs.length * rowH + 16, v, "lab m s", "middle"); });
+  lbl(svg, x(50), gs.length * rowH + 32, "typical spot in the county = 50", "lab s", "middle");
+  gs.forEach((g, i) => { const y = i * rowH + rowH / 2; const s = R.setting[g]; const o = grpOrder(g);
+    const t = lbl(svg, 0, y + 4, small ? g.replace("Augustinian ", "Aug. ").replace("Benedictine ", "Ben. ").replace("Cistercian ", "Cist. ").replace("Premonstratensian", "Premonstrat.").replace("Military orders", "Military") : g, "lab" + (o === "Cistercian" ? " b" : ""));
+    lbl(svg, L0 - 6, y + 4, s.n, "lab m s", "end");
+    H.filter(h => h.group === g && h.pct != null).forEach((h, k) => { const jit = ((k * 37) % 17 - 8) * (rowH / 40); const c = el("circle", { cx: x(h.pct), cy: y + jit, r: small ? 2.2 : 2.8, fill: ordVar(o), opacity: .45 }, svg); hover(c, `<b>${esc(h.name)}</b><br>${Math.round(h.pct)}th percentile · ${Math.round(h.hh5)} households in 5 km`); });
+    el("line", { x1: x(s.pct_ci[0]), x2: x(s.pct_ci[1]), y1: y, y2: y, stroke: "var(--fg)", "stroke-width": 3 }, svg);
+    el("rect", { x: x(s.pct_median) - 3, y: y - 9, width: 6, height: 18, fill: ordVar(o), stroke: "var(--fg)", "stroke-width": 1.2 }, svg);
+  });
+  document.getElementById("strip").appendChild(svg);
+});
+
+/* ===== forest plot ===== */
+resp(document.getElementById("forest"), (W, small) => {
+  const E = R.regression.effects; const ks = Object.keys(E).filter(k => k !== "Other orders").sort((a, b) => E[a].pct_change - E[b].pct_change);
+  const L0 = small ? 132 : 190, rowH = 26, Hh = ks.length * rowH + 40;
+  const lo = -80, hi = 80; const x = v => L0 + (W - L0 - 16) * (Math.max(lo, Math.min(hi, v)) - lo) / (hi - lo);
+  const svg = el("svg", { viewBox: `0 0 ${W} ${Hh}` });
+  (small ? [-50, 0, 50] : [-75, -50, -25, 0, 25, 50, 75]).forEach(v => { el("line", { x1: x(v), x2: x(v), y1: 0, y2: ks.length * rowH, stroke: v === 0 ? "var(--fg)" : "var(--rule)" }, svg); lbl(svg, x(v), ks.length * rowH + 16, (v > 0 ? "+" : "") + v + "%", "lab m s", "middle"); });
+  lbl(svg, x(0), ks.length * rowH + 32, "Benedictine monks = 0", "lab s", "middle");
+  ks.forEach((k, i) => { const y = i * rowH + rowH / 2; const e = E[k]; const o = grpOrder(k);
+    lbl(svg, 0, y + 4, small ? k.replace("Augustinian ", "Aug. ").replace("Benedictine ", "Ben. ").replace("Cistercian ", "Cist. ").replace("Premonstratensian", "Premonstrat.").replace("Military orders", "Military") : k, "lab" + (o === "Cistercian" ? " b" : ""));
+    el("line", { x1: x(e.ci[0]), x2: x(e.ci[1]), y1: y, y2: y, stroke: ordVar(o), "stroke-width": 2.5 }, svg);
+    const c = el("circle", { cx: x(e.pct_change), cy: y, r: 5, fill: ordVar(o), stroke: "var(--fg)", "stroke-width": 1 }, svg);
+    hover(c, `<b>${k}</b><br>${e.pct_change > 0 ? "+" : ""}${e.pct_change}% (95% interval ${e.ci[0]}% to ${e.ci[1]}%)`);
+  });
+  document.getElementById("forest").appendChild(svg);
+});
+</script>
+</body>
+</html>
