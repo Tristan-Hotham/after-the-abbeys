@@ -1,0 +1,1086 @@
+{
+ "n_houses": 808,
+ "n_england": 763,
+ "n_wales": 45,
+ "n_with_coords": 790,
+ "n_without_coords": 18,
+ "n_matched_wikidata": 674,
+ "n_wikidata_only": 3,
+ "n_year_from_wikidata": 8,
+ "list_rows_read": 1941,
+ "list_rows_xref": 64,
+ "list_rows_duplicates_merged": 8,
+ "extraction_check": {
+  "rows_raw": 28,
+  "rows_reader": 28,
+  "matched_names": 28,
+  "same_mark": 28,
+  "same_year": 28,
+  "same_first_order": 28
+ },
+ "wikidata_ew_items": 1225,
+ "wikidata_dissolved_1536_1541": 597,
+ "wikidata_dissolved_order_known": 317,
+ "coord_check": {
+  "n": 656,
+  "median_m": 36,
+  "share_within_500m": 0.875,
+  "n_over_2km": 59
+ },
+ "benchmark": {
+  "wikipedia_england_houses": "nearly 900",
+  "wikipedia_parish_church_survivals": 117,
+  "wikipedia_monastic_cathedrals": 14,
+  "wikipedia_friaries": "around 200"
+ },
+ "share_of_900": 0.848,
+ "by_year": {
+  "1536": 194,
+  "1537": 56,
+  "1538": 280,
+  "1539": 221,
+  "1540": 57
+ },
+ "by_year_order": {
+  "1536": {
+   "Augustinian": 73,
+   "Benedictine": 53,
+   "Cistercian": 37,
+   "Premonstratensian": 15,
+   "Cluniac": 6,
+   "Other orders": 4,
+   "Unknown": 3,
+   "Friars": 2,
+   "Military orders": 1
+  },
+  "1537": {
+   "Augustinian": 22,
+   "Benedictine": 15,
+   "Cistercian": 7,
+   "Cluniac": 5,
+   "Premonstratensian": 3,
+   "Carthusian": 2,
+   "Friars": 1,
+   "Unknown": 1
+  },
+  "1538": {
+   "Friars": 146,
+   "Augustinian": 36,
+   "Benedictine": 33,
+   "Cistercian": 27,
+   "Gilbertine": 19,
+   "Premonstratensian": 7,
+   "Cluniac": 6,
+   "Unknown": 3,
+   "Military orders": 2,
+   "Carthusian": 1
+  },
+  "1539": {
+   "Benedictine": 74,
+   "Augustinian": 46,
+   "Friars": 40,
+   "Cistercian": 30,
+   "Cluniac": 8,
+   "Premonstratensian": 7,
+   "Gilbertine": 6,
+   "Carthusian": 6,
+   "Military orders": 2,
+   "Unknown": 1,
+   "Other orders": 1
+  },
+  "1540": {
+   "Benedictine": 19,
+   "Military orders": 18,
+   "Augustinian": 11,
+   "Cluniac": 3,
+   "Cistercian": 3,
+   "Premonstratensian": 2,
+   "Unknown": 1
+  }
+ },
+ "friars_1538": 146,
+ "benedictine_1539": 74,
+ "military_1540": 18,
+ "domesday_located_places": 13068,
+ "by_order": {
+  "Benedictine": 194,
+  "Friars": 189,
+  "Augustinian": 188,
+  "Cistercian": 104,
+  "Premonstratensian": 34,
+  "Cluniac": 28,
+  "Gilbertine": 25,
+  "Military orders": 23,
+  "Unknown": 9,
+  "Carthusian": 9,
+  "Other orders": 5
+ },
+ "by_group": {
+  "Friars": 189,
+  "Augustinian canons": 168,
+  "Benedictine monks": 133,
+  "Cistercian monks": 79,
+  "Benedictine nuns": 61,
+  "Premonstratensian": 34,
+  "Cluniac": 28,
+  "Gilbertine": 25,
+  "Cistercian nuns": 25,
+  "Military orders": 23,
+  "Augustinian canonesses": 20,
+  "Unknown": 9,
+  "Carthusian": 9,
+  "Other orders": 5
+ },
+ "order_source": {
+  "Wikipedia list": 797,
+  "none": 9,
+  "Wikidata": 2
+ },
+ "female_houses": 121,
+ "afterlife": {
+  "unclear": 221,
+  "house": 122,
+  "church": 109,
+  "protected": 88,
+  "nothing": 82,
+  "ruin": 78,
+  "farm": 35,
+  "other": 29,
+  "cathedral": 15,
+  "earthworks": 13,
+  "school": 12,
+  "monastic": 4
+ },
+ "afterlife_share": {
+  "unclear": 0.274,
+  "house": 0.151,
+  "church": 0.135,
+  "protected": 0.109,
+  "nothing": 0.101,
+  "ruin": 0.097,
+  "farm": 0.043,
+  "other": 0.036,
+  "cathedral": 0.019,
+  "earthworks": 0.016,
+  "school": 0.015,
+  "monastic": 0.005
+ },
+ "afterlife_known_n": 499,
+ "afterlife_known_share": {
+  "house": 0.244,
+  "church": 0.218,
+  "nothing": 0.164,
+  "ruin": 0.156,
+  "farm": 0.07,
+  "other": 0.058,
+  "cathedral": 0.03,
+  "earthworks": 0.026,
+  "school": 0.024,
+  "monastic": 0.008
+ },
+ "standing_share_of_known": 0.81,
+ "in_use_share_of_known": 0.653,
+ "components_any": {
+  "cathedral": 15,
+  "monastic": 4,
+  "church": 115,
+  "house": 131,
+  "school": 20,
+  "farm": 45,
+  "other": 42,
+  "ruin": 114,
+  "earthworks": 19,
+  "nothing": 84
+ },
+ "afterlife_source": {
+  "list": 718,
+  "wikidata": 90
+ },
+ "cathedrals": [
+  "Brecon Cathedral Priory",
+  "Bristol Cathedral Abbey: St Augustine's Abbey, Bristol",
+  "Canterbury Cathedral Priory",
+  "Carlisle Cathedral Priory",
+  "Chester Abbey",
+  "Durham Cathedral Priory",
+  "Ely Cathedral Priory",
+  "Gloucester Cathedral Abbey",
+  "Norwich Cathedral Priory",
+  "Peterborough Abbey",
+  "Rochester Cathedral Priory",
+  "Southwark Cathedral Priory",
+  "St Albans Abbey",
+  "Winchester Cathedral Priory",
+  "Worcester Cathedral Priory"
+ ],
+ "monastic_again": [
+  "Aylesford Priory",
+  "Buckfast Abbey",
+  "Burnham Abbey",
+  "Clare Friary"
+ ],
+ "kept_name_n": 39,
+ "kept_name_examples": [
+  "Abbey House",
+  "Abbey House",
+  "Anglesey Abbey",
+  "Berden Priory",
+  "Bradenstoke Abbey",
+  "Bruern Abbey",
+  "Calke Abbey",
+  "Chacombe Priory",
+  "Combe Abbey House",
+  "Conishead Priory",
+  "Crabb's Abbey",
+  "Fordham Abbey",
+  "Grey Friars",
+  "Hartland Abbey",
+  "Holme Priory House",
+  "Hulne Priory",
+  "Ixworth Abbey",
+  "Launde Abbey",
+  "Leez Priory",
+  "Marriott Breadsall Priory Hotel",
+  "Mottisfont Abbey",
+  "Neasham Abbey",
+  "Newburgh Priory",
+  "Newstead Abbey",
+  "Nostell Priory",
+  "Sibton Abbey",
+  "Stoneleigh Abbey House",
+  "The Abbey",
+  "The Friarage",
+  "The Friary",
+  "The Friary",
+  "The Priory",
+  "The Priory",
+  "The Priory",
+  "The Priory",
+  "The Priory of Lady St Mary House",
+  "Watton Abbey",
+  "Wroxall Abbey",
+  "Wroxton Abbey"
+ ],
+ "kept_name_abbey_n": 21,
+ "kept_name_priory_n": 14,
+ "house_n": 122,
+ "afterlife_by_order": {
+  "Augustinian": {
+   "house": 38,
+   "unclear": 38,
+   "church": 32,
+   "protected": 21,
+   "ruin": 18,
+   "nothing": 16,
+   "farm": 10,
+   "other": 7,
+   "earthworks": 4,
+   "cathedral": 3,
+   "monastic": 1
+  },
+  "Benedictine": {
+   "church": 50,
+   "unclear": 37,
+   "house": 28,
+   "protected": 20,
+   "ruin": 19,
+   "cathedral": 12,
+   "nothing": 11,
+   "farm": 6,
+   "school": 5,
+   "other": 4,
+   "earthworks": 2
+  },
+  "Carthusian": {
+   "protected": 3,
+   "unclear": 1,
+   "school": 1,
+   "house": 1,
+   "ruin": 1,
+   "church": 1,
+   "other": 1
+  },
+  "Cistercian": {
+   "ruin": 24,
+   "house": 17,
+   "protected": 17,
+   "unclear": 15,
+   "farm": 10,
+   "church": 9,
+   "nothing": 7,
+   "earthworks": 3,
+   "monastic": 1,
+   "other": 1
+  },
+  "Cluniac": {
+   "unclear": 7,
+   "nothing": 5,
+   "house": 5,
+   "protected": 4,
+   "ruin": 4,
+   "farm": 2,
+   "other": 1
+  },
+  "Friars": {
+   "unclear": 99,
+   "nothing": 32,
+   "house": 15,
+   "other": 14,
+   "protected": 11,
+   "church": 7,
+   "school": 6,
+   "monastic": 2,
+   "ruin": 2,
+   "farm": 1
+  },
+  "Gilbertine": {
+   "house": 6,
+   "unclear": 5,
+   "nothing": 3,
+   "church": 3,
+   "earthworks": 3,
+   "farm": 3,
+   "ruin": 2
+  },
+  "Military orders": {
+   "unclear": 11,
+   "nothing": 4,
+   "house": 3,
+   "protected": 2,
+   "farm": 1,
+   "church": 1,
+   "other": 1
+  },
+  "Other orders": {
+   "nothing": 2,
+   "unclear": 1,
+   "protected": 1,
+   "ruin": 1
+  },
+  "Premonstratensian": {
+   "protected": 9,
+   "house": 8,
+   "ruin": 7,
+   "church": 4,
+   "nothing": 2,
+   "unclear": 2,
+   "earthworks": 1,
+   "farm": 1
+  },
+  "Unknown": {
+   "unclear": 5,
+   "church": 2,
+   "house": 1,
+   "farm": 1
+  }
+ },
+ "afterlife_by_nation": {
+  "England": {
+   "unclear": 205,
+   "house": 119,
+   "church": 105,
+   "nothing": 81,
+   "protected": 80,
+   "ruin": 68,
+   "farm": 35,
+   "other": 28,
+   "cathedral": 14,
+   "school": 12,
+   "earthworks": 12,
+   "monastic": 4
+  },
+  "Wales": {
+   "unclear": 16,
+   "ruin": 10,
+   "protected": 8,
+   "church": 4,
+   "house": 3,
+   "other": 1,
+   "nothing": 1,
+   "cathedral": 1,
+   "earthworks": 1
+  }
+ },
+ "afterlife_known_share_by_order": {
+  "Benedictine": {
+   "n": 137,
+   "church": 0.365,
+   "house": 0.204,
+   "ruin": 0.139,
+   "cathedral": 0.088,
+   "nothing": 0.08,
+   "farm": 0.044,
+   "school": 0.036,
+   "other": 0.029,
+   "earthworks": 0.015
+  },
+  "Augustinian": {
+   "n": 129,
+   "house": 0.295,
+   "church": 0.248,
+   "ruin": 0.14,
+   "nothing": 0.124,
+   "farm": 0.078,
+   "other": 0.054,
+   "earthworks": 0.031,
+   "cathedral": 0.023,
+   "monastic": 0.008
+  },
+  "Cistercian": {
+   "n": 72,
+   "ruin": 0.333,
+   "house": 0.236,
+   "farm": 0.139,
+   "church": 0.125,
+   "nothing": 0.097,
+   "earthworks": 0.042,
+   "monastic": 0.014,
+   "other": 0.014
+  },
+  "Friars": {
+   "n": 79,
+   "nothing": 0.405,
+   "house": 0.19,
+   "other": 0.177,
+   "church": 0.089,
+   "school": 0.076,
+   "monastic": 0.025,
+   "ruin": 0.025,
+   "farm": 0.013
+  },
+  "Premonstratensian": {
+   "n": 23,
+   "house": 0.348,
+   "ruin": 0.304,
+   "church": 0.174,
+   "nothing": 0.087,
+   "earthworks": 0.043,
+   "farm": 0.043
+  },
+  "Cluniac": {
+   "n": 17,
+   "nothing": 0.294,
+   "house": 0.294,
+   "ruin": 0.235,
+   "farm": 0.118,
+   "other": 0.059
+  },
+  "Gilbertine": {
+   "n": 20,
+   "house": 0.3,
+   "nothing": 0.15,
+   "church": 0.15,
+   "earthworks": 0.15,
+   "farm": 0.15,
+   "ruin": 0.1
+  }
+ },
+ "dom_area_n": 658,
+ "baseline": {
+  "n_points": 15600,
+  "n_counties": 39,
+  "median_hh5": 156.0,
+  "median_dom_n5": 9.0,
+  "median_elev": 80.3,
+  "median_relief": 35.2,
+  "median_river": 598.0
+ },
+ "setting": {
+  "Cistercian monks": {
+   "n": 56,
+   "hh5_median": 142.5,
+   "hh5_ci": [
+    114.8,
+    186.0
+   ],
+   "hh10_median": 663.5,
+   "dom_n5_median": 9.0,
+   "nn_km_median": 1.15,
+   "pct_median": 49.6,
+   "pct_ci": [
+    39.2,
+    57.0
+   ],
+   "share_below_county_median": 0.5,
+   "elev_median": 60.0,
+   "relief_median": 36.0,
+   "river_median": 159.5
+  },
+  "Cistercian nuns": {
+   "n": 23,
+   "hh5_median": 150.0,
+   "hh5_ci": [
+    103.5,
+    261.0
+   ],
+   "hh10_median": 790.0,
+   "dom_n5_median": 12.0,
+   "nn_km_median": 1.07,
+   "pct_median": 67.6,
+   "pct_ci": [
+    44.1,
+    78.2
+   ],
+   "share_below_county_median": 0.348,
+   "elev_median": 34.0,
+   "relief_median": 32.8,
+   "river_median": 159.0
+  },
+  "Benedictine monks": {
+   "n": 108,
+   "hh5_median": 207.5,
+   "hh5_ci": [
+    175.5,
+    241.2
+   ],
+   "hh10_median": 800.0,
+   "dom_n5_median": 10.0,
+   "nn_km_median": 0.51,
+   "pct_median": 66.0,
+   "pct_ci": [
+    53.8,
+    74.7
+   ],
+   "share_below_county_median": 0.38,
+   "elev_median": 30.2,
+   "relief_median": 25.9,
+   "river_median": 208.5
+  },
+  "Benedictine nuns": {
+   "n": 49,
+   "hh5_median": 172.0,
+   "hh5_ci": [
+    118.0,
+    271.0
+   ],
+   "hh10_median": 639.0,
+   "dom_n5_median": 8.0,
+   "nn_km_median": 0.97,
+   "pct_median": 72.5,
+   "pct_ci": [
+    58.5,
+    85.0
+   ],
+   "share_below_county_median": 0.327,
+   "elev_median": 45.7,
+   "relief_median": 24.2,
+   "river_median": 140.0
+  },
+  "Augustinian canons": {
+   "n": 146,
+   "hh5_median": 186.5,
+   "hh5_ci": [
+    157.0,
+    213.5
+   ],
+   "hh10_median": 770.5,
+   "dom_n5_median": 9.0,
+   "nn_km_median": 0.86,
+   "pct_median": 56.0,
+   "pct_ci": [
+    45.6,
+    66.5
+   ],
+   "share_below_county_median": 0.473,
+   "elev_median": 52.0,
+   "relief_median": 32.5,
+   "river_median": 223.5
+  },
+  "Augustinian canonesses": {
+   "n": 17,
+   "hh5_median": 229.0,
+   "hh5_ci": [
+    103.0,
+    352.0
+   ],
+   "hh10_median": 959.5,
+   "dom_n5_median": 8.0,
+   "nn_km_median": 1.12,
+   "pct_median": 48.6,
+   "pct_ci": [
+    27.1,
+    85.0
+   ],
+   "share_below_county_median": 0.529,
+   "elev_median": 44.6,
+   "relief_median": 35.0,
+   "river_median": 118.0
+  },
+  "Premonstratensian": {
+   "n": 27,
+   "hh5_median": 200.0,
+   "hh5_ci": [
+    126.0,
+    254.5
+   ],
+   "hh10_median": 879.5,
+   "dom_n5_median": 10.0,
+   "nn_km_median": 1.27,
+   "pct_median": 67.1,
+   "pct_ci": [
+    38.5,
+    76.8
+   ],
+   "share_below_county_median": 0.407,
+   "elev_median": 46.9,
+   "relief_median": 28.4,
+   "river_median": 170.0
+  },
+  "Cluniac": {
+   "n": 25,
+   "hh5_median": 246.0,
+   "hh5_ci": [
+    130.0,
+    363.5
+   ],
+   "hh10_median": 979.0,
+   "dom_n5_median": 11.0,
+   "nn_km_median": 0.89,
+   "pct_median": 72.0,
+   "pct_ci": [
+    54.1,
+    93.5
+   ],
+   "share_below_county_median": 0.24,
+   "elev_median": 41.7,
+   "relief_median": 34.0,
+   "river_median": 148.0
+  },
+  "Gilbertine": {
+   "n": 24,
+   "hh5_median": 216.5,
+   "hh5_ci": [
+    135.0,
+    238.8
+   ],
+   "hh10_median": 977.75,
+   "dom_n5_median": 10.0,
+   "nn_km_median": 0.84,
+   "pct_median": 57.1,
+   "pct_ci": [
+    44.0,
+    69.0
+   ],
+   "share_below_county_median": 0.458,
+   "elev_median": 15.3,
+   "relief_median": 13.2,
+   "river_median": 162.0
+  },
+  "Carthusian": {
+   "n": 7,
+   "hh5_median": 106.0,
+   "hh5_ci": [
+    17.0,
+    164.0
+   ],
+   "hh10_median": 481.0,
+   "dom_n5_median": 7.0,
+   "nn_km_median": 0.94,
+   "pct_median": 27.8,
+   "pct_ci": [
+    23.2,
+    43.5
+   ],
+   "share_below_county_median": 0.857,
+   "elev_median": 95.5,
+   "relief_median": 43.1,
+   "river_median": 164.0
+  },
+  "Friars": {
+   "n": 146,
+   "hh5_median": 227.5,
+   "hh5_ci": [
+    192.0,
+    241.5
+   ],
+   "hh10_median": 804.0,
+   "dom_n5_median": 11.0,
+   "nn_km_median": 0.6,
+   "pct_median": 76.0,
+   "pct_ci": [
+    70.2,
+    83.8
+   ],
+   "share_below_county_median": 0.295,
+   "elev_median": 24.3,
+   "relief_median": 25.1,
+   "river_median": 244.0
+  },
+  "Military orders": {
+   "n": 21,
+   "hh5_median": 230.5,
+   "hh5_ci": [
+    142.0,
+    301.0
+   ],
+   "hh10_median": 863.2,
+   "dom_n5_median": 10.0,
+   "nn_km_median": 0.7,
+   "pct_median": 74.5,
+   "pct_ci": [
+    52.6,
+    91.5
+   ],
+   "share_below_county_median": 0.286,
+   "elev_median": 69.2,
+   "relief_median": 30.5,
+   "river_median": 686.0
+  }
+ },
+ "cist_vs_ben": {
+  "hh5_diff": -65.0,
+  "hh5_diff_ci": [
+   -112.5,
+   -5.0
+  ],
+  "hh5_ratio": 0.687,
+  "pct_diff": -16.4,
+  "pct_diff_ci": [
+   -31.8,
+   -0.3
+  ],
+  "mannwhitney_p_hh5": 0.005533475657777165,
+  "mannwhitney_p_pct": 0.033522793690918984,
+  "elev_diff": 29.8,
+  "share_cist_below_median": 0.5,
+  "share_cist_bottom_quarter": 0.179,
+  "share_ben_bottom_quarter": 0.148
+ },
+ "regression": {
+  "n": 649,
+  "r2": 0.393,
+  "reference": "Benedictine monks",
+  "effects": {
+   "Augustinian canonesses": {
+    "pct_change": -19.4,
+    "ci": [
+     -41.0,
+     10.1
+    ],
+    "p": 0.17485773614667932
+   },
+   "Augustinian canons": {
+    "pct_change": -17.1,
+    "ci": [
+     -33.9,
+     4.0
+    ],
+    "p": 0.10510497538691435
+   },
+   "Benedictine nuns": {
+    "pct_change": -6.6,
+    "ci": [
+     -35.6,
+     35.6
+    ],
+    "p": 0.7208122968640902
+   },
+   "Carthusian": {
+    "pct_change": -55.5,
+    "ci": [
+     -74.8,
+     -21.5
+    ],
+    "p": 0.005168241411707509
+   },
+   "Cistercian monks": {
+    "pct_change": -26.9,
+    "ci": [
+     -44.0,
+     -4.7
+    ],
+    "p": 0.020460683401874784
+   },
+   "Cistercian nuns": {
+    "pct_change": -32.3,
+    "ci": [
+     -59.7,
+     13.8
+    ],
+    "p": 0.14066897492893607
+   },
+   "Cluniac": {
+    "pct_change": 15.4,
+    "ci": [
+     -23.9,
+     75.1
+    ],
+    "p": 0.5008270086026498
+   },
+   "Friars": {
+    "pct_change": 18.8,
+    "ci": [
+     -3.4,
+     46.1
+    ],
+    "p": 0.10234399636077815
+   },
+   "Gilbertine": {
+    "pct_change": -11.1,
+    "ci": [
+     -31.6,
+     15.6
+    ],
+    "p": 0.37964040069074556
+   },
+   "Military orders": {
+    "pct_change": 17.9,
+    "ci": [
+     -15.9,
+     65.2
+    ],
+    "p": 0.33879332486873426
+   },
+   "Premonstratensian": {
+    "pct_change": -11.5,
+    "ci": [
+     -33.0,
+     17.0
+    ],
+    "p": 0.39179705913753426
+   }
+  }
+ },
+ "yorkshire": {
+  "Yorkshire": {
+   "Cistercian monks": {
+    "n": 9,
+    "pct_median": 73.9,
+    "hh5_median": 51.0
+   },
+   "Benedictine monks": {
+    "n": 8,
+    "pct_median": 78.8,
+    "hh5_median": 53.95
+   },
+   "Augustinian canons": {
+    "n": 11,
+    "pct_median": 81.9,
+    "hh5_median": 60.0
+   },
+   "Friars": {
+    "n": 18,
+    "pct_median": 89.5,
+    "hh5_median": 102.5
+   }
+  },
+  "Rest of England": {
+   "Cistercian monks": {
+    "n": 47,
+    "pct_median": 41.5,
+    "hh5_median": 163.0
+   },
+   "Benedictine monks": {
+    "n": 100,
+    "pct_median": 63.2,
+    "hh5_median": 224.25
+   },
+   "Augustinian canons": {
+    "n": 135,
+    "pct_median": 54.0,
+    "hh5_median": 199.0
+   },
+   "Friars": {
+    "n": 128,
+    "pct_median": 72.7,
+    "hh5_median": 238.5
+   }
+  }
+ },
+ "robust_all_listed": {
+  "Cistercian monks": {
+   "n": 94,
+   "pct_median": 49.0,
+   "hh5_median": 146.5
+  },
+  "Benedictine monks": {
+   "n": 279,
+   "pct_median": 60.1,
+   "hh5_median": 206.0
+  },
+  "Augustinian canons": {
+   "n": 218,
+   "pct_median": 56.6,
+   "hh5_median": 186.5
+  },
+  "Premonstratensian": {
+   "n": 42,
+   "pct_median": 60.1,
+   "hh5_median": 200.95
+  },
+  "Friars": {
+   "n": 213,
+   "pct_median": 80.0,
+   "hh5_median": 229.0
+  }
+ },
+ "wales_terrain": {
+  "Cistercian monks": {
+   "n": 13,
+   "elev_median": 40.8,
+   "relief_median": 146.6
+  },
+  "Benedictine monks": {
+   "n": 8,
+   "elev_median": 21.6,
+   "relief_median": 63.0
+  },
+  "Augustinian canons": {
+   "n": 6,
+   "elev_median": 34.3,
+   "relief_median": 102.3
+  },
+  "Friars": {
+   "n": 10,
+   "elev_median": 16.2,
+   "relief_median": 59.2
+  }
+ },
+ "local": {
+  "Whalley Abbey": {
+   "order": "Cistercian monks",
+   "dissolved": 1537,
+   "afterlife": "Protected, use unrecorded",
+   "evidence": "Wikidata: Grade I listed building",
+   "hh5": 0.0,
+   "hh10": 0.0,
+   "dom_n5": 3,
+   "nn_km": 0.59,
+   "pct": NaN,
+   "county": "Lancashire",
+   "elev": 49.599998474121094,
+   "relief": 126.0,
+   "river_m": 105.0,
+   "lat": 53.8204237,
+   "lon": -2.4104771,
+   "dissolved_text": "10 March 1537",
+   "later": "granted to Richard Assheton and John Braddyll 1553/4 / now in ownership of the Anglican Diocese of Blackburn and the Catholic Church",
+   "orders": "Cistercian monks"
+  },
+  "Sawley Abbey": {
+   "order": "Cistercian monks",
+   "dissolved": 1536,
+   "afterlife": "Ruin",
+   "evidence": "EH",
+   "hh5": 0.0,
+   "hh10": 0.0,
+   "dom_n5": 7,
+   "nn_km": 1.46,
+   "pct": NaN,
+   "county": "Lancashire",
+   "elev": 74.5999984741211,
+   "relief": 61.900001525878906,
+   "river_m": 215.0,
+   "lat": 53.913341,
+   "lon": -2.341857,
+   "dissolved_text": "1536",
+   "later": "EH",
+   "orders": "Cistercian monks"
+  },
+  "lancashire_baseline_points": 0,
+  "distance_km": 11.2,
+  "lancashire_houses": [
+   "Burscough Priory",
+   "Cockersand Abbey",
+   "Hornby Priory",
+   "Lancaster Blackfriars",
+   "Preston Greyfriars",
+   "Sawley Abbey",
+   "Upholland Priory",
+   "Whalley Abbey"
+  ]
+ },
+ "audit": {
+  "n": 40,
+  "consistent": 39,
+  "seed": 1540,
+  "earlier_rounds": "two earlier samples of 40 (35 and 36 judged consistent) were used to refine the rules"
+ },
+ "list_rows_no_year": 681,
+ "local_notes": {
+  "Whalley Abbey": {
+   "source": "https://en.wikipedia.org/wiki/Whalley_Abbey",
+   "today": "it is now the Retreat and Conference House of the Diocese of Blackburn of the Church of England.",
+   "survives": "Only the foundations of the church remain.",
+   "gateway": "The North West Gateway is separately listed Grade I.",
+   "abbot": "Abbot Paslew was executed for high treason for his part in events connected with the Pilgrimage of Grace"
+  },
+  "Sawley Abbey": {
+   "source": "https://en.wikipedia.org/wiki/Sawley_Abbey",
+   "today": "The ruins, which are now controlled by English Heritage, are open to the public.",
+   "return": "on 12 October, supported by the rebels, the monks returned to the empty abbey.",
+   "poor": "Despite being a relatively poor establishment, a scholarly tradition developed at the abbey.",
+   "climate": "The abbey struggled to survive with climactic conditions leading to crop failure"
+  },
+  "note": "Verbatim sentences from the English Wikipedia articles (CC BY-SA 4.0), read on 27 October 2026."
+ },
+ "emptiest": [
+  {
+   "name": "Bolton Priory",
+   "group": "Augustinian canons",
+   "hh5": 0.0
+  },
+  {
+   "name": "Beaulieu Abbey",
+   "group": "Cistercian monks",
+   "hh5": 0.0
+  },
+  {
+   "name": "St Anthony-in-Roseland Priory",
+   "group": "Augustinian canons",
+   "hh5": 0.0
+  },
+  {
+   "name": "Scilly Priory",
+   "group": "Benedictine monks",
+   "hh5": 0.0
+  },
+  {
+   "name": "Arthington Priory",
+   "group": "Cluniac",
+   "hh5": 8.0
+  },
+  {
+   "name": "Kirkstall Abbey",
+   "group": "Cistercian monks",
+   "hh5": 10.0
+  },
+  {
+   "name": "Warter Priory",
+   "group": "Augustinian canons",
+   "hh5": 11.0
+  },
+  {
+   "name": "Thorney Abbey",
+   "group": "Benedictine monks",
+   "hh5": 11.5
+  }
+ ],
+ "busiest": [
+  {
+   "name": "St Leonard's Priory, Norwich",
+   "group": "Benedictine monks",
+   "hh5": 2164.5
+  },
+  {
+   "name": "Norwich Cathedral Priory",
+   "group": "Benedictine monks",
+   "hh5": 2154.5
+  },
+  {
+   "name": "Thetford St George's Priory",
+   "group": "Benedictine monks",
+   "hh5": 1747.0
+  },
+  {
+   "name": "Thetford Holy Sepulchre Priory",
+   "group": "Augustinian canons",
+   "hh5": 1741.0
+  },
+  {
+   "name": "Thetford Priory",
+   "group": "Cluniac",
+   "hh5": 1741.0
+  }
+ ]
+}

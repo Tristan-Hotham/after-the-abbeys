@@ -1,0 +1,791 @@
+id,name,group,ons_county,dom_area,dom_nn_km,dom_n5,hh5,hh10,hh5_pct_county,elev_m,relief_m,river_m
+h000,Bedford Greyfriars,Friars,Bedfordshire,True,0.55,13.0,283.0,819.5,89.6,33.900001525878906,27.100000381469727,638.0
+h001,Bushmead Priory,Augustinian canons,Bedfordshire,True,2.48,7.0,128.0,861.0,5.5,60.79999923706055,18.0,121.0
+h002,Caldwell Priory,Augustinian canons,Bedfordshire,True,0.52,12.0,265.0,791.5,82.0,30.0,10.899999618530273,44.0
+h003,Chicksands Priory,Gilbertine,Bedfordshire,True,0.4,12.0,210.0,963.0,36.9,51.29999923706055,24.700000762939453,181.0
+h004,Dunstable Blackfriars,Friars,Bedfordshire,True,0.64,7.0,194.0,797.0,26.2,151.0,46.599998474121094,2598.0
+h005,Dunstable Priory,Augustinian canons,Bedfordshire,True,0.53,7.0,180.0,797.0,21.9,147.3000030517578,24.899999618530273,2984.0
+h006,Elstow Abbey,Benedictine monks,Bedfordshire,True,0.61,11.0,253.0,715.5,71.1,32.0,7.599999904632568,101.0
+h007,Harrold Priory,Augustinian canonesses,Bedfordshire,True,0.91,9.0,261.0,959.5,79.0,45.79999923706055,17.5,54.0
+h008,Newnham Priory,Augustinian canons,Bedfordshire,True,1.01,12.0,205.0,923.5,31.9,27.0,11.100000381469727,886.0
+h009,Warden Abbey,Cistercian monks,Bedfordshire,True,1.52,7.0,136.0,801.0,7.9,61.20000076293945,31.399999618530273,299.0
+h010,Woburn Abbey,Cistercian monks,Bedfordshire,True,2.24,9.0,185.0,956.0,23.5,138.8000030517578,39.5,896.0
+h011,"Ankerwycke Priory, Wraysbury",Benedictine nuns,Berkshire,True,1.44,5.0,302.0,795.0,95.8,18.200000762939453,68.5999984741211,71.0
+h012,Bisham Abbey,Benedictine monks,Berkshire,True,0.6,5.0,160.0,819.0,36.6,30.0,74.9000015258789,165.0
+h013,Donnington Friary,Friars,Berkshire,True,0.89,11.0,272.0,811.0,87.6,83.80000305175781,35.79999923706055,19.0
+h014,Greenham Preceptory,Military orders,Berkshire,True,0.6,10.0,236.0,940.0,75.8,76.80000305175781,17.700000762939453,78.0
+h015,Hurley Priory,Benedictine monks,Berkshire,True,0.76,5.0,161.0,692.0,37.1,31.0,49.29999923706055,34.0
+h016,Reading Abbey,Benedictine monks,Berkshire,True,0.49,8.0,312.0,724.0,96.2,43.79999923706055,18.0,89.0
+h017,Reading Greyfriars,Friars,Berkshire,True,0.31,9.0,292.0,727.0,92.8,45.0,22.700000762939453,422.0
+h018,Bristol Austin Friars,Friars,Bristol,True,0.97,11.0,200.0,1016.0,35.9,13.699999809265137,12.399999618530273,335.0
+h019,Bristol Blackfriars,Friars,Bristol,True,0.3,12.0,289.0,1063.0,74.2,17.0,59.5,79.0
+h020,"Bristol Cathedral Abbey: St Augustine's Abbey, Bristol",Augustinian canons,Bristol,True,0.83,14.0,358.0,998.0,94.6,17.200000762939453,65.30000305175781,194.0
+h021,Bristol Greyfriars,Friars,Bristol,True,0.23,12.0,289.0,942.0,74.2,31.0,63.79999923706055,152.0
+h022,Bristol St Mary Magdalen Nunnery,Augustinian canonesses,Bristol,True,0.21,14.0,358.0,942.0,94.6,42.20000076293945,65.0999984741211,167.0
+h023,Bristol Whitefriars,Friars,Bristol,True,0.48,14.0,358.0,942.0,94.6,28.0,61.20000076293945,96.0
+h024,"St James's Priory, Bristol",Benedictine monks,Bristol,True,0.4,12.0,289.0,858.0,74.2,22.200000762939453,57.5,144.0
+h025,Aylesbury Greyfriars,Friars,Buckinghamshire,True,0.42,13.0,349.0,1145.5,91.5,86.9000015258789,12.800000190734863,128.0
+h026,Biddlesden Abbey,Cistercian monks,Buckinghamshire,True,0.74,12.0,115.3,782.0,22.0,139.3000030517578,19.799999237060547,516.0
+h027,Burnham Abbey,Augustinian canonesses,Buckinghamshire,True,1.12,13.0,250.0,597.0,62.9,25.0,10.100000381469727,664.0
+h028,Lavendon Abbey,Premonstratensian,Buckinghamshire,True,1.18,7.0,262.0,929.0,67.1,74.5,28.399999618530273,254.0
+h029,Little Marlow Priory,Benedictine nuns,Buckinghamshire,True,1.6,4.0,118.0,533.0,22.2,30.399999618530273,49.20000076293945,67.0
+h030,Medmenham Abbey,Cistercian monks,Buckinghamshire,True,0.68,8.0,224.0,700.0,52.4,32.0,48.400001525878906,90.0
+h031,Missenden Abbey,Augustinian canons,Buckinghamshire,True,0.56,3.0,21.0,507.0,1.2,128.3000030517578,61.29999923706055,281.0
+h032,Notley Abbey,Augustinian canons,Buckinghamshire,True,1.29,10.0,370.0,1199.0,93.9,71.0999984741211,25.100000381469727,114.0
+h033,"Anglesey Priory, Lode, Cambridgeshire",Augustinian canons,Cambridgeshire,True,1.65,5.0,157.0,671.5,41.0,12.0,8.899999618530273,100.0
+h034,Barham Friary,Friars,Cambridgeshire,True,0.47,11.0,235.5,1168.5,68.5,47.29999923706055,33.20000076293945,146.0
+h035,"Barnwell Priory, Cambridge",Augustinian canons,Cambridgeshire,True,0.65,9.0,337.5,1204.5,93.8,12.600000381469727,9.899999618530273,239.0
+h036,Cambridge Blackfriars,Friars,Cambridgeshire,True,0.75,9.0,272.5,1247.5,81.0,18.0,6.599999904632568,420.0
+h037,Cambridge Greyfriars,Friars,Cambridgeshire,True,0.51,12.0,406.5,1272.5,97.5,15.300000190734863,12.0,117.0
+h038,Cambridge St Edmund's Priory,Gilbertine,Cambridgeshire,True,0.85,8.0,236.5,1377.5,69.0,15.699999809265137,8.0,67.0
+h039,Cambridge White Friars,Friars,Cambridgeshire,True,0.31,10.0,301.5,1221.5,88.2,14.0,7.0,13.0
+h040,"Cambridge, Buckingham College Priory",Benedictine monks,Cambridgeshire,True,0.54,12.0,406.5,1235.5,97.5,14.0,12.5,57.0
+h041,Chatteris Abbey,Benedictine nuns,Cambridgeshire,True,0.41,2.0,80.0,203.0,25.6,11.0,13.0,714.0
+h042,Denny Abbey,Military orders,Cambridgeshire,True,3.03,3.0,142.0,794.5,37.9,7.0,5.199999809265137,719.0
+h043,Ely Cathedral Priory,Benedictine monks,Cambridgeshire,True,0.48,6.0,175.0,498.0,46.9,23.600000381469727,23.100000381469727,580.0
+h044,Fordham Priory,Gilbertine,Cambridgeshire,True,0.96,6.0,223.0,680.5,64.4,15.0,12.800000190734863,177.0
+h045,Hinchingbrook Priory,Benedictine nuns,Cambridgeshire,True,0.76,7.0,683.0,1390.0,98.8,21.700000762939453,19.100000381469727,256.0
+h046,Huntingdon Austin Friars,Friars,Cambridgeshire,True,0.56,8.0,719.0,1383.0,98.9,14.800000190734863,19.299999237060547,79.0
+h047,Huntingdon Priory,Augustinian canons,Cambridgeshire,True,0.96,8.0,719.0,1383.0,98.9,15.300000190734863,14.600000381469727,210.0
+h048,Ickleton Priory,Benedictine nuns,Cambridgeshire,True,0.47,10.0,357.0,1222.0,96.0,37.900001525878906,24.200000762939453,149.0
+h049,Marmont Priory,Gilbertine,Norfolk,True,1.66,2.0,60.0,154.0,6.9,3.0,2.0,105.0
+h050,Oxney Priory,Benedictine monks,Cambridgeshire,True,3.87,3.0,92.0,338.0,27.8,6.099999904632568,5.099999904632568,1390.0
+h051,Peterborough Abbey,Benedictine monks,Cambridgeshire,True,0.18,9.0,182.0,546.5,49.4,14.0,9.0,482.0
+h052,Ramsey Abbey,Benedictine monks,Cambridgeshire,True,0.56,4.0,116.0,200.0,30.0,7.900000095367432,12.399999618530273,274.0
+h053,Sawtry Abbey,Cistercian monks,Cambridgeshire,True,2.64,5.0,139.0,547.0,36.2,6.900000095367432,8.0,165.0
+h054,Shingay Preceptory,Military orders,Cambridgeshire,True,0.55,14.0,389.5,1210.5,97.2,25.0,7.800000190734863,250.0
+h055,Spinney Abbey,Benedictine monks,Cambridgeshire,True,2.41,4.0,130.0,667.5,34.1,5.199999809265137,8.800000190734863,1675.0
+h056,St Ives Priory,Benedictine monks,Cambridgeshire,True,0.42,9.0,290.0,1288.0,86.4,10.899999618530273,5.900000095367432,169.0
+h057,St Neots Priory,Benedictine monks,Cambridgeshire,True,0.39,11.0,333.0,989.0,93.2,17.5,15.800000190734863,114.0
+h058,Stamford St Michael's Priory,Benedictine nuns,Lincolnshire,True,0.97,17.0,424.0,898.0,85.0,27.0,41.0,99.0
+h059,Stonely Priory,Augustinian canons,Cambridgeshire,True,0.9,9.0,212.0,905.5,60.8,59.0,36.400001525878906,816.0
+h060,Swaffham Bulbeck Priory,Benedictine nuns,Cambridgeshire,True,2.73,4.0,137.5,690.5,35.8,10.600000381469727,22.600000381469727,453.0
+h061,Thorney Abbey,Benedictine monks,Cambridgeshire,True,0.39,1.0,11.5,40.0,12.2,7.599999904632568,6.599999904632568,143.0
+h062,Chester Abbey,Benedictine monks,Cheshire,True,0.13,18.0,161.0,359.0,99.0,30.899999618530273,23.5,573.0
+h063,Chester Blackfriars,Friars,Cheshire,True,0.52,17.0,153.0,366.0,98.2,18.100000381469727,24.600000381469727,466.0
+h064,Chester Greyfriars,Friars,Cheshire,True,0.37,17.0,153.0,366.0,98.2,18.700000762939453,25.899999618530273,421.0
+h065,Chester Priory,Benedictine nuns,Cheshire,True,0.45,19.0,169.0,375.0,99.5,29.600000381469727,23.700000762939453,690.0
+h066,Chester Whitefriars,Friars,Cheshire,True,0.46,17.0,153.0,366.0,98.2,23.299999237060547,23.100000381469727,419.0
+h067,Combermere Abbey,Cistercian monks,Cheshire,True,3.3,6.0,25.0,202.0,41.5,83.0,21.700000762939453,344.0
+h068,Norton Priory,Augustinian canons,Cheshire,True,1.69,6.0,62.0,114.0,79.5,24.100000381469727,48.0,98.0
+h069,Warrington Austin Friars,Friars,Cheshire,True,0.56,3.0,6.0,80.0,15.0,14.800000190734863,9.0,185.0
+h070,Bodmin Greyfriars,Friars,Cornwall,True,0.59,3.0,40.0,533.0,22.5,124.4000015258789,72.0,641.0
+h071,Bodmin Priory,Augustinian canons,Cornwall,True,0.56,4.0,49.0,454.0,27.8,97.19999694824219,61.5,68.0
+h072,Launceston Priory,Augustinian canons,Cornwall,True,0.53,4.0,132.0,580.0,65.5,75.0,83.0,26.0
+h073,Scilly Priory,Benedictine monks,Cornwall,True,50.01,0.0,0.0,0.0,1.9,5.900000095367432,18.0,47142.0
+h074,St Anthony-in-Roseland Priory,Augustinian canons,Cornwall,True,5.85,0.0,0.0,91.0,1.9,32.70000076293945,44.400001525878906,2012.0
+h075,"St Carrok's Monastery, St Winnow",Cluniac,Cornwall,True,0.47,12.0,173.0,336.0,87.0,15.0,87.69999694824219,68.0
+h076,St German's Priory,Augustinian canons,Cornwall,True,0.5,4.0,155.0,459.0,82.5,24.299999237060547,48.5,350.0
+h077,Truro Blackfriars,Friars,Cornwall,True,0.68,9.0,93.0,269.0,46.0,13.199999809265137,50.400001525878906,51.0
+h078,Tywardreath Priory,Benedictine monks,Cornwall,True,0.29,6.0,75.0,350.0,35.2,30.5,79.0,711.0
+h079,Durham Cathedral Priory,Benedictine monks,Durham,False,27.5,0.0,0.0,0.0,,59.900001525878906,60.0,184.0
+h080,Egglestone Abbey,Premonstratensian,Durham,False,0.45,8.0,0.0,25.0,,135.89999389648438,59.900001525878906,60.0
+h081,Finchale Priory,Benedictine monks,Durham,False,32.92,0.0,0.0,0.0,,34.099998474121094,30.700000762939453,85.0
+h082,Hartlepool Greyfriars,Friars,Durham,False,13.95,0.0,0.0,0.0,,11.600000381469727,40.79999923706055,1156.0
+h083,Neasham Priory,Benedictine nuns,Durham,False,0.63,7.0,0.0,10.0,,25.0,16.700000762939453,120.0
+h084,Appleby Whitefriars,Friars,Cumbria,False,27.31,0.0,0.0,0.0,,149.6999969482422,46.5,200.0
+h085,Armathwaite Nunnery,Benedictine nuns,Cumbria,False,45.58,0.0,0.0,0.0,,116.5999984741211,99.9000015258789,180.0
+h086,Calder Abbey,Cistercian monks,Cumbria,False,18.7,0.0,0.0,0.0,,80.4000015258789,82.30000305175781,101.0
+h087,Carlisle Blackfriars,Friars,Cumbria,False,59.01,0.0,0.0,0.0,,25.600000381469727,11.600000381469727,218.0
+h088,Carlisle Cathedral Priory,Augustinian canons,Cumbria,False,59.24,0.0,0.0,0.0,,23.5,14.699999809265137,264.0
+h089,Carlisle Greyfriars,Friars,Cumbria,False,59.01,0.0,0.0,0.0,,28.299999237060547,14.300000190734863,346.0
+h090,Cartmel Priory,Augustinian canons,Cumbria,False,0.56,3.0,0.0,0.0,,32.0,45.70000076293945,91.0
+h091,"Conishead Priory, Ulverston",Augustinian canons,Cumbria,False,1.29,4.0,0.0,0.0,,16.399999618530273,51.70000076293945,209.0
+h092,Furness Abbey,Cistercian monks,Cumbria,False,0.73,16.0,0.0,0.0,,33.599998474121094,38.0,40.0
+h093,"Holmcultram Abbey, Abbeytown",Cistercian monks,Cumbria,False,62.08,0.0,0.0,0.0,,11.100000381469727,13.899999618530273,178.0
+h094,Lanercost Priory,Augustinian canons,Cumbria,False,55.95,0.0,0.0,0.0,,51.29999923706055,65.80000305175781,235.0
+h095,Penrith Friary,Friars,Cumbria,False,32.72,0.0,0.0,0.0,,133.60000610351562,76.4000015258789,60.0
+h096,Ravenstonedale Priory,Gilbertine,Cumbria,False,13.57,0.0,0.0,0.0,,252.60000610351562,67.69999694824219,27.0
+h097,Seaton Priory,Benedictine nuns,Cumbria,False,1.45,1.0,0.0,0.0,,42.400001525878906,87.5,31.0
+h098,Shap Abbey,Premonstratensian,Cumbria,False,18.5,0.0,0.0,0.0,,231.5,61.900001525878906,45.0
+h099,St Bees Priory,Benedictine monks,Cumbria,False,27.27,0.0,0.0,0.0,,20.899999618530273,76.9000015258789,166.0
+h100,Wetheral Priory,Benedictine monks,Cumbria,False,56.72,0.0,0.0,0.0,,45.0,42.5,163.0
+h101,Breadsall Priory,Augustinian canons,Derbyshire,True,1.39,14.0,138.0,818.0,85.4,123.0,64.0999984741211,653.0
+h102,Calke Priory,Augustinian canons,Derbyshire,True,2.16,10.0,123.0,415.0,79.4,100.4000015258789,33.79999923706055,214.0
+h103,"Dale (Stanley Park) Abbey, Deepdale",Premonstratensian,Derbyshire,True,2.35,10.0,96.0,870.0,65.8,79.9000015258789,50.79999923706055,1148.0
+h104,Darley Priory,Augustinian canons,Derbyshire,True,0.87,14.0,510.0,850.0,98.0,62.599998474121094,51.900001525878906,245.0
+h105,Derby Blackfriars,Friars,Derbyshire,True,0.87,17.0,554.0,896.0,98.5,53.400001525878906,25.399999618530273,241.0
+h106,Derby King's Mead Priory,Benedictine nuns,Derbyshire,True,1.19,14.0,530.0,885.0,98.5,55.0,24.700000762939453,22.0
+h107,Derby Priory (Cluniac),Cluniac,Derbyshire,True,1.01,17.0,554.0,896.0,98.5,55.099998474121094,23.899999618530273,285.0
+h108,Gresley Priory,Augustinian canons,Derbyshire,True,1.4,10.0,54.0,443.0,44.1,124.5,43.400001525878906,656.0
+h109,Repton Priory,Augustinian canons,Derbyshire,True,0.67,12.0,103.0,835.0,70.6,50.099998474121094,28.0,149.0
+h110,Buckfast Abbey,Cistercian monks,Devon,True,0.36,6.0,90.0,648.0,20.5,43.5,59.29999923706055,94.0
+h111,Buckland Abbey,Cistercian monks,Devon,True,1.89,3.0,81.0,503.3,17.1,80.19999694824219,104.9000015258789,513.0
+h112,Canonsleigh Abbey,Augustinian canonesses,Devon,True,0.25,19.0,352.0,1072.0,94.8,105.19999694824219,35.0,117.0
+h113,Cornworthy Priory,Augustinian canonesses,Devon,True,0.33,6.0,116.0,925.0,29.4,89.5,111.5999984741211,515.0
+h114,Cowick Priory,Benedictine monks,Devon,True,0.9,14.0,195.0,927.0,65.2,9.699999809265137,51.70000076293945,97.0
+h115,Denbury Priory,Benedictine monks,Devon,True,0.71,11.0,226.0,1116.0,75.4,83.9000015258789,62.099998474121094,548.0
+h116,Dunkeswell Abbey,Cistercian monks,Devon,True,0.48,12.0,156.0,805.0,46.9,231.0,41.70000076293945,165.0
+h117,Exeter Blackfriars,Friars,Devon,True,0.33,15.0,192.0,975.0,64.5,46.900001525878906,53.0,665.0
+h118,Exeter Greyfriars,Friars,Devon,True,0.91,13.0,176.0,930.0,56.9,21.399999618530273,36.0,225.0
+h119,Exeter Polsloe Priory,Benedictine nuns,Devon,True,0.68,20.0,294.0,1140.0,89.2,45.70000076293945,73.0,65.0
+h120,Exeter St Nicholas Priory,Benedictine monks,Devon,True,0.76,13.0,176.0,918.0,56.9,31.200000762939453,40.70000076293945,349.0
+h121,Frithelstock Priory,Augustinian canons,Devon,True,0.14,13.0,350.0,730.0,94.5,93.0,81.9000015258789,661.0
+h122,Hartland Abbey,Augustinian canons,Devon,True,0.72,4.0,150.0,229.0,44.2,67.5999984741211,64.80000305175781,30.0
+h123,Kerswell Priory,Cluniac,Devon,True,1.08,11.0,214.0,1061.0,71.4,112.5,45.099998474121094,171.0
+h124,Marsh Barton Priory,Augustinian canons,Devon,True,1.0,15.0,252.0,1015.0,80.8,7.0,22.600000381469727,399.0
+h125,Newenham Abbey,Cistercian monks,Devon,True,1.04,11.0,222.0,749.0,73.8,27.399999618530273,52.400001525878906,135.0
+h126,Pilton Priory,Benedictine monks,Devon,True,0.38,15.0,469.0,944.0,99.2,24.0,64.0,353.0
+h127,Plymouth Greyfriars,Friars,Devon,True,0.38,23.0,188.0,710.0,63.5,8.5,46.29999923706055,770.0
+h128,Plymouth Whitefriars,Friars,Devon,True,0.12,24.0,197.0,732.0,65.5,14.0,47.599998474121094,1010.0
+h129,Plympton Priory,Augustinian canons,Devon,True,0.43,28.0,244.0,706.0,78.4,12.600000381469727,84.69999694824219,91.0
+h130,Tavistock Abbey,Benedictine monks,Devon,True,0.38,7.0,201.3,488.0,67.8,91.9000015258789,65.80000305175781,116.0
+h131,Torre Abbey,Premonstratensian,Devon,True,1.25,9.0,338.0,947.0,93.9,9.399999618530273,47.400001525878906,757.0
+h132,Totnes Priory,Benedictine monks,Devon,True,0.28,10.0,325.0,1025.0,92.8,17.799999237060547,130.10000610351562,186.0
+h133,Abbotsbury Abbey,Benedictine monks,Dorset,True,0.45,7.0,169.0,428.0,42.5,40.0,163.60000610351562,256.0
+h134,Bindon Abbey,Cistercian monks,Dorset,True,0.94,8.0,59.0,504.5,7.5,13.199999809265137,31.200000762939453,46.0
+h135,"Cerne Abbey, Cerne Abbas",Benedictine monks,Dorset,True,0.3,5.0,177.0,661.0,47.1,124.0999984741211,94.5999984741211,110.0
+h136,Christchurch Priory,Augustinian canons,Dorset,True,0.51,8.0,190.0,294.0,53.8,3.700000047683716,6.0,152.0
+h137,Cranborne Priory,Benedictine monks,Dorset,True,0.26,8.0,140.0,569.0,27.9,63.599998474121094,39.5,1119.0
+h138,Dorchester Greyfriars,Friars,Dorset,True,0.44,17.0,358.0,879.0,93.4,60.099998474121094,26.799999237060547,46.0
+h139,Forde Abbey,Cistercian monks,Dorset,True,1.39,7.0,146.0,962.0,30.1,70.5999984741211,60.20000076293945,99.0
+h140,Holme Priory,Cluniac,Dorset,True,0.68,10.0,59.0,317.0,7.5,6.699999809265137,24.399999618530273,169.0
+h141,Horton Priory,Benedictine monks,Dorset,True,0.52,11.0,178.0,711.0,47.8,41.70000076293945,31.399999618530273,1217.0
+h142,"Melcombe Priory, Melcombe Regis",Friars,Dorset,True,0.18,10.0,59.0,445.0,7.5,0.699999988079071,13.199999809265137,73.0
+h143,"Milton Abbey, Milton Abbas",Benedictine monks,Dorset,True,1.04,13.0,311.0,924.5,85.8,118.4000015258789,98.19999694824219,150.0
+h144,Shaftesbury Abbey,Benedictine nuns,Dorset,True,0.52,3.0,230.0,640.0,68.8,206.60000610351562,99.69999694824219,1831.0
+h145,Sherborne Abbey,Benedictine monks,Dorset,True,0.3,8.0,593.0,1238.0,99.8,61.0,47.29999923706055,376.0
+h146,Tarrant Abbey,Cistercian nuns,Dorset,True,0.99,14.0,252.0,993.0,73.4,34.0,36.900001525878906,97.0
+h147,Wareham Priory,Benedictine monks,Dorset,True,0.31,5.0,22.0,272.0,3.0,4.199999809265137,14.0,77.0
+h149,Beverley Blackfriars,Friars,East Riding of Yorkshire,True,0.39,14.0,145.5,341.0,93.8,10.5,15.800000190734863,466.0
+h150,Beverley Greyfriars,Friars,East Riding of Yorkshire,True,0.52,12.0,127.0,341.0,90.0,16.5,27.5,980.0
+h151,Beverley Preceptory,Military orders,East Riding of Yorkshire,True,0.4,13.0,134.0,273.0,92.1,9.399999618530273,11.399999618530273,714.0
+h152,Bridlington Priory,Augustinian canons,East Riding of Yorkshire,True,0.53,12.0,23.0,29.0,33.8,21.799999237060547,30.200000762939453,850.0
+h153,Ellerton Priory (Spalding Moor),Gilbertine,East Riding of Yorkshire,True,0.57,13.0,55.8,184.4,62.8,6.0,7.0,597.0
+h154,Haltemprice Priory,Augustinian canons,East Riding of Yorkshire,True,0.84,10.0,131.0,555.4,91.5,4.0,13.0,408.0
+h155,Kingston upon Hull Austin Friars,Friars,East Riding of Yorkshire,True,0.45,7.0,17.0,625.4,27.8,5.699999809265137,10.300000190734863,124.0
+h156,Kingston upon Hull Priory,Carthusian,East Riding of Yorkshire,True,0.94,7.0,17.0,429.0,27.8,5.0,7.300000190734863,164.0
+h157,Kingston upon Hull Whitefriars,Friars,East Riding of Yorkshire,True,0.35,7.0,17.0,625.4,27.8,8.0,8.0,442.0
+h158,Meaux Abbey,Cistercian monks,East Riding of Yorkshire,True,1.1,13.0,51.0,355.0,60.0,4.599999904632568,4.800000190734863,1111.0
+h159,North Ferriby Priory,Military orders,East Riding of Yorkshire,True,0.83,7.0,115.0,834.9,87.8,15.100000381469727,60.5,771.0
+h160,Nunburnholme Priory,Benedictine nuns,East Riding of Yorkshire,True,1.14,15.0,68.0,177.0,70.4,48.099998474121094,103.0,27.0
+h161,Nunkeeling Priory,Benedictine nuns,East Riding of Yorkshire,True,0.35,13.0,63.0,157.0,67.5,18.600000381469727,13.699999809265137,317.0
+h162,Snaith Priory,Benedictine monks,East Riding of Yorkshire,True,0.52,4.0,46.0,126.0,55.0,8.100000381469727,6.800000190734863,505.0
+h163,Swine Priory,Premonstratensian,East Riding of Yorkshire,True,0.32,15.0,86.0,268.0,78.2,3.9000000953674316,6.300000190734863,497.0
+h164,Warter Priory,Augustinian canons,East Riding of Yorkshire,True,0.49,8.0,11.0,158.0,21.2,70.0999984741211,63.099998474121094,804.0
+h165,Watton Priory,Gilbertine,East Riding of Yorkshire,True,0.4,12.0,35.0,236.0,44.4,10.699999809265137,10.800000190734863,212.0
+h166,Wilberfoss Priory,Benedictine nuns,East Riding of Yorkshire,True,4.06,7.0,45.0,213.5,54.4,13.0,4.699999809265137,66.0
+h167,Battle Abbey,Benedictine monks,East Sussex,True,0.51,12.0,92.0,549.0,54.9,75.4000015258789,51.0,1237.0
+h168,Lewes Greyfriars,Friars,East Sussex,True,0.54,13.0,1031.0,1792.0,98.5,7.599999904632568,86.9000015258789,135.0
+h169,Lewes Priory,Cluniac,East Sussex,True,0.96,12.0,1005.0,1749.0,98.2,6.199999809265137,43.79999923706055,145.0
+h170,Michelham Priory,Augustinian canons,East Sussex,True,1.64,9.0,68.0,981.0,47.8,13.699999809265137,19.799999237060547,99.0
+h171,Robertsbridge Abbey,Cistercian monks,East Sussex,True,0.5,9.0,104.0,239.0,57.2,19.200000762939453,53.20000076293945,181.0
+h172,Rye Austin Friars,Friars,East Sussex,True,0.34,3.0,235.0,396.0,69.9,10.0,46.099998474121094,221.0
+h173,Warbleton Priory,Augustinian canons,East Sussex,True,1.95,4.0,31.0,295.0,28.0,81.9000015258789,58.400001525878906,356.0
+h174,Winchelsea Blackfriars,Friars,East Sussex,True,3.6,3.0,249.0,301.0,72.2,23.0,31.0,241.0
+h175,"Winchelsea Greyfriars, New Town",Friars,East Sussex,True,3.9,3.0,249.0,301.0,72.2,25.299999237060547,28.299999237060547,540.0
+h176,Bedemans Berg Priory,Benedictine monks,Essex,True,1.56,6.0,106.0,863.0,18.1,90.69999694824219,27.799999237060547,559.0
+h177,Beeleigh Abbey,Premonstratensian,Essex,True,1.51,14.0,172.0,940.0,38.6,10.100000381469727,30.799999237060547,120.0
+h178,Berden Priory,Augustinian canons,Essex,True,0.76,13.0,274.0,1261.0,73.8,105.30000305175781,25.399999618530273,1477.0
+h179,Castle Hedingham Priory,Benedictine nuns,Essex,True,0.69,8.0,227.0,1171.0,58.5,46.400001525878906,28.600000381469727,68.0
+h180,Chelmsford Blackfriars,Friars,Essex,True,0.35,11.0,382.0,764.0,93.0,28.0,15.800000190734863,107.0
+h181,Coggeshall Abbey,Cistercian monks,Essex,True,2.63,4.0,163.0,925.0,36.2,31.0,18.0,52.0
+h182,Colchester Crutched Friary,Friars,Essex,True,0.68,3.0,20.0,819.0,3.5,32.599998474121094,28.700000762939453,750.0
+h183,Colchester Greyfriars,Friars,Essex,True,0.6,3.0,20.0,867.0,3.5,18.600000381469727,27.200000762939453,328.0
+h184,Colchester St Botolph's Priory,Augustinian canons,Essex,True,0.7,5.0,68.0,890.0,10.6,25.0,27.200000762939453,713.0
+h185,Colchester St John's Abbey,Benedictine monks,Essex,True,0.85,5.0,68.0,684.0,10.6,32.099998474121094,29.600000381469727,947.0
+h186,Earl's Colne Priory,Benedictine monks,Essex,True,1.92,6.0,115.0,995.0,20.9,30.600000381469727,32.099998474121094,35.0
+h187,Hatfield Peverel Priory,Benedictine monks,Essex,True,1.29,16.0,357.0,890.0,90.0,38.29999923706055,26.5,739.0
+h188,Leez Priory,Augustinian canons,Essex,True,2.42,5.0,99.0,758.0,15.4,58.099998474121094,19.100000381469727,59.0
+h189,Little Dunmow Priory,Augustinian canons,Essex,True,2.03,7.0,253.0,649.0,67.1,71.5999984741211,37.20000076293945,907.0
+h191,"Prittlewell Priory, Southend-on-Sea",Cluniac,Essex,True,0.89,14.0,246.0,497.0,64.4,18.5,20.799999237060547,41.0
+h192,Thremhall Priory,Augustinian canons,Essex,True,2.4,6.0,159.0,1056.0,34.8,99.5,15.699999809265137,1253.0
+h193,Tilty Abbey,Cistercian monks,Essex,True,0.54,9.0,187.0,1000.0,44.8,71.30000305175781,26.299999237060547,170.0
+h194,Walden Abbey,Benedictine monks,Essex,True,1.07,11.0,416.0,1392.0,95.0,52.599998474121094,36.0,242.0
+h195,Waltham Abbey,Augustinian canons,Essex,True,0.42,2.0,194.0,661.0,47.8,20.899999618530273,6.599999904632568,44.0
+h196,Cirencester Abbey,Augustinian canons,Gloucestershire,True,0.78,18.0,277.5,1032.0,83.2,114.0,28.5,144.0
+h197,Deerhurst Abbey,Benedictine monks,Gloucestershire,True,0.65,16.0,243.5,832.2,74.9,12.0,18.100000381469727,326.0
+h198,Flaxley Abbey,Cistercian monks,Gloucestershire,True,2.63,9.0,114.5,386.0,25.5,50.79999923706055,124.30000305175781,9.0
+h199,Gloucester Blackfriars,Friars,Gloucestershire,True,0.53,16.0,221.0,620.7,66.5,19.100000381469727,9.699999809265137,292.0
+h200,Gloucester Cathedral Abbey,Benedictine monks,Gloucestershire,True,0.49,16.0,225.7,620.7,68.2,17.799999237060547,11.199999809265137,415.0
+h201,Gloucester Greyfriars,Friars,Gloucestershire,True,0.39,16.0,221.0,598.7,66.5,22.100000381469727,12.100000381469727,466.0
+h202,Gloucester Whitefriars,Friars,Gloucestershire,True,0.11,15.0,215.7,628.8,64.9,19.0,13.800000190734863,135.0
+h203,Hailes Abbey,Cistercian monks,Gloucestershire,True,0.74,14.0,265.0,972.5,81.0,106.4000015258789,133.3000030517578,106.0
+h204,Kingswood Abbey,Cistercian monks,Gloucestershire,True,0.58,7.0,93.0,875.5,19.5,46.79999923706055,33.099998474121094,47.0
+h205,Leonard Stanley Priory,Augustinian canons,Gloucestershire,True,0.42,10.0,137.0,446.7,33.8,50.20000076293945,89.30000305175781,1072.0
+h206,Llanthony Secunda Priory,Augustinian canons,Gloucestershire,True,1.2,17.0,220.0,665.7,66.5,12.0,10.399999618530273,68.0
+h207,Poulton Priory,Gilbertine,Gloucestershire,True,0.54,15.0,204.0,992.5,60.5,98.0999984741211,12.399999618530273,143.0
+h208,Quenington Preceptory,Military orders,Gloucestershire,True,0.61,8.0,307.0,905.2,89.4,100.9000015258789,31.200000762939453,114.0
+h209,Tewkesbury Abbey,Benedictine monks,Gloucestershire,True,0.44,19.0,292.5,971.0,87.8,14.300000190734863,7.300000190734863,133.0
+h210,Winchcombe Abbey,Benedictine monks,Gloucestershire,True,0.26,9.0,136.7,911.5,33.5,95.0999984741211,60.599998474121094,148.0
+h211,Aldgate Abbey,Unknown,Greater London,False,0.61,19.0,545.0,1472.0,,25.399999618530273,25.799999237060547,645.0
+h212,Barking Abbey,Benedictine monks,Greater London,False,0.61,4.0,610.0,1299.0,,7.199999809265137,9.0,179.0
+h213,Bermondsey Abbey,Cluniac,Greater London,False,1.12,16.0,509.0,1380.0,,7.0,7.900000095367432,973.0
+h214,Bromley-by-Bow Priory,Benedictine nuns,Greater London,False,1.67,8.0,665.0,1674.0,,10.100000381469727,10.600000381469727,255.0
+h215,Clerkenwell Priory,Military orders,Greater London,False,0.64,21.0,577.0,1506.0,,24.799999237060547,8.600000381469727,545.0
+h216,Clerkenwell Priory (Augustinian),Augustinian canonesses,Greater London,False,0.75,21.0,577.0,1506.0,,24.200000762939453,17.200000762939453,280.0
+h217,Eastminster Abbey,Cistercian monks,Greater London,False,0.9,18.0,545.0,1472.0,,18.299999237060547,28.799999237060547,498.0
+h218,Greenwich Greyfriars,Friars,Greater London,False,0.41,8.0,389.0,1565.0,,8.399999618530273,42.79999923706055,252.0
+h219,Haliwell Priory,Augustinian canonesses,Greater London,False,0.82,17.0,543.0,1428.0,,21.0,18.0,1870.0
+h220,Hounslow Priory,Friars,Greater London,False,2.76,7.0,167.0,980.0,,25.399999618530273,10.100000381469727,1594.0
+h221,Kilburn Priory,Benedictine nuns,Greater London,False,2.12,8.0,109.0,903.0,,42.29999923706055,28.299999237060547,2166.0
+h222,London Austin Friars,Friars,Greater London,False,0.45,19.0,543.0,1596.0,,34.0,25.899999618530273,847.0
+h223,"London Charterhouse, Charterhouse Square",Carthusian,Greater London,False,0.65,21.0,577.0,1521.0,,26.200000762939453,11.199999809265137,796.0
+h224,London Crutched Friars,Friars,Greater London,False,0.65,19.0,545.0,1607.0,,29.299999237060547,30.100000381469727,483.0
+h225,"London St Helen's, Bishopsgate",Benedictine nuns,Greater London,False,0.37,19.0,545.0,1596.0,,34.0,27.0,832.0
+h226,London Whitefriars,Friars,Greater London,False,0.46,22.0,577.0,1448.0,,22.799999237060547,29.399999618530273,356.0
+h227,"London, Ludgate Blackfriars",Friars,Greater London,False,0.58,23.0,581.0,1448.0,,18.399999618530273,25.100000381469727,285.0
+h228,"London, Newgate Greyfriars",Friars,Greater London,False,0.44,21.0,565.0,1521.0,,30.100000381469727,28.0,730.0
+h229,Merton Priory,Augustinian canons,Greater London,False,0.43,7.0,134.0,1224.0,,17.0,7.199999809265137,124.0
+h230,Sheen Priory,Carthusian,Greater London,False,0.57,6.0,262.0,1086.0,,7.900000095367432,6.5,201.0
+h231,Southwark Cathedral Priory,Augustinian canons,Greater London,False,0.26,20.0,555.0,1380.0,,9.300000190734863,26.799999237060547,227.0
+h232,St Bartholomew's Priory,Augustinian canons,Greater London,False,0.49,20.0,536.0,1521.0,,27.5,25.899999618530273,841.0
+h233,Stratford Langthorne Abbey,Cistercian monks,Greater London,False,0.68,5.0,570.0,1666.0,,5.0,8.899999618530273,529.0
+h234,Syon Abbey,Other orders,Greater London,False,1.4,6.0,262.0,1014.0,,10.0,11.0,341.0
+h235,Westminster Abbey,Benedictine monks,Greater London,False,0.43,20.0,411.0,1100.0,,14.800000190734863,20.700000762939453,370.0
+h236,Kersal Priory,Cluniac,Greater Manchester,False,3.4,2.0,10.0,10.0,,35.599998474121094,43.599998474121094,125.0
+h237,"Austin Friary, Winchester",Friars,Hampshire,False,0.75,8.0,468.0,688.0,,44.29999923706055,58.20000076293945,432.0
+h238,Baddesley Preceptory,Military orders,Hampshire,True,0.41,3.0,153.0,736.5,52.6,51.20000076293945,17.899999618530273,797.0
+h239,Beaulieu Abbey,Cistercian monks,Hampshire,True,0.37,4.0,0.0,228.0,1.4,8.199999809265137,35.099998474121094,99.0
+h240,Breamore Priory,Augustinian canons,Hampshire,True,0.62,10.0,284.0,634.0,85.0,63.400001525878906,69.5999984741211,1123.0
+h241,"Carmelite Friary, Winchester",Friars,Hampshire,False,0.76,8.0,468.0,680.0,,35.599998474121094,54.0,152.0
+h242,Hyde Abbey,Benedictine monks,Hampshire,False,0.74,7.0,379.0,937.0,,44.5,43.79999923706055,61.0
+h243,Marwell 'Priory',Augustinian canons,Hampshire,True,2.27,2.0,113.0,773.0,37.5,48.70000076293945,50.900001525878906,2199.0
+h244,Mottisfont Abbey,Augustinian canons,Hampshire,True,0.5,12.0,106.5,748.0,35.0,28.5,38.599998474121094,65.0
+h245,Netley Abbey,Cistercian monks,Hampshire,True,0.51,6.0,115.0,534.0,39.2,19.299999237060547,25.299999237060547,510.0
+h246,Portchester Priory,Augustinian canons,Hampshire,True,0.03,8.0,216.0,452.0,72.2,1.899999976158142,12.699999809265137,1210.0
+h247,Romsey Abbey,Benedictine nuns,Hampshire,True,0.47,6.0,191.5,526.5,66.8,17.5,17.299999237060547,75.0
+h248,Southampton St Denys's Priory,Augustinian canons,Hampshire,True,1.48,7.0,209.0,508.0,70.1,3.299999952316284,49.400001525878906,201.0
+h249,Southwick Priory,Augustinian canons,Hampshire,True,2.1,5.0,185.0,460.0,63.6,25.799999237060547,31.799999237060547,242.0
+h250,"St. Mary's Abbey, Winchester",Benedictine nuns,Hampshire,False,0.25,8.0,468.0,699.0,,38.70000076293945,40.900001525878906,40.0
+h251,Titchfield Abbey,Premonstratensian,Hampshire,True,0.91,8.0,200.0,352.0,68.1,9.600000381469727,34.0,88.0
+h252,Wherwell Abbey,Benedictine nuns,Hampshire,True,0.48,13.0,291.0,1196.5,85.8,47.79999923706055,48.900001525878906,121.0
+h253,Winchester Blackfriars,Friars,Hampshire,False,0.17,8.0,468.0,682.0,,39.5,43.79999923706055,41.0
+h254,Winchester Cathedral Priory,Benedictine monks,Hampshire,False,0.36,8.0,468.0,699.0,,39.5,48.79999923706055,180.0
+h255,Winchester Greyfriars,Friars,Hampshire,False,0.17,7.0,379.0,708.0,,38.0,47.70000076293945,117.0
+h256,Wintney Priory,Cistercian nuns,Hampshire,True,1.52,4.0,300.0,642.0,87.5,62.400001525878906,16.700000762939453,71.0
+h257,Aconbury Priory,Augustinian canonesses,Herefordshire,True,3.18,4.0,52.0,450.0,27.1,131.5,124.9000015258789,106.0
+h258,Clifford Priory,Cluniac,Herefordshire,True,1.26,7.0,50.0,114.0,25.1,119.0999984741211,55.099998474121094,117.0
+h259,Dore Abbey,Cistercian monks,Herefordshire,True,1.41,15.0,196.0,722.5,74.5,88.0999984741211,36.900001525878906,683.0
+h260,Flanesford Priory,Augustinian canons,Herefordshire,True,1.24,5.0,51.0,172.0,26.4,34.599998474121094,130.6999969482422,212.0
+h261,Hereford Greyfriars,Friars,Herefordshire,True,0.16,15.0,198.0,811.0,75.4,53.29999923706055,18.899999618530273,119.0
+h262,Hereford Priory,Benedictine monks,Hertfordshire,True,0.56,11.0,478.0,880.0,99.0,39.79999923706055,34.20000076293945,99.0
+h263,Leominster Priory,Benedictine monks,Herefordshire,True,0.42,15.0,841.0,1210.0,97.8,74.0,39.099998474121094,112.0
+h264,Limebrook Priory,Augustinian canonesses,Herefordshire,True,1.24,11.0,111.0,403.0,48.6,147.5,107.9000015258789,26.0
+h265,St Guthlac's Priory,Benedictine monks,Herefordshire,True,0.66,16.0,222.0,798.0,82.9,55.5,29.600000381469727,131.0
+h266,Wigmore Abbey,Augustinian canons,Herefordshire,True,0.6,16.0,147.0,468.0,61.9,118.5999984741211,39.099998474121094,96.0
+h267,Wormsley Priory,Augustinian canons,Herefordshire,True,1.45,10.0,178.0,653.0,70.0,139.5,107.19999694824219,88.0
+h268,Ashridge Priory,Augustinian canons,Hertfordshire,True,1.32,7.0,169.0,589.0,45.6,181.0,38.900001525878906,3635.0
+h269,Cheshunt Priory,Benedictine nuns,Hertfordshire,True,1.61,5.0,271.0,863.0,72.5,23.299999237060547,9.899999618530273,66.0
+h270,Flamstead Priory,Benedictine nuns,Hertfordshire,True,2.03,4.0,84.0,636.0,14.9,158.8000030517578,33.599998474121094,3842.0
+h271,Hitchin Priory,Gilbertine,Hertfordshire,True,0.71,11.0,377.0,1097.0,94.4,71.5999984741211,23.5,24.0
+h272,Hitchin Whitefriars,Friars,Hertfordshire,True,0.71,11.0,377.0,1097.0,94.4,71.69999694824219,23.600000381469727,29.0
+h273,King's Langley Priory,Friars,Hertfordshire,True,1.04,4.0,54.0,418.0,7.9,131.89999389648438,57.599998474121094,1052.0
+h274,Markyate Priory,Benedictine nuns,Hertfordshire,True,2.33,7.0,252.0,504.0,68.0,143.6999969482422,30.600000381469727,5284.0
+h275,New Biggin Priory,Gilbertine,Hertfordshire,True,0.36,10.0,399.0,1109.0,95.5,69.30000305175781,29.700000762939453,41.0
+h276,Royston Priory,Augustinian canons,Hertfordshire,True,3.9,6.0,257.0,1383.5,68.9,67.0,61.0,3791.0
+h277,Sopwell Priory,Benedictine nuns,Hertfordshire,True,1.27,5.0,172.0,421.0,46.5,80.0999984741211,40.099998474121094,140.0
+h278,St Albans Abbey,Benedictine monks,Hertfordshire,True,0.43,4.0,138.0,417.0,37.2,102.19999694824219,43.599998474121094,352.0
+h280,Ware Greyfriars,Friars,Hertfordshire,True,0.19,7.0,403.0,964.0,95.8,36.0,34.0,56.0
+h281,"Wymondley Priory, Little Wymondley",Augustinian canons,Hertfordshire,True,1.7,11.0,333.0,1168.0,89.0,87.0999984741211,29.299999237060547,220.0
+h282,Quarr Abbey,Benedictine monks,Isle of Wight,True,1.31,10.0,70.5,381.0,10.6,26.200000762939453,43.599998474121094,409.0
+h283,Aylesford Priory,Friars,Kent,True,0.41,15.0,436.0,1126.0,89.0,6.300000190734863,18.100000381469727,64.0
+h285,Bilsington Priory,Augustinian canons,Kent,True,1.04,10.0,645.0,1141.0,95.2,28.5,35.900001525878906,171.0
+h286,Boxley Abbey,Cistercian monks,Kent,True,1.25,10.0,361.0,1197.0,83.6,30.899999618530273,56.5,364.0
+h287,Canterbury Austin Friars,Friars,Kent,True,0.48,15.0,1081.0,2182.0,99.5,19.0,31.899999618530273,665.0
+h288,Canterbury Blackfriars,Friars,Kent,True,0.67,13.0,960.0,2344.0,98.2,12.899999618530273,18.100000381469727,184.0
+h289,Canterbury Cathedral Priory,Benedictine monks,Kent,True,0.56,14.0,1005.0,2344.0,98.8,17.399999618530273,33.20000076293945,512.0
+h290,Canterbury Priory of St Sepulchre,Benedictine nuns,Kent,True,0.34,14.0,1005.0,2016.0,98.8,23.899999618530273,32.0,1033.0
+h291,Canterbury St Augustine's Abbey,Benedictine monks,Kent,True,0.25,14.0,1005.0,2178.0,98.8,16.600000381469727,37.20000076293945,854.0
+h292,Canterbury St Gregory's Priory,Augustinian canons,Kent,True,0.4,13.0,960.0,2344.0,98.2,10.699999809265137,29.799999237060547,330.0
+h293,Combwell Priory,Augustinian canons,Kent,True,2.26,2.0,14.0,42.0,23.9,99.30000305175781,51.400001525878906,302.0
+h295,Dartford Priory,Augustinian canonesses,Kent,True,0.51,8.0,381.0,930.0,85.4,6.099999904632568,30.200000762939453,257.0
+h296,Faversham Abbey,Benedictine monks,Kent,True,0.39,11.0,316.0,776.0,77.5,7.300000190734863,15.600000381469727,155.0
+h297,Folkestone Priory,Benedictine monks,Kent,True,0.78,4.0,420.0,971.0,88.0,25.700000762939453,49.099998474121094,274.0
+h298,Horton Priory,Cluniac,Kent,True,1.38,14.0,658.0,1676.0,95.5,66.4000015258789,20.899999618530273,91.0
+h299,Leeds Priory,Augustinian canons,Kent,True,0.47,14.0,424.0,961.0,88.2,78.80000305175781,66.5999984741211,875.0
+h300,Lossenham Friary,Friars,Kent,True,0.7,7.0,88.0,256.0,30.5,14.100000381469727,26.299999237060547,313.0
+h301,Minster in Sheppey Priory,Benedictine nuns,Kent,True,5.13,0.0,0.0,408.0,8.5,48.20000076293945,41.099998474121094,1047.0
+h302,Moatenden Priory,Friars,Kent,True,3.12,4.0,121.0,478.0,34.8,22.399999618530273,19.600000381469727,70.0
+h303,Rochester Cathedral Priory,Benedictine monks,Kent,True,0.23,11.0,319.0,706.0,78.1,12.600000381469727,33.599998474121094,425.0
+h304,Sandwich Whitefriars,Friars,Kent,True,0.76,16.0,181.0,936.5,47.5,4.099999904632568,6.199999809265137,139.0
+h305,St Radegund's Abbey,Premonstratensian,Kent,True,0.48,13.0,126.0,730.5,36.0,136.0,77.69999694824219,2213.0
+h306,Swingfield Preceptory,Military orders,Kent,True,1.37,7.0,63.5,1152.5,28.5,145.39999389648438,30.5,4903.0
+h307,"Temple Ewell Preceptory, Ewell",Military orders,Kent,True,0.83,21.0,230.5,742.5,61.5,125.0,55.900001525878906,2154.0
+h308,West Malling Abbey,Benedictine nuns,Kent,True,0.86,16.0,383.0,1446.0,86.0,43.5,37.20000076293945,66.0
+h309,West Peckham Preceptory,Military orders,Kent,True,0.37,8.0,301.0,916.0,73.8,65.5999984741211,102.5999984741211,543.0
+h310,Burscough Priory,Augustinian canons,Lancashire,False,2.7,4.0,0.0,0.0,,30.399999618530273,11.600000381469727,80.0
+h311,Cockersand Abbey,Premonstratensian,Lancashire,False,3.04,5.0,0.0,0.0,,5.300000190734863,8.0,515.0
+h312,Hornby Priory,Premonstratensian,Lancashire,False,0.52,8.0,0.0,0.0,,24.399999618530273,47.20000076293945,177.0
+h313,Lancaster Blackfriars,Friars,Lancashire,False,0.46,15.0,0.0,0.0,,20.200000762939453,76.0999984741211,558.0
+h314,Preston Greyfriars,Friars,Lancashire,False,0.76,4.0,0.0,27.0,,34.70000076293945,33.900001525878906,920.0
+h315,Sawley Abbey,Cistercian monks,Lancashire,False,1.46,7.0,0.0,0.0,,74.5999984741211,61.900001525878906,215.0
+h316,Upholland Priory,Friars,Lancashire,False,0.47,2.0,0.0,0.0,,91.19999694824219,56.20000076293945,925.0
+h317,Whalley Abbey,Cistercian monks,Lancashire,False,0.59,3.0,0.0,0.0,,49.599998474121094,126.0,105.0
+h318,Belvoir Priory,Benedictine monks,Leicestershire,True,1.59,10.0,276.5,1546.0,73.4,93.5999984741211,64.9000015258789,1310.0
+h319,Bradley Priory,Augustinian canons,Leicestershire,True,1.83,12.0,215.0,1041.0,49.5,142.39999389648438,39.79999923706055,732.0
+h320,Breedon Priory,Augustinian canons,Leicestershire,True,0.96,6.0,122.0,440.0,18.4,98.69999694824219,33.900001525878906,1181.0
+h321,Croxton Abbey,Premonstratensian,Leicestershire,True,2.06,11.0,331.3,1162.7,85.5,131.8000030517578,51.099998474121094,66.0
+h322,Dalby and Heather Preceptory,Military orders,Leicestershire,True,0.18,11.0,164.8,863.2,30.5,108.19999694824219,70.9000015258789,855.0
+h323,Garendon Abbey,Cistercian monks,Leicestershire,True,1.51,6.0,184.0,613.0,41.6,56.599998474121094,33.099998474121094,219.0
+h324,Grace Dieu Priory,Augustinian canonesses,Leicestershire,True,1.15,7.0,103.0,562.0,14.6,90.19999694824219,54.599998474121094,98.0
+h325,Kirby Bellars Priory,Augustinian canons,Leicestershire,True,0.91,14.0,277.0,936.2,73.8,68.69999694824219,27.799999237060547,131.0
+h326,Langley Priory,Benedictine nuns,Leicestershire,True,1.86,6.0,147.0,549.0,25.8,85.19999694824219,24.0,133.0
+h327,Launde Priory,Augustinian canons,Leicestershire,True,0.26,9.0,86.0,939.5,8.1,149.3000030517578,51.0,454.0
+h328,Leicester Abbey,Augustinian canons,Leicestershire,True,1.26,12.0,356.0,1435.0,91.0,58.0,27.5,139.0
+h329,Leicester Austin Friary,Augustinian canons,Leicestershire,True,0.54,8.0,261.0,1513.0,66.9,58.20000076293945,14.300000190734863,455.0
+h330,Leicester Blackfriars,Friars,Leicestershire,True,0.54,9.0,256.0,1485.0,64.2,58.0,14.600000381469727,78.0
+h331,Leicester Greyfriars,Friars,Leicestershire,True,0.2,8.0,260.0,1555.0,66.1,69.9000015258789,19.100000381469727,719.0
+h332,Owston Abbey,Augustinian canons,Leicestershire,True,0.47,16.0,212.5,956.0,49.1,154.39999389648438,61.400001525878906,473.0
+h333,Rothley Temple,Military orders,Leicestershire,True,0.92,9.0,695.0,1261.0,99.2,61.79999923706055,22.0,114.0
+h334,Swinford Preceptory,Military orders,Leicestershire,True,0.71,13.0,232.0,718.5,54.2,117.0,37.29999923706055,686.0
+h335,Ulverscroft Priory,Augustinian canons,Leicestershire,True,2.39,3.0,20.0,1045.0,0.2,157.60000610351562,71.80000305175781,137.0
+h336,Alvingham Priory,Gilbertine,Lincolnshire,True,0.31,7.0,135.0,707.2,27.1,6.0,7.099999904632568,53.0
+h337,Axholme Priory,Carthusian,Lincolnshire,True,1.42,7.0,106.0,481.0,23.2,10.600000381469727,27.0,760.0
+h338,Bardney Abbey,Benedictine monks,Lincolnshire,True,1.07,6.0,102.5,942.7,22.2,7.599999904632568,7.5,323.0
+h339,Barlings Abbey,Premonstratensian,Lincolnshire,True,1.73,11.0,206.0,1002.5,38.5,7.0,6.900000095367432,92.0
+h340,Boston Austin Friars,Friars,Lincolnshire,True,0.37,5.0,229.0,582.0,46.0,7.0,3.4000000953674316,267.0
+h341,Boston Blackfriars,Friars,Lincolnshire,True,0.79,5.0,229.0,591.0,46.0,9.0,4.0,49.0
+h342,Boston Greyfriars,Friars,Lincolnshire,True,0.6,5.0,229.0,591.0,46.0,7.900000095367432,4.300000190734863,117.0
+h343,Boston Whitefriars,Friars,Lincolnshire,True,0.92,5.0,229.0,591.0,46.0,8.600000381469727,4.599999904632568,107.0
+h344,Bourne Abbey,Augustinian canons,Lincolnshire,True,0.52,13.0,324.2,976.0,69.8,14.0,14.800000190734863,112.0
+h345,Bridge End Priory,Gilbertine,Lincolnshire,True,1.67,6.0,200.0,1001.8,37.2,4.0,2.0,147.0
+h346,Broadholme Priory,Premonstratensian,Lincolnshire,True,0.97,10.0,201.9,993.2,37.8,8.0,4.5,213.0
+h347,Bullington Priory,Gilbertine,Lincolnshire,True,1.01,15.0,230.0,1015.0,46.0,19.799999237060547,13.600000381469727,265.0
+h348,Catley Priory,Gilbertine,Lincolnshire,True,1.9,8.0,254.5,780.5,53.8,6.0,9.899999618530273,336.0
+h350,Deeping St James Priory,Benedictine monks,Lincolnshire,True,0.33,3.0,134.0,559.0,26.9,9.0,3.200000047683716,195.0
+h351,Elsham Priory,Augustinian canons,Lincolnshire,True,0.07,6.0,255.9,1304.6,54.0,41.5,67.5,282.0
+h352,Fosse Priory,Cistercian nuns,Lincolnshire,True,0.67,9.0,383.0,916.6,81.0,6.599999904632568,6.400000095367432,30.0
+h353,Freiston Priory,Benedictine monks,Lincolnshire,True,0.32,5.0,268.0,536.0,56.0,6.0,2.0,901.0
+h354,Gokewell Priory,Cistercian nuns,Lincolnshire,True,1.88,9.0,405.0,1052.9,84.0,44.400001525878906,50.900001525878906,1029.0
+h355,Grantham Greyfriars,Friars,Lincolnshire,True,0.52,17.0,640.0,1440.0,98.2,59.79999923706055,22.799999237060547,60.0
+h356,Greenfield Priory,Cistercian nuns,Lincolnshire,True,1.47,23.0,403.4,1502.8,83.8,11.5,14.899999618530273,210.0
+h357,Grimsby Abbey,Augustinian canons,Lincolnshire,True,0.63,9.0,194.3,909.0,36.8,6.400000095367432,5.5,406.0
+h358,Grimsby Austin Friars,Friars,Lincolnshire,True,0.41,9.0,194.3,891.0,36.8,6.800000190734863,4.0,131.0
+h359,Grimsby Greyfriars,Friars,Lincolnshire,True,0.46,7.0,146.7,956.5,28.2,7.0,6.900000095367432,458.0
+h360,Grimsby Nunnery,Augustinian canonesses,Lincolnshire,True,1.25,8.0,178.7,1001.5,34.5,10.0,13.600000381469727,1150.0
+h361,Hagnaby Abbey,Premonstratensian,Lincolnshire,True,1.93,11.0,278.2,730.4,58.6,1.0,2.0,496.0
+h362,Haverholme Priory,Cistercian monks,Lincolnshire,True,1.27,13.0,272.5,1111.5,57.2,8.399999618530273,13.699999809265137,76.0
+h363,Hirst Priory,Augustinian canons,Lincolnshire,True,3.31,3.0,97.0,219.5,20.5,5.800000190734863,4.099999904632568,389.0
+h364,Humberston Abbey,Other orders,Lincolnshire,True,0.46,9.0,259.3,856.7,54.2,12.199999809265137,10.199999809265137,1126.0
+h365,Kirkstead Abbey,Cistercian monks,Lincolnshire,True,3.35,5.0,161.0,784.0,32.9,8.0,6.199999809265137,442.0
+h366,Knaith Priory,Cistercian nuns,Lincolnshire,True,1.37,12.0,142.0,868.5,27.8,19.0,19.5,137.0
+h367,Kyme Priory,Augustinian canons,Lincolnshire,True,0.7,6.0,115.5,623.8,25.2,6.0,6.5,1397.0
+h368,Legbourne Priory,Cistercian nuns,Lincolnshire,True,0.64,18.0,468.5,1346.2,89.8,28.399999618530273,30.899999618530273,517.0
+h369,Lincoln Austin Friars,Friars,Lincolnshire,True,0.24,10.0,188.0,886.0,36.2,67.80000305175781,53.29999923706055,1138.0
+h370,Lincoln Blackfriars,Friars,Lincolnshire,True,1.13,10.0,166.0,848.0,33.2,31.0,60.900001525878906,343.0
+h371,Lincoln Greyfriars,Friars,Lincolnshire,True,1.29,8.0,125.0,848.0,26.2,15.899999618530273,61.20000076293945,110.0
+h372,Lincoln St Katherine's Priory,Gilbertine,Lincolnshire,True,0.55,7.0,135.0,784.0,27.1,8.5,59.70000076293945,102.0
+h373,Lincoln St Mary Magdalen Priory,Benedictine monks,Lincolnshire,True,1.82,11.0,189.0,810.5,36.2,18.200000762939453,57.29999923706055,258.0
+h374,Lincoln Whitefriars,Friars,Lincolnshire,True,1.51,7.0,125.0,823.6,26.2,10.0,43.20000076293945,179.0
+h375,Louth Park Abbey,Cistercian monks,Lincolnshire,True,0.89,12.0,388.5,1211.2,81.4,23.399999618530273,17.0,908.0
+h376,Maltby Preceptory,Military orders,Lincolnshire,True,0.7,11.0,598.8,1438.5,97.2,57.099998474121094,43.900001525878906,358.0
+h377,Markby Priory,Augustinian canons,Lincolnshire,True,0.38,13.0,238.5,798.4,48.9,4.300000190734863,3.299999952316284,1108.0
+h378,"Newbo Abbey, Sedgefield",Premonstratensian,Lincolnshire,True,0.93,7.0,240.0,1595.6,49.4,43.79999923706055,9.399999618530273,151.0
+h379,Newsham Abbey,Premonstratensian,Lincolnshire,True,0.43,9.0,316.9,1182.0,68.8,14.899999618530273,12.199999809265137,584.0
+h380,Newstead Priory,Augustinian canons,Lincolnshire,True,1.21,20.0,385.5,1017.2,81.0,27.600000381469727,28.399999618530273,7.0
+h381,Newstead-on-Ancholme Priory,Gilbertine,Lincolnshire,True,1.77,8.0,223.5,1007.8,44.0,5.099999904632568,3.0999999046325684,307.0
+h382,Nocton Priory,Augustinian canons,Lincolnshire,True,1.26,4.0,199.0,756.0,37.2,14.899999618530273,21.799999237060547,212.0
+h383,North Ormsby Priory,Gilbertine,Lincolnshire,True,0.45,10.0,232.2,1495.1,46.5,75.19999694824219,63.400001525878906,1340.0
+h384,Nun Cotham Priory,Cistercian nuns,Lincolnshire,True,0.33,10.0,321.7,1306.1,69.2,18.200000762939453,14.699999809265137,159.0
+h385,Orford Priory,Premonstratensian,Lincolnshire,True,1.04,11.0,392.0,1284.7,82.1,76.30000305175781,47.5,79.0
+h386,Revesby Abbey,Cistercian monks,Lincolnshire,True,0.81,9.0,350.9,1424.1,75.5,7.300000190734863,16.5,374.0
+h387,Sempringham Priory,Gilbertine,Lincolnshire,True,0.09,14.0,359.0,1111.5,76.8,17.799999237060547,21.299999237060547,121.0
+h388,Sixhills Priory,Gilbertine,Lincolnshire,True,1.18,13.0,328.5,1211.5,70.8,73.0999984741211,73.0,1194.0
+h389,Stainfield Priory,Benedictine nuns,Lincolnshire,True,0.5,12.0,217.5,890.5,42.0,10.399999618530273,12.300000190734863,104.0
+h390,Stamford Austin Friars,Friars,Lincolnshire,True,0.61,15.0,360.0,880.0,77.4,36.5,39.29999923706055,256.0
+h391,Stamford Blackfriars,Friars,Lincolnshire,True,0.33,16.0,328.0,905.8,70.8,32.20000076293945,38.5,191.0
+h392,Stamford Greyfriars,Friars,Lincolnshire,True,0.09,17.0,339.5,969.5,73.2,38.20000076293945,35.29999923706055,383.0
+h394,Stamford Whitefriars,Friars,Lincolnshire,True,0.17,16.0,328.0,905.8,70.8,36.5,38.0,330.0
+h395,Stixwould Priory,Cistercian nuns,Lincolnshire,True,0.62,5.0,103.5,1030.5,22.6,10.399999618530273,9.100000381469727,372.0
+h396,Swineshead Abbey,Cistercian monks,Lincolnshire,True,1.14,5.0,167.0,547.0,33.2,5.800000190734863,2.799999952316284,1723.0
+h397,Thornholme Priory,Augustinian canons,Lincolnshire,True,3.04,5.0,163.5,1032.9,33.2,3.700000047683716,21.299999237060547,82.0
+h398,Thornton Abbey,Augustinian canons,Lincolnshire,True,2.74,8.0,283.3,800.6,59.8,6.699999809265137,11.100000381469727,131.0
+h399,Thwaite Priory,Augustinian canons,Lincolnshire,True,1.06,18.0,255.2,1527.3,54.0,35.400001525878906,53.0,1315.0
+h400,Torksey Priory,Augustinian canons,Lincolnshire,True,0.51,10.0,385.0,947.6,81.0,8.0,6.0,204.0
+h401,Tupholme Abbey,Premonstratensian,Lincolnshire,True,1.69,7.0,129.0,879.5,26.2,6.699999809265137,15.5,283.0
+h402,Vaudey Abbey,Cistercian monks,Lincolnshire,True,2.05,13.0,264.5,1080.5,55.0,52.0,25.799999237060547,64.0
+h403,Wilsford Priory,Benedictine monks,Lincolnshire,True,0.7,11.0,236.0,1398.2,47.8,75.69999694824219,52.400001525878906,1172.0
+h404,Birkenhead Priory,Benedictine monks,Merseyside,False,3.49,6.0,24.0,338.0,,13.300000190734863,41.29999923706055,958.0
+h405,Hilbre Island Monastery,Benedictine monks,Merseyside,False,4.41,1.0,1.0,74.3,,0.6000000238418579,5.300000190734863,760.0
+h406,Beeston Regis Priory,Augustinian canons,Norfolk,True,0.8,8.0,196.0,715.0,27.4,25.0,49.099998474121094,316.0
+h407,Binham Priory,Benedictine monks,Norfolk,True,0.51,10.0,423.0,1158.0,74.0,22.299999237060547,19.100000381469727,150.0
+h408,Blackborough Priory,Benedictine monks,Norfolk,True,2.59,11.0,358.5,1228.0,66.8,7.099999904632568,37.599998474121094,21.0
+h409,"Blackfriars, Norwich",Friars,Norfolk,True,0.71,16.0,2144.5,3548.5,99.0,7.0,26.899999618530273,161.0
+h410,Blakeney Friary,Friars,Norfolk,True,0.63,10.0,212.0,965.5,30.0,12.899999618530273,29.899999618530273,357.0
+h411,Bromholm Priory,Cluniac,Norfolk,True,1.12,9.0,418.5,1111.0,73.5,5.699999809265137,16.799999237060547,1678.0
+h412,Burnham Norton Friary,Friars,Norfolk,True,0.73,4.0,175.0,454.0,22.1,7.900000095367432,24.5,285.0
+h413,Carbrooke Preceptory,Military orders,Norfolk,True,0.72,10.0,279.0,1202.0,48.8,49.0,18.0,30.0
+h414,Carrow Priory,Benedictine nuns,Norfolk,True,0.76,19.0,2189.5,3840.0,99.2,10.300000190734863,33.70000076293945,182.0
+h415,Castle Acre Priory,Cluniac,Norfolk,True,1.06,5.0,130.0,461.5,15.5,31.899999618530273,23.200000762939453,137.0
+h416,Coxford Priory,Augustinian canons,Norfolk,True,0.84,8.0,280.0,744.0,49.1,44.70000076293945,15.0,104.0
+h417,Crabhouse Priory,Augustinian canonesses,Norfolk,True,1.53,5.0,101.5,979.5,11.2,2.5,5.0,91.0
+h418,Flitcham Priory,Augustinian canons,Norfolk,True,0.98,7.0,222.0,1174.5,32.9,26.899999618530273,34.20000076293945,118.0
+h419,Gorleston Friary,Friars,Norfolk,True,0.75,7.0,171.0,561.5,21.1,3.4000000953674316,13.399999618530273,323.0
+h420,Great Massingham Priory,Augustinian canons,Norfolk,True,3.67,3.0,98.0,855.5,10.8,81.5999984741211,12.699999809265137,5660.0
+h421,Great Yarmouth Blackfriars,Friars,Norfolk,True,0.71,3.0,125.0,585.5,15.1,2.4000000953674316,9.100000381469727,162.0
+h422,Great Yarmouth Greyfriars,Friars,Norfolk,True,0.19,3.0,125.0,546.5,15.1,3.0,38.099998474121094,125.0
+h423,Great Yarmouth St Nicholas's Priory,Benedictine monks,Norfolk,True,0.49,4.0,238.0,640.0,36.1,4.699999809265137,7.599999904632568,325.0
+h424,Great Yarmouth Whitefriars,Friars,Norfolk,True,0.34,4.0,238.0,551.0,36.1,3.0,7.900000095367432,165.0
+h425,Hempton Priory,Augustinian canons,Norfolk,True,0.62,14.0,262.0,1111.0,41.2,37.70000076293945,17.700000762939453,279.0
+h426,Hickling Priory,Augustinian canons,Norfolk,True,0.52,11.0,468.0,1208.0,78.0,0.0,4.900000095367432,368.0
+h427,Horsham St Faith Priory,Benedictine monks,Norfolk,True,0.42,13.0,226.0,3064.5,33.5,22.399999618530273,18.700000762939453,501.0
+h428,Ingham Priory,Unknown,Norfolk,True,0.6,12.0,479.5,1332.0,79.8,10.0,11.0,1188.0
+h429,King's Lynn Austin Friars,Friars,Norfolk,True,3.36,4.0,88.0,577.0,9.2,9.600000381469727,7.099999904632568,446.0
+h430,King's Lynn Benedictine Priory,Benedictine monks,Norfolk,True,3.34,5.0,150.0,577.0,18.8,7.699999809265137,6.800000190734863,144.0
+h431,King's Lynn Blackfriars,Friars,Norfolk,True,3.48,5.0,150.0,577.0,18.8,8.399999618530273,6.099999904632568,338.0
+h432,King's Lynn Greyfriars,Friars,Norfolk,True,3.48,6.0,192.0,608.0,26.0,8.199999809265137,6.800000190734863,74.0
+h433,King's Lynn Whitefriars,Friars,Norfolk,True,3.53,6.0,192.0,608.0,26.0,5.800000190734863,8.0,163.0
+h434,Langley Abbey,Premonstratensian,Norfolk,True,2.49,21.0,568.0,2138.0,88.2,3.5,20.899999618530273,591.0
+h435,"Ludham, St Benet's Abbey",Benedictine monks,Norfolk,True,2.16,16.0,403.5,1572.0,72.6,0.0,2.700000047683716,134.0
+h436,Marham Abbey,Cistercian nuns,Norfolk,True,0.38,7.0,393.5,1268.5,71.5,10.5,32.400001525878906,1028.0
+h437,Modeney Priory,Benedictine monks,Norfolk,True,2.48,5.0,134.0,457.5,15.8,2.0,6.800000190734863,553.0
+h438,Molycourt Priory,Benedictine monks,Norfolk,True,1.8,2.0,60.0,324.5,6.9,0.6000000238418579,3.5,59.0
+h439,Normansburgh Priory,Augustinian canons,Norfolk,True,0.71,13.0,339.0,1054.0,63.6,53.79999923706055,19.0,26.0
+h440,Norwich Austin Friars,Friars,Norfolk,True,0.19,20.0,2243.5,3566.0,99.2,12.0,34.29999923706055,181.0
+h441,Norwich Cathedral Priory,Benedictine monks,Norfolk,True,0.41,17.0,2154.5,3559.0,99.2,8.899999618530273,39.70000076293945,240.0
+h442,Norwich Greyfriars,Friars,Norfolk,True,0.15,18.0,2194.0,3565.0,99.2,15.0,32.79999923706055,388.0
+h443,Old Buckenham Priory,Augustinian canons,Norfolk,True,1.17,8.0,599.5,1439.0,89.8,46.0,25.700000762939453,820.0
+h444,Pentney Priory,Augustinian canons,Norfolk,True,2.55,7.0,227.0,1262.0,33.6,6.900000095367432,6.400000095367432,170.0
+h445,Shouldham Priory,Gilbertine,Norfolk,True,2.42,9.0,334.0,1184.5,62.2,12.600000381469727,10.800000190734863,949.0
+h446,Slevesholm Priory,Cluniac,Norfolk,True,1.96,3.0,116.0,979.0,13.5,3.0,3.0,1162.0
+h447,"St Leonard's Priory, Norwich",Benedictine monks,Norfolk,True,0.81,18.0,2164.5,3472.5,99.2,30.899999618530273,40.79999923706055,248.0
+h448,Thetford Austin Friars,Friars,Norfolk,True,0.21,10.0,1747.0,2122.5,98.5,16.899999618530273,16.299999237060547,50.0
+h449,Thetford Blackfriars,Friars,Norfolk,True,0.94,9.0,1741.0,2108.5,98.5,15.0,25.299999237060547,70.0
+h450,Thetford Holy Sepulchre Priory,Augustinian canons,Norfolk,True,1.15,9.0,1741.0,2078.5,98.5,14.0,21.899999618530273,169.0
+h451,Thetford Priory,Cluniac,Norfolk,True,1.26,9.0,1741.0,2082.5,98.5,16.299999237060547,33.20000076293945,148.0
+h452,Thetford St George's Priory,Benedictine monks,Norfolk,True,0.34,10.0,1747.0,2135.5,98.5,15.199999809265137,19.799999237060547,184.0
+h453,Walsingham Friary,Friars,Norfolk,True,1.36,10.0,169.0,1100.0,21.0,26.5,34.70000076293945,150.0
+h454,Walsingham Priory,Augustinian canons,Norfolk,True,1.64,10.0,236.0,1021.0,35.9,25.100000381469727,40.400001525878906,103.0
+h455,Wendling Abbey,Premonstratensian,Norfolk,True,0.79,7.0,163.0,1065.0,20.9,46.900001525878906,16.899999618530273,31.0
+h456,West Acre Priory,Augustinian canons,Norfolk,True,1.54,6.0,106.0,729.5,11.9,22.0,29.700000762939453,51.0
+h457,West Dereham Abbey,Premonstratensian,Norfolk,True,1.91,13.0,437.5,1125.5,75.2,6.599999904632568,5.800000190734863,1002.0
+h458,Weybourne Priory,Augustinian canons,Norfolk,True,0.53,6.0,203.5,821.0,28.5,15.199999809265137,46.20000076293945,90.0
+h459,Weybridge Priory,Augustinian canons,Norfolk,True,1.41,16.0,594.5,1459.5,89.5,0.0,5.5,107.0
+h460,"White Friars, Norwich",Friars,Norfolk,True,0.84,15.0,2097.5,3548.5,99.0,6.699999809265137,39.099998474121094,99.0
+h461,Wormegay Priory,Augustinian canons,Norfolk,True,1.41,7.0,255.5,1192.0,40.6,2.0,3.0,261.0
+h462,Wymondham Abbey,Benedictine monks,Norfolk,True,0.82,7.0,545.0,2207.0,86.5,33.900001525878906,17.799999237060547,140.0
+h463,Arden Priory,Benedictine nuns,North Yorkshire,True,0.64,7.0,42.7,107.7,73.5,210.89999389648438,166.60000610351562,76.0
+h464,Basedale Priory,Cistercian nuns,North Yorkshire,True,2.68,5.0,13.0,65.0,54.0,213.60000610351562,129.1999969482422,81.0
+h465,Bolton Priory,Augustinian canons,North Yorkshire,True,0.7,7.0,0.0,1.0,20.8,112.19999694824219,107.19999694824219,80.0
+h466,Byland Abbey,Cistercian monks,North Yorkshire,True,2.07,8.0,70.0,174.6,86.5,89.4000015258789,142.3000030517578,120.0
+h467,Coverham Abbey,Premonstratensian,North Yorkshire,True,0.22,16.0,51.0,117.0,77.5,153.3000030517578,146.60000610351562,97.0
+h468,Easby Abbey,Premonstratensian,North Yorkshire,True,0.19,10.0,56.0,228.0,79.9,96.80000305175781,57.79999923706055,113.0
+h469,Ellerton Priory,Cistercian nuns,North Yorkshire,True,0.46,6.0,0.0,35.0,20.8,177.89999389648438,146.0,81.0
+h470,Fountains Abbey,Cistercian monks,North Yorkshire,True,0.81,14.0,13.0,100.5,54.0,100.5,53.0,77.0
+h471,Gisborough Priory,Augustinian canons,North Yorkshire,True,0.46,11.0,46.0,125.0,74.9,98.4000015258789,40.20000076293945,227.0
+h472,Grosmont Priory,Other orders,North Yorkshire,True,2.43,5.0,0.0,63.0,20.8,40.0,111.5,55.0
+h473,Hackness Priory,Benedictine monks,North Yorkshire,True,0.7,7.0,19.0,217.0,58.0,60.0,143.3000030517578,35.0
+h474,Handale Priory,Cistercian nuns,North Yorkshire,True,1.03,14.0,11.0,35.0,52.4,141.89999389648438,45.5,92.0
+h475,Hood Abbey,Cistercian monks,North Yorkshire,True,1.96,12.0,43.0,145.0,73.9,115.0,140.1999969482422,55.0
+h476,Jervaulx Abbey,Cistercian monks,North Yorkshire,True,1.78,16.0,114.0,329.0,95.0,101.0999984741211,55.400001525878906,285.0
+h477,Kirkby Malham Cell,Premonstratensian,West Yorkshire,True,1.58,15.0,46.0,356.8,76.8,55.70000076293945,38.5,1253.0
+h478,Kirkham Priory,Augustinian canons,North Yorkshire,True,0.7,16.0,120.0,373.5,96.2,26.100000381469727,55.29999923706055,125.0
+h479,Knaresborough Priory,Friars,North Yorkshire,True,0.84,16.0,76.0,163.7,88.4,48.900001525878906,29.399999618530273,82.0
+h480,Lazenby Grange,Unknown,North Yorkshire,True,1.56,9.0,3.0,287.0,43.0,51.20000076293945,23.899999618530273,696.0
+h481,Malton Priory,Gilbertine,North Yorkshire,True,0.36,13.0,49.7,264.6,76.8,23.5,14.800000190734863,111.0
+h482,Marrick Priory,Benedictine nuns,North Yorkshire,True,0.84,6.0,0.0,15.0,20.8,186.89999389648438,140.6999969482422,133.0
+h483,Marton Priory,Augustinian canons,North Yorkshire,True,1.29,12.0,60.0,153.0,81.9,55.0,20.799999237060547,692.0
+h484,Middlesbrough Priory,Benedictine monks,North Yorkshire,True,3.79,2.0,16.0,84.0,56.1,7.800000190734863,8.100000381469727,300.0
+h485,Mount Grace Priory,Carthusian,North Yorkshire,True,0.41,11.0,4.0,232.0,43.5,108.5,166.8000030517578,116.0
+h486,Mount St John Preceptory,Military orders,North Yorkshire,True,0.9,14.0,45.0,141.0,74.5,169.0,81.5,915.0
+h487,Moxby Priory,Benedictine nuns,North Yorkshire,True,0.48,16.0,60.0,171.3,81.9,28.0,13.199999809265137,110.0
+h488,Newburgh Priory,Augustinian canons,North Yorkshire,True,1.26,10.0,74.0,162.7,87.4,78.9000015258789,67.19999694824219,138.0
+h489,Northallerton Whitefriars,Friars,North Yorkshire,True,1.02,17.0,186.0,277.0,98.8,44.0,17.799999237060547,250.0
+h490,Nun Appleton Priory,Cistercian nuns,North Yorkshire,True,0.41,12.0,92.9,511.1,92.8,10.100000381469727,9.199999809265137,131.0
+h491,Nun Monkton Priory,Benedictine nuns,North Yorkshire,True,0.79,14.0,68.0,185.0,85.0,13.899999618530273,11.100000381469727,100.0
+h492,Richmond Greyfriars,Friars,North Yorkshire,True,0.61,9.0,78.0,228.0,89.1,139.10000610351562,114.9000015258789,401.0
+h493,Richmond St Martin's Priory,Benedictine monks,North Yorkshire,True,0.79,10.0,81.0,228.0,89.6,107.9000015258789,92.9000015258789,168.0
+h494,Rievaulx Abbey,Cistercian monks,North Yorkshire,True,1.74,6.0,15.0,140.5,55.4,94.9000015258789,108.30000305175781,158.0
+h495,Scarborough Blackfriars,Friars,North Yorkshire,True,2.28,7.0,149.0,202.0,98.2,37.70000076293945,44.79999923706055,968.0
+h496,Scarborough Greyfriars,Friars,North Yorkshire,True,2.51,7.0,149.0,202.0,98.2,29.700000762939453,51.900001525878906,1142.0
+h497,Scarborough Whitefriars,Friars,North Yorkshire,True,2.26,7.0,149.0,202.0,98.2,32.20000076293945,46.29999923706055,1122.0
+h498,Selby Abbey,Benedictine monks,North Yorkshire,True,0.14,7.0,138.5,347.4,97.2,8.5,5.5,203.0
+h499,Skewkirk Priory,Augustinian canons,North Yorkshire,True,1.35,15.0,77.0,255.3,88.8,16.0,4.0,171.0
+h500,Thicket Priory,Benedictine nuns,North Yorkshire,True,1.2,9.0,47.4,116.6,76.0,11.0,6.400000095367432,275.0
+h501,Whitby Abbey,Benedictine monks,North Yorkshire,True,0.34,12.0,51.0,57.0,77.5,45.20000076293945,54.29999923706055,391.0
+h502,Wykeham Priory,Cistercian nuns,North Yorkshire,True,1.6,12.0,33.0,241.0,67.6,30.600000381469727,18.899999618530273,230.0
+h503,Yarm Blackfriars,Friars,Durham,False,0.54,9.0,0.0,75.0,,11.5,28.799999237060547,101.0
+h504,Yedingham Priory,Benedictine nuns,North Yorkshire,True,2.1,11.0,29.0,57.0,63.5,21.0,2.0,120.0
+h505,York Austin Friars,Friars,North Yorkshire,True,0.68,19.0,65.9,208.3,83.8,16.799999237060547,7.5,88.0
+h506,York Blackfriars,Friars,North Yorkshire,True,1.06,18.0,56.9,210.1,80.2,18.200000762939453,10.399999618530273,274.0
+h507,York Clementhorpe Priory,Benedictine nuns,North Yorkshire,True,1.43,18.0,56.9,212.1,80.2,13.699999809265137,12.0,167.0
+h508,York Greyfriars,Friars,North Yorkshire,True,1.1,18.0,56.9,210.1,80.2,12.699999809265137,11.0,71.0
+h509,York Holy Trinity Priory,Benedictine monks,North Yorkshire,True,1.18,18.0,56.9,210.1,80.2,20.0,8.399999618530273,345.0
+h510,York Monastery,Unknown,North Yorkshire,True,0.63,20.0,67.9,202.3,84.5,17.600000381469727,6.800000190734863,144.0
+h511,York St Andrew's Priory,Gilbertine,North Yorkshire,True,1.39,18.0,56.9,189.1,80.2,12.899999618530273,10.899999618530273,69.0
+h512,York St Mary's Abbey,Benedictine monks,North Yorkshire,True,0.69,21.0,72.9,208.3,86.5,16.600000381469727,9.800000190734863,181.0
+h513,"York Whitefriars, the Stonebow",Friars,North Yorkshire,True,0.73,19.0,65.9,188.1,83.8,14.399999618530273,10.399999618530273,89.0
+h514,Canons Ashby Priory,Augustinian canons,Northamptonshire,True,0.29,12.0,171.0,670.0,28.2,159.1999969482422,32.599998474121094,473.0
+h515,Catesby Priory,Cistercian nuns,Northamptonshire,True,0.51,6.0,135.0,695.0,11.6,134.0,55.900001525878906,184.0
+h516,Chacombe Priory,Augustinian canons,Northamptonshire,True,0.81,10.0,477.0,1244.8,99.6,106.5999984741211,45.099998474121094,180.0
+h517,Delapré Abbey,Cluniac,Northamptonshire,True,1.51,13.0,363.0,997.0,97.6,67.4000015258789,40.400001525878906,38.0
+h518,Dingley Preceptory,Military orders,Northamptonshire,True,0.47,11.0,344.0,1058.0,96.9,136.60000610351562,57.099998474121094,1630.0
+h519,Fineshade Priory,Augustinian canons,Northamptonshire,True,2.23,7.0,177.0,703.5,31.9,63.5,40.20000076293945,116.0
+h520,Northampton Abbey,Augustinian canons,Northamptonshire,True,0.7,11.0,354.0,992.0,97.5,69.69999694824219,32.5,789.0
+h521,Northampton Austin Friars,Friars,Northamptonshire,True,0.37,10.0,326.0,930.0,95.8,66.0999984741211,29.600000381469727,250.0
+h522,Northampton Blackfriars,Friars,Northamptonshire,True,0.31,10.0,326.0,930.0,95.8,73.0999984741211,32.5,326.0
+h523,Northampton Greyfriars,Friars,Northamptonshire,True,0.21,10.0,358.0,1018.0,97.5,90.0,34.0,786.0
+h524,Northampton St Andrew's Priory,Cluniac,Northamptonshire,True,0.86,10.0,358.0,1005.0,97.5,70.0,32.29999923706055,135.0
+h525,Northampton Whitefriars,Friars,Northamptonshire,True,0.39,10.0,358.0,1018.0,97.5,92.0,32.400001525878906,768.0
+h526,Pipewell Abbey,Cistercian monks,Northamptonshire,True,0.47,13.0,373.0,1049.0,98.2,114.0,32.29999923706055,25.0
+h527,Rothwell Priory,Augustinian canonesses,Northamptonshire,True,0.22,11.0,266.0,1128.0,82.6,131.1999969482422,35.0,892.0
+h528,Sewardsley Priory,Cistercian nuns,Northamptonshire,True,1.77,13.0,163.0,790.0,23.8,120.80000305175781,42.0,927.0
+h529,Sulby Abbey,Premonstratensian,Northamptonshire,True,1.34,8.0,170.0,703.0,27.9,139.6999969482422,19.299999237060547,95.0
+h530,Alnwick Abbey,Premonstratensian,Northumberland,False,92.28,0.0,0.0,0.0,,46.599998474121094,63.70000076293945,70.0
+h531,Bamburgh Friary,Friars,Northumberland,False,112.49,0.0,0.0,0.0,,26.200000762939453,49.099998474121094,1819.0
+h532,Bamburgh Priory,Augustinian canons,Northumberland,False,112.7,0.0,0.0,0.0,,23.399999618530273,31.600000381469727,2070.0
+h535,Blanchland Abbey,Premonstratensian,Northumberland,False,25.93,0.0,0.0,0.0,,257.1000061035156,113.0,116.0
+h536,Brinkburn Priory,Augustinian canons,Northumberland,False,75.55,0.0,0.0,0.0,,79.19999694824219,50.5,58.0
+h537,Carham Priory,Augustinian canons,Northumberland,False,115.01,0.0,0.0,0.0,,24.100000381469727,51.599998474121094,105.0
+h538,Farne Island Priory,Benedictine monks,Northumberland,False,114.48,0.0,0.0,0.0,,4.800000190734863,17.700000762939453,4898.0
+h539,Hexham Priory,Augustinian canons,Northumberland,False,39.66,0.0,0.0,0.0,,54.5,86.30000305175781,109.0
+h540,Holystone Priory,Augustinian canonesses,Northumberland,False,78.2,0.0,0.0,0.0,,128.5,92.19999694824219,110.0
+h541,Hulne Friary,Friars,Northumberland,False,93.58,0.0,0.0,0.0,,57.099998474121094,60.70000076293945,105.0
+h542,Lambley Priory,Benedictine nuns,Northumberland,False,44.74,0.0,0.0,0.0,,152.89999389648438,67.0,129.0
+h543,"Lindisfarne Priory, Holy Island",Benedictine monks,Northumberland,False,118.5,0.0,0.0,0.0,,9.600000381469727,11.5,281.0
+h544,Newminster Abbey,Cistercian monks,Northumberland,False,65.66,0.0,0.0,0.0,,37.900001525878906,38.29999923706055,247.0
+h545,Ovingham Priory,Augustinian canons,Northumberland,False,41.25,0.0,0.0,0.0,,18.100000381469727,80.9000015258789,133.0
+h546,Beauvale Charterhouse,Carthusian,Nottinghamshire,True,1.56,11.0,71.0,298.0,18.5,125.9000015258789,71.0,1015.0
+h547,Blyth Priory,Benedictine monks,Nottinghamshire,True,0.23,9.0,62.5,308.2,14.5,18.899999618530273,19.899999618530273,156.0
+h548,Felley Priory,Augustinian canons,Nottinghamshire,True,1.84,6.0,41.0,284.0,8.2,135.3000030517578,62.79999923706055,574.0
+h549,Lenton Priory,Cluniac,Nottinghamshire,True,0.8,17.0,434.0,1144.5,93.5,28.0,24.5,115.0
+h550,Mattersey Priory,Gilbertine,Nottinghamshire,True,0.84,9.0,121.2,399.8,36.0,8.699999809265137,19.899999618530273,65.0
+h551,Newstead Priory,Augustinian canons,Nottinghamshire,True,2.28,5.0,48.0,250.0,10.4,110.5,55.79999923706055,130.0
+h552,Nottingham Greyfriars,Friars,Nottinghamshire,True,0.3,15.0,419.0,1188.0,91.4,35.900001525878906,44.099998474121094,298.0
+h553,Nottingham Whitefriars,Friars,Nottinghamshire,True,0.52,16.0,428.0,1156.5,92.5,49.900001525878906,44.599998474121094,544.0
+h554,Rufford Abbey,Cistercian monks,Nottinghamshire,True,0.3,11.0,137.0,358.5,39.2,57.900001525878906,24.700000762939453,211.0
+h555,Shelford Priory,Augustinian canons,Nottinghamshire,True,1.17,14.0,362.0,1131.9,84.5,19.299999237060547,7.0,244.0
+h556,Thurgarton Priory,Augustinian canons,Nottinghamshire,True,0.47,13.0,397.5,1266.2,88.0,34.79999923706055,44.599998474121094,42.0
+h557,Wallingwells Priory,Benedictine nuns,Nottinghamshire,True,1.4,4.0,88.0,393.7,25.8,46.599998474121094,22.299999237060547,464.0
+h558,Welbeck Abbey,Premonstratensian,Nottinghamshire,True,1.33,4.0,32.0,333.0,5.2,54.79999923706055,26.899999618530273,170.0
+h559,Worksop Priory,Augustinian canons,Nottinghamshire,True,0.82,6.0,83.0,186.5,22.9,36.599998474121094,20.100000381469727,163.0
+h560,Abingdon Abbey,Benedictine monks,Oxfordshire,True,0.48,12.0,397.5,1593.0,86.8,53.400001525878906,11.0,69.0
+h561,Bicester Priory,Augustinian canons,Oxfordshire,True,0.34,11.0,218.0,878.0,21.5,71.4000015258789,11.300000190734863,64.0
+h562,Bruern Abbey,Cistercian monks,Oxfordshire,True,1.25,11.0,415.5,1080.8,90.2,149.39999389648438,74.5999984741211,1064.0
+h563,Burford Priory,Unknown,Oxfordshire,True,0.52,10.0,275.5,1177.8,45.8,111.5,45.79999923706055,98.0
+h565,Clattercote Priory,Gilbertine,Oxfordshire,True,2.14,9.0,387.0,1182.0,84.6,110.5999984741211,42.0,638.0
+h566,Eynsham Abbey,Benedictine monks,Oxfordshire,True,0.58,7.0,282.0,937.3,50.5,65.5,12.0,95.0
+h567,Godstow Abbey,Benedictine nuns,Oxfordshire,True,1.0,14.0,414.0,1067.1,90.1,59.79999923706055,9.5,71.0
+h568,Goring Priory,Augustinian canonesses,Oxfordshire,True,0.33,9.0,229.0,1178.0,25.0,44.599998474121094,89.9000015258789,113.0
+h569,Oseney Abbey,Augustinian canons,Oxfordshire,True,1.26,12.0,379.0,1179.6,82.0,58.0,10.699999809265137,46.0
+h570,Oxford Austin Friars,Friars,Oxfordshire,True,0.13,12.0,242.8,1162.6,30.5,68.5999984741211,12.600000381469727,588.0
+h572,Oxford Canterbury College,Benedictine monks,Oxfordshire,True,0.43,12.0,247.8,1161.6,33.0,67.69999694824219,12.199999809265137,419.0
+h573,Oxford Durham College,Benedictine monks,Oxfordshire,True,0.15,11.0,222.8,1257.6,23.0,69.19999694824219,10.699999809265137,564.0
+h574,Oxford Gloucester College,Benedictine monks,Oxfordshire,True,0.59,11.0,357.0,1213.6,75.8,63.400001525878906,12.899999618530273,150.0
+h575,Oxford Greyfriars,Friars,Oxfordshire,True,0.68,12.0,379.0,1256.6,82.0,62.599998474121094,15.0,80.0
+h576,Oxford Trinitarian Priory,Friars,Oxfordshire,True,0.49,12.0,249.8,1166.6,34.0,64.69999694824219,13.199999809265137,247.0
+h577,Oxford Whitefriars,Friars,Oxfordshire,True,0.47,12.0,359.8,1257.6,76.5,65.9000015258789,13.800000190734863,247.0
+h580,Rewley Abbey,Cistercian monks,Oxfordshire,True,0.88,12.0,379.0,1213.6,82.0,60.099998474121094,12.899999618530273,66.0
+h581,Studley Priory,Benedictine nuns,Oxfordshire,True,2.84,8.0,149.0,900.6,11.9,96.5999984741211,35.599998474121094,820.0
+h582,Thame Abbey,Cistercian monks,Oxfordshire,True,2.86,10.0,297.0,1406.0,57.0,78.19999694824219,17.799999237060547,91.0
+h583,Wroxton Abbey,Augustinian canons,Oxfordshire,True,0.2,11.0,406.0,1161.0,88.6,145.39999389648438,36.5,842.0
+h584,Bridgnorth Greyfriars,Friars,Shropshire,True,1.86,4.0,137.0,535.5,72.0,48.400001525878906,73.5,41.0
+h585,Bromfield Priory,Benedictine monks,Shropshire,True,0.4,4.0,164.5,697.5,84.9,92.69999694824219,23.5,56.0
+h586,Chirbury Priory,Augustinian canons,Shropshire,True,0.34,22.0,121.0,170.0,63.1,107.9000015258789,26.899999618530273,160.0
+h587,Church Preen Priory,Cluniac,Shropshire,True,0.42,14.0,76.0,539.0,33.0,214.10000610351562,107.80000305175781,1413.0
+h588,Halston Preceptory,Military orders,Shropshire,True,0.65,7.0,46.0,149.0,17.2,86.5,13.600000381469727,210.0
+h590,Haughmond Abbey,Augustinian canons,Shropshire,True,1.82,12.0,112.0,664.0,56.1,96.5999984741211,65.5999984741211,1572.0
+h591,Lilleshall Abbey,Augustinian canons,Shropshire,True,1.17,8.0,161.0,444.0,84.2,87.5999984741211,43.79999923706055,19.0
+h592,Ludlow Austin Friars,Friars,Shropshire,True,0.18,10.0,241.5,641.5,99.0,91.5,44.0,311.0
+h593,Ludlow Whitefriars,Friars,Shropshire,True,0.71,10.0,241.5,662.5,99.0,86.5,70.69999694824219,133.0
+h594,Morville Priory,Benedictine monks,Shropshire,True,0.76,6.0,112.0,560.5,56.1,92.0,116.0999984741211,73.0
+h595,Ratlinghope Priory,Augustinian canons,Shropshire,True,0.46,4.0,36.0,233.0,13.5,294.79998779296875,119.19999694824219,52.0
+h596,Shrewsbury Abbey,Benedictine monks,Shropshire,True,0.36,12.0,157.0,654.0,82.4,54.0,14.699999809265137,169.0
+h597,Shrewsbury Austin Friars,Friars,Shropshire,True,0.78,11.0,155.0,663.0,81.6,57.29999923706055,23.200000762939453,90.0
+h598,Shrewsbury Blackfriars,Friars,Shropshire,True,0.13,11.0,153.0,636.0,81.1,63.599998474121094,16.100000381469727,65.0
+h599,Shrewsbury Greyfriars,Friars,Shropshire,True,0.31,11.0,154.0,660.0,81.4,54.400001525878906,13.800000190734863,40.0
+h600,Wenlock Priory,Cluniac,Shropshire,True,0.57,8.0,137.0,440.0,72.0,156.39999389648438,63.599998474121094,69.0
+h601,White Ladies Priory,Augustinian canonesses,Shropshire,True,2.98,7.0,94.7,485.0,46.8,111.69999694824219,45.5,285.0
+h602,Wombridge Priory,Augustinian canons,Shropshire,True,1.62,7.0,78.0,476.0,34.8,102.19999694824219,65.5999984741211,387.0
+h603,Woodhouse Austin Friars,Friars,Shropshire,True,1.38,12.0,97.0,476.0,48.6,204.39999389648438,61.900001525878906,705.0
+h604,Athelney Abbey,Benedictine monks,Somerset,True,0.21,5.0,210.0,802.0,50.4,5.199999809265137,2.5999999046325684,199.0
+h605,Barlynch Priory,Augustinian canons,Somerset,True,1.53,7.0,183.0,546.0,41.8,168.3000030517578,132.6999969482422,65.0
+h606,Barrow Gurney Nunnery,Benedictine nuns,Somerset,True,0.21,5.0,190.0,923.0,43.5,95.9000015258789,65.19999694824219,74.0
+h607,Bath Abbey,Benedictine monks,Somerset,True,0.43,17.0,515.0,1221.0,96.8,29.200000762939453,83.80000305175781,157.0
+h608,Bridgwater Greyfriars,Friars,Somerset,True,0.75,32.0,390.3,843.3,91.8,12.800000190734863,16.100000381469727,41.0
+h609,Burtle Priory,Augustinian canons,Somerset,True,3.83,5.0,22.0,373.0,3.8,6.0,5.0,568.0
+h610,Cannington Priory,Benedictine nuns,Somerset,True,0.35,30.0,378.3,877.8,90.8,14.699999809265137,19.0,143.0
+h611,Cleeve Abbey,Cistercian monks,Somerset,True,0.96,18.0,265.7,607.2,71.8,49.099998474121094,56.0,26.0
+h612,Dunster Priory,Benedictine monks,Somerset,True,0.45,15.0,218.3,558.7,52.8,49.0,115.80000305175781,221.0
+h613,Glastonbury Abbey,Benedictine monks,Somerset,True,0.43,2.0,166.0,828.0,34.8,28.799999237060547,96.69999694824219,997.0
+h614,Hinton Priory,Carthusian,Somerset,True,0.76,13.0,164.0,1174.0,33.8,114.5999984741211,77.5,833.0
+h615,Ilchester Blackfriars,Friars,Somerset,True,0.46,12.0,127.0,1028.7,21.5,12.899999618530273,8.399999618530273,179.0
+h616,Keynsham Abbey,Augustinian canons,Somerset,True,0.16,9.0,370.0,1102.0,90.4,23.799999237060547,42.20000076293945,65.0
+h617,Montacute Priory,Cluniac,Somerset,True,0.45,15.0,336.0,1073.7,87.0,71.80000305175781,70.69999694824219,216.0
+h618,Muchelney Abbey,Benedictine monks,Somerset,True,0.07,11.0,159.0,875.0,31.6,7.599999904632568,8.0,176.0
+h619,Stavordale Priory,Augustinian canons,Somerset,True,1.81,13.0,235.0,878.0,61.5,114.19999694824219,82.30000305175781,1127.0
+h620,Taunton Priory,Augustinian canons,Somerset,True,0.68,11.0,663.0,1461.0,100.0,17.5,10.699999809265137,282.0
+h621,Witham Friary,Carthusian,Somerset,True,0.55,7.0,141.0,595.0,25.4,95.5,43.099998474121094,41.0
+h622,Woodspring Priory,Augustinian canons,Somerset,True,0.38,5.0,92.0,487.0,14.8,11.600000381469727,27.399999618530273,187.0
+h623,Beauchief Abbey,Premonstratensian,South Yorkshire,True,2.87,7.0,28.0,136.0,30.8,133.0,84.0999984741211,58.0
+h624,Doncaster Greyfriars,Friars,South Yorkshire,True,0.34,14.0,227.0,540.0,96.5,13.600000381469727,13.600000381469727,287.0
+h625,Doncaster Whitefriars,Friars,South Yorkshire,True,0.23,15.0,227.0,513.0,96.5,19.5,10.699999809265137,567.0
+h626,Dunscroft Grange,Cistercian monks,South Yorkshire,True,1.08,10.0,119.0,177.0,77.1,5.0,6.300000190734863,2465.0
+h627,Hampole Priory,Cistercian nuns,South Yorkshire,True,0.14,19.0,120.8,601.5,78.2,26.100000381469727,41.29999923706055,33.0
+h628,Monk Bretton Priory,Cluniac,South Yorkshire,True,1.27,8.0,37.0,219.5,40.4,41.70000076293945,49.5,268.0
+h629,Roche Abbey,Cistercian monks,South Yorkshire,True,1.92,8.0,212.7,494.3,95.9,71.5999984741211,37.29999923706055,58.0
+h630,Tickhill Austin Friars,Friars,South Yorkshire,True,0.93,5.0,65.7,556.7,57.1,28.5,36.0,24.0
+h631,Baswich Priory,Unknown,Staffordshire,True,0.69,17.0,168.2,524.8,90.0,80.5999984741211,33.70000076293945,105.0
+h632,Brewood Priory,Benedictine nuns,Staffordshire,True,3.11,8.0,133.7,564.0,82.8,122.30000305175781,34.099998474121094,1143.0
+h633,Burton Abbey,Benedictine monks,Staffordshire,True,0.51,10.0,87.0,495.0,60.1,51.5,36.599998474121094,116.0
+h634,Croxden Abbey,Cistercian monks,Staffordshire,True,0.23,10.0,88.0,318.0,60.8,130.89999389648438,69.0999984741211,66.0
+h635,Dieulacres Abbey,Cistercian monks,Staffordshire,True,1.36,2.0,28.0,37.0,27.9,169.89999389648438,79.4000015258789,213.0
+h636,Dudley Priory,Cluniac,West Midlands,True,0.39,3.0,76.0,463.0,51.4,184.8000030517578,61.20000076293945,781.0
+h637,Hulton Abbey,Cistercian monks,Staffordshire,True,1.15,10.0,32.0,171.0,33.4,132.3000030517578,50.599998474121094,136.0
+h638,Lichfield Greyfriars,Friars,Staffordshire,True,0.94,5.0,178.0,366.0,93.1,85.80000305175781,18.799999237060547,273.0
+h639,Newcastle-under-Lyme Blackfriars,Friars,Staffordshire,True,0.73,11.0,79.0,187.0,56.5,122.69999694824219,39.20000076293945,92.0
+h640,Ranton Priory,Augustinian canons,Staffordshire,True,1.68,12.0,97.4,526.8,67.0,119.80000305175781,24.899999618530273,291.0
+h641,Rocester Abbey,Augustinian canons,Staffordshire,True,0.38,14.0,188.0,444.0,95.1,92.9000015258789,33.599998474121094,229.0
+h642,Stafford Austin Friars,Friars,Staffordshire,True,1.32,21.0,190.8,523.8,95.9,79.0,13.100000381469727,217.0
+h643,Stafford Greyfriars,Friars,Staffordshire,True,1.48,20.0,172.8,538.8,90.8,81.19999694824219,9.5,255.0
+h644,Stone Priory,Augustinian canons,Staffordshire,True,0.89,8.0,62.0,295.2,49.2,91.5,47.0,71.0
+h645,Trentham Priory,Augustinian canons,Staffordshire,True,1.04,9.0,78.0,238.0,56.0,102.5999984741211,68.69999694824219,46.0
+h646,Tutbury Priory,Benedictine monks,Staffordshire,True,0.54,10.0,189.0,599.0,95.5,72.69999694824219,35.5,204.0
+h647,Babwell Greyfriars,Friars,Suffolk,True,0.59,13.0,420.0,1328.0,70.2,31.200000762939453,18.5,68.0
+h648,Battisford Preceptory,Military orders,Suffolk,True,0.89,12.0,561.0,1837.0,91.5,69.19999694824219,22.200000762939453,1314.0
+h649,"BlackFriars, Sudbury",Friars,Suffolk,True,0.66,15.0,438.0,1417.0,73.8,28.799999237060547,23.5,263.0
+h650,Blythburgh Priory,Augustinian canons,Suffolk,True,0.33,10.0,267.0,1269.0,33.9,4.199999809265137,21.399999618530273,173.0
+h651,Bungay Priory,Benedictine nuns,Suffolk,True,0.3,10.0,523.5,1697.0,88.2,12.399999618530273,8.600000381469727,223.0
+h652,Bury St Edmunds Abbey,Benedictine monks,Suffolk,True,0.45,11.0,372.0,1291.0,61.2,39.20000076293945,26.600000381469727,137.0
+h653,Butley Priory,Augustinian canons,Suffolk,True,0.68,8.0,207.0,1035.5,19.9,7.300000190734863,18.100000381469727,192.0
+h654,Campsey Ash Priory,Augustinian canonesses,Suffolk,True,1.22,21.0,593.5,2067.5,93.0,12.300000190734863,20.299999237060547,12.0
+h655,Clare Friary,Friars,Essex,True,0.71,11.0,390.0,1448.0,93.5,46.400001525878906,30.100000381469727,107.0
+h656,Coddenham Priory,Augustinian canons,Lincolnshire,True,2.16,4.0,130.0,758.2,26.6,3.0,4.400000095367432,1440.0
+h657,Dunwich Blackfriars,Friars,Suffolk,True,1.02,4.0,326.5,960.5,51.0,0.699999988079071,27.399999618530273,990.0
+h658,Dunwich Greyfriars,Friars,Suffolk,True,0.31,4.0,328.5,999.5,51.2,14.300000190734863,24.299999237060547,375.0
+h659,Felixstowe Priory,Benedictine monks,Suffolk,True,0.72,20.0,264.0,869.0,32.6,21.100000381469727,17.200000762939453,1378.0
+h660,Flixton Priory,Augustinian canonesses,Suffolk,True,1.15,7.0,497.5,1352.0,85.0,34.400001525878906,23.799999237060547,456.0
+h661,Hoxne Priory,Benedictine monks,Suffolk,True,1.12,15.0,511.0,1713.0,86.5,39.400001525878906,17.200000762939453,523.0
+h662,Ipswich Blackfriars,Friars,Suffolk,True,0.58,14.0,549.0,1411.5,90.5,7.400000095367432,31.700000762939453,308.0
+h663,Ipswich Holy Trinity Priory,Augustinian canons,Suffolk,True,0.46,15.0,521.0,1516.5,88.0,25.200000762939453,47.400001525878906,997.0
+h664,Ipswich Whitefriars,Friars,Suffolk,True,0.4,15.0,553.0,1441.0,91.0,5.300000190734863,32.29999923706055,142.0
+h665,Ixworth Priory,Augustinian canons,Suffolk,True,0.51,13.0,593.5,1706.5,93.0,31.0,20.700000762939453,203.0
+h666,Leiston Abbey,Premonstratensian,Suffolk,True,1.65,8.0,218.5,1102.0,21.2,13.899999618530273,14.800000190734863,1194.0
+h667,Letheringham Priory,Augustinian canons,Suffolk,True,0.31,18.0,547.5,2212.5,90.4,24.799999237060547,24.700000762939453,344.0
+h668,Mendham Priory,Cluniac,Suffolk,True,0.74,12.0,363.5,1070.0,58.8,14.0,27.299999237060547,46.0
+h669,Orford Austin Friars,Friars,Suffolk,True,2.17,4.0,94.5,346.5,8.0,5.599999904632568,18.299999237060547,462.0
+h670,Redlingfield Priory,Benedictine nuns,Suffolk,True,0.22,9.0,276.0,1540.0,36.9,49.70000076293945,9.899999618530273,270.0
+h671,Sibton Abbey,Cistercian monks,Suffolk,True,0.32,10.0,357.0,1529.0,57.0,26.399999618530273,23.600000381469727,84.0
+h672,"St. Olaves Priory, Herringfleet",Augustinian canons,Norfolk,True,1.9,10.0,177.5,1345.0,22.6,3.4000000953674316,20.299999237060547,170.0
+h673,Sudbury Benedictine Priory,Benedictine monks,Suffolk,True,0.67,16.0,547.0,1460.0,90.2,51.29999923706055,45.79999923706055,733.0
+h674,Wangford Priory,Cluniac,Suffolk,True,0.43,15.0,378.0,1200.5,62.2,7.699999809265137,16.200000762939453,182.0
+h676,Chertsey Abbey,Benedictine monks,Surrey,True,0.41,7.0,307.0,929.0,89.8,15.0,2.700000047683716,139.0
+h677,Guildford Blackfriars,Friars,Surrey,True,0.82,12.0,228.0,789.0,73.6,56.20000076293945,69.30000305175781,481.0
+h678,Newark Priory,Augustinian canons,Surrey,True,0.86,7.0,230.0,671.0,75.6,21.899999618530273,15.300000190734863,48.0
+h679,Tandridge Priory,Augustinian canons,Surrey,True,0.74,8.0,288.0,607.0,87.1,111.69999694824219,51.5,298.0
+h680,Wanborough Grange,Cistercian monks,Surrey,True,0.4,8.0,120.0,679.0,43.0,89.4000015258789,68.19999694824219,476.0
+h681,Waverley Abbey,Cistercian monks,Surrey,True,2.6,1.0,89.0,508.0,36.0,59.70000076293945,60.099998474121094,73.0
+h682,Jarrow Priory,Benedictine monks,Tyne and Wear,False,49.09,0.0,0.0,0.0,,9.399999618530273,17.0,61.0
+h683,Newcastle-upon-Tyne Austin Friars,Friars,Tyne and Wear,False,48.39,0.0,0.0,0.0,,31.700000762939453,54.20000076293945,343.0
+h684,Newcastle-upon-Tyne Blackfriars,Friars,Tyne and Wear,False,48.36,0.0,0.0,0.0,,52.20000076293945,79.5999984741211,861.0
+h685,Newcastle-upon-Tyne Greyfriars,Friars,Tyne and Wear,False,48.57,0.0,0.0,0.0,,50.900001525878906,62.400001525878906,708.0
+h687,Newcastle-upon-Tyne Trinitarians,Friars,Tyne and Wear,False,48.45,0.0,0.0,0.0,,17.899999618530273,46.900001525878906,218.0
+h688,Tynemouth Priory,Benedictine monks,Tyne and Wear,False,52.54,0.0,0.0,0.0,,16.799999237060547,42.099998474121094,1360.0
+h689,"Wearmouth Abbey, Monkwearmouth",Benedictine monks,Tyne and Wear,False,40.63,0.0,0.0,0.0,,15.800000190734863,30.600000381469727,293.0
+h690,Alcester Abbey,Benedictine monks,Warwickshire,True,1.56,17.0,205.0,901.2,40.9,42.29999923706055,14.5,55.0
+h691,Alvecote Priory,Benedictine monks,Warwickshire,True,1.27,9.0,134.0,614.0,21.2,69.0999984741211,26.100000381469727,211.0
+h692,Atherstone Austin Friars,Friars,Warwickshire,True,0.68,10.0,142.5,601.0,23.2,87.19999694824219,40.900001525878906,458.0
+h693,Cawston Grange,Cistercian monks,Warwickshire,True,0.58,11.0,236.0,1047.0,52.6,114.5999984741211,13.699999809265137,563.0
+h694,Coombe Abbey,Cistercian monks,Warwickshire,True,1.37,10.0,190.0,853.0,36.2,84.0999984741211,12.5,221.0
+h695,Kenilworth Abbey,Augustinian canons,Warwickshire,True,0.14,8.0,150.0,768.0,25.5,84.4000015258789,13.899999618530273,145.0
+h696,Maxstoke Priory,Augustinian canons,Warwickshire,True,3.88,4.0,67.0,398.5,8.8,92.9000015258789,60.900001525878906,557.0
+h697,Merevale Abbey,Cistercian monks,Warwickshire,True,1.33,7.0,109.0,608.0,16.2,97.5999984741211,61.900001525878906,221.0
+h698,Nuneaton Priory,Benedictine monks,Warwickshire,True,1.09,7.0,176.5,624.0,31.5,91.30000305175781,25.600000381469727,81.0
+h699,Pinley Priory,Cistercian nuns,Warwickshire,True,1.75,11.0,215.0,787.0,44.1,111.80000305175781,25.299999237060547,682.0
+h700,Polesworth Abbey,Benedictine nuns,Warwickshire,True,2.08,8.0,150.0,611.0,25.5,68.5999984741211,36.20000076293945,97.0
+h701,Stoneleigh Abbey,Cistercian monks,Warwickshire,True,0.84,10.0,204.0,811.0,40.6,60.0,17.600000381469727,109.0
+h702,Studley Priory (Warwickshire),Augustinian canons,Warwickshire,True,0.63,7.0,105.0,591.0,15.1,67.30000305175781,27.5,67.0
+h703,Thelsford Priory,Augustinian canons,Warwickshire,True,0.63,8.0,249.0,1303.5,58.9,45.599998474121094,12.399999618530273,79.0
+h704,Warwick Blackfriars,Friars,Warwickshire,True,0.66,11.0,342.0,1036.0,88.8,56.5,22.200000762939453,118.0
+h705,Warwick St Sepulchre Priory,Augustinian canons,Warwickshire,True,0.32,11.0,342.0,1013.0,88.8,68.0,17.700000762939453,331.0
+h706,Wroxall Priory,Benedictine nuns,Warwickshire,True,2.08,7.0,103.0,620.0,14.5,124.5,21.600000381469727,1643.0
+h707,Coventry Greyfriars,Friars,West Midlands,True,0.77,6.0,168.0,605.0,93.9,90.80000305175781,23.899999618530273,276.0
+h708,Coventry St Anne's Priory,Carthusian,West Midlands,True,1.6,6.0,168.0,609.0,93.9,79.0,17.0,73.0
+h709,Coventry St Mary's Priory,Benedictine monks,West Midlands,True,0.39,6.0,168.0,611.0,93.9,90.0999984741211,11.800000190734863,125.0
+h710,Coventry Whitefriars,Friars,West Midlands,True,0.52,5.0,153.0,623.0,91.1,91.0,18.5,555.0
+h711,Halesowen Abbey,Premonstratensian,West Midlands,True,1.27,7.0,116.0,338.5,74.2,129.0,53.5,69.0
+h712,Henwood Priory,Benedictine nuns,West Midlands,True,1.53,4.0,116.0,258.0,74.2,109.69999694824219,18.700000762939453,131.0
+h713,"Priory of St Thomas of Canterbury, Birmingham",Unknown,West Midlands,True,0.68,8.0,85.0,221.0,56.5,143.5,37.79999923706055,757.0
+h714,Wolverhampton Monastery (?),Unknown,West Midlands,True,0.31,10.0,125.0,468.0,78.0,159.6999969482422,33.400001525878906,1202.0
+h715,Arundel Blackfriars,Friars,West Sussex,True,0.66,14.0,443.0,1289.0,94.2,7.199999809265137,48.099998474121094,41.0
+h716,Boxgrove Priory,Benedictine monks,West Sussex,True,0.33,10.0,281.0,877.0,70.0,27.0,26.899999618530273,2287.0
+h717,Chichester Greyfriars,Friars,West Sussex,True,0.68,14.0,281.0,1172.0,70.0,16.0,19.299999237060547,403.0
+h718,Easebourne Priory,Benedictine nuns,West Sussex,True,1.42,5.0,104.0,639.0,41.2,36.70000076293945,52.400001525878906,746.0
+h720,Sele Whitefriars,Friars,West Sussex,True,0.69,14.0,673.0,1642.0,96.8,4.300000190734863,15.300000190734863,63.0
+h721,Shulbrede Priory,Augustinian canons,West Sussex,True,3.52,2.0,17.0,153.0,32.0,92.4000015258789,98.5,264.0
+h722,Tortington Priory,Augustinian canons,West Sussex,True,0.47,17.0,516.0,1117.0,95.5,5.900000095367432,35.599998474121094,445.0
+h723,Arthington Priory,Cluniac,West Yorkshire,True,0.9,18.0,8.0,124.3,54.1,44.400001525878906,50.099998474121094,146.0
+h724,Esholt Priory,Cistercian nuns,West Yorkshire,True,2.45,12.0,0.0,62.0,23.0,62.900001525878906,80.5,72.0
+h725,Kirklees Priory,Cistercian nuns,West Yorkshire,True,1.07,10.0,21.0,56.0,63.4,76.5999984741211,80.4000015258789,30.0
+h726,Kirkstall Abbey,Cistercian monks,West Yorkshire,True,1.65,12.0,10.0,55.0,55.1,49.0,76.0,161.0
+h727,Newland Preceptory,Military orders,West Yorkshire,True,1.29,10.0,124.0,387.0,93.0,32.0,28.200000762939453,139.0
+h728,Nostell Priory,Augustinian canons,West Yorkshire,True,0.48,13.0,100.0,395.8,90.0,48.29999923706055,18.799999237060547,67.0
+h729,Pontefract Blackfriars,Friars,West Yorkshire,True,0.84,10.0,157.0,436.0,97.5,54.099998474121094,43.79999923706055,1594.0
+h730,Pontefract Priory,Cluniac,West Yorkshire,True,0.78,10.0,156.0,438.0,97.5,36.599998474121094,34.0,560.0
+h731,Woodkirk Priory,Augustinian canons,West Yorkshire,True,1.39,10.0,20.0,171.0,62.1,112.4000015258789,46.20000076293945,579.0
+h732,Amesbury Abbey,Benedictine nuns,Wiltshire,True,0.46,10.0,328.0,980.0,88.8,74.19999694824219,23.899999618530273,167.0
+h733,Ansty Preceptory,Military orders,Wiltshire,True,0.18,7.0,173.0,737.0,43.1,129.1999969482422,70.19999694824219,486.0
+h734,Bradenstoke Priory,Augustinian canons,Wiltshire,True,0.6,9.0,146.0,888.0,34.6,143.10000610351562,81.0999984741211,1911.0
+h735,"Easton Priory or Hospital, Easton Royal",Friars,Wiltshire,True,2.77,4.0,169.0,678.5,42.0,134.8000030517578,56.0,1524.0
+h736,Edington Priory,Augustinian canons,Wiltshire,True,0.23,2.0,71.0,563.0,6.9,83.0,105.9000015258789,652.0
+h738,Fugglestone Priory,Friars,Wiltshire,True,0.72,12.0,327.0,649.0,88.8,59.0,57.900001525878906,158.0
+h739,Ivychurch Priory,Augustinian canons,Wiltshire,True,1.17,9.0,130.0,775.0,27.9,96.0,55.0,682.0
+h740,Kington St Michael Priory,Benedictine nuns,Wiltshire,True,1.2,13.0,365.0,989.0,92.2,103.30000305175781,17.399999618530273,181.0
+h741,Lacock Abbey,Augustinian canonesses,Wiltshire,True,0.46,3.0,86.0,1261.0,10.6,44.400001525878906,22.799999237060547,118.0
+h742,Maiden Bradley Priory,Augustinian canons,Wiltshire,True,1.81,5.0,51.0,698.0,3.5,146.0,101.5,99.0
+h743,Malmesbury Abbey,Benedictine monks,Wiltshire,True,0.29,9.0,261.0,788.0,73.0,82.30000305175781,15.0,116.0
+h744,Marlborough Priory,Gilbertine,Wiltshire,True,1.02,10.0,106.0,747.0,16.6,136.1999969482422,70.69999694824219,195.0
+h745,Marlborough Whitefriars,Friars,Wiltshire,True,0.59,10.0,106.0,682.0,16.6,134.39999389648438,37.099998474121094,120.0
+h746,Monkton Farleigh Priory,Cluniac,Wiltshire,True,0.15,11.0,277.0,1150.0,77.8,164.3000030517578,77.30000305175781,1788.0
+h747,Salisbury Blackfriars,Friars,Wiltshire,True,0.85,13.0,243.0,678.0,68.5,48.29999923706055,29.799999237060547,67.0
+h748,Salisbury Greyfriars,Friars,Wiltshire,True,0.8,12.0,238.0,654.0,66.6,47.099998474121094,27.5,354.0
+h749,Stanley Abbey,Cistercian monks,Wiltshire,True,0.83,7.0,533.0,1165.0,100.0,59.0,61.29999923706055,45.0
+h750,Wilton Abbey,Benedictine nuns,Wiltshire,True,0.68,12.0,327.0,664.0,88.8,56.099998474121094,36.599998474121094,136.0
+h751,Bordesley Abbey,Cistercian monks,Worcestershire,True,2.04,6.0,81.0,421.0,11.4,92.0999984741211,29.700000762939453,128.0
+h752,Cookhill Priory,Cistercian nuns,Worcestershire,True,1.32,12.0,150.0,852.0,39.0,112.5,47.0,1124.0
+h753,Dodford Priory,Premonstratensian,Worcestershire,True,0.75,14.0,254.5,711.8,83.2,101.9000015258789,34.70000076293945,4.0
+h754,Droitwich Austin Friars,Friars,Worcestershire,True,0.23,18.0,348.0,972.2,98.0,41.29999923706055,19.899999618530273,112.0
+h755,Evesham Abbey,Benedictine monks,Worcestershire,True,0.27,13.0,282.0,1045.3,91.0,33.20000076293945,18.600000381469727,206.0
+h756,Great Malvern Priory,Benedictine monks,Worcestershire,True,3.11,4.0,94.0,614.0,16.4,141.1999969482422,303.1000061035156,1573.0
+h757,Little Malvern Priory,Benedictine monks,Worcestershire,True,0.51,3.0,39.0,580.0,3.0,134.6999969482422,173.10000610351562,659.0
+h758,Pershore Abbey,Benedictine monks,Worcestershire,True,0.4,17.0,329.7,948.8,97.2,23.899999618530273,35.599998474121094,408.0
+h759,"Whistones Priory, Barbourne",Cistercian nuns,Worcestershire,True,1.33,16.0,261.0,892.0,86.2,23.299999237060547,32.79999923706055,582.0
+h760,Worcester Blackfriars,Friars,Worcestershire,True,0.61,16.0,239.0,829.0,79.0,22.700000762939453,24.899999618530273,281.0
+h761,Worcester Cathedral Priory,Benedictine monks,Worcestershire,True,0.5,16.0,239.0,748.0,79.0,23.299999237060547,24.200000762939453,137.0
+h762,Worcester Greyfriars,Friars,Worcestershire,True,0.7,16.0,239.0,837.0,79.0,25.600000381469727,23.100000381469727,341.0
+h763,Llanfaes Friary,Friars,Gwynedd,False,41.06,0.0,0.0,0.0,,22.200000762939453,72.0,85.0
+h764,Ynys Lannog Cell,Augustinian canons,Gwynedd,False,36.07,0.0,0.0,0.0,,7.099999904632568,38.400001525878906,4725.0
+h765,Ewenny Priory,Benedictine monks,South Glamorgan,False,29.95,0.0,0.0,0.0,,11.699999809265137,55.70000076293945,67.0
+h766,Cardiff Blackfriars,Friars,South Glamorgan,False,19.6,0.0,0.0,0.0,,11.0,11.100000381469727,122.0
+h767,Cardiff Greyfriars,Friars,South Glamorgan,False,19.23,0.0,0.0,0.0,,18.0,11.0,528.0
+h768,Carmarthen Greyfriars,Friars,Dyfed,False,73.23,0.0,0.0,0.0,,14.5,87.5,191.0
+h769,Carmarthen Priory,Augustinian canons,Dyfed,False,73.59,0.0,0.0,0.0,,24.399999618530273,111.0999984741211,576.0
+h770,Kidwelly Priory,Benedictine monks,Dyfed,False,60.2,0.0,0.0,0.0,,9.699999809265137,77.19999694824219,80.0
+h771,Talley Abbey,Premonstratensian,Dyfed,False,60.85,0.0,0.0,0.0,,120.9000015258789,205.89999389648438,636.0
+h772,Whitland Abbey,Cistercian monks,Dyfed,False,76.74,0.0,0.0,0.0,,40.79999923706055,107.9000015258789,124.0
+h773,Cardigan Priory,Benedictine monks,Dyfed,False,104.04,0.0,0.0,0.0,,8.5,50.900001525878906,108.0
+h774,Llanllyr Priory,Cistercian nuns,Dyfed,False,69.37,0.0,0.0,0.0,,68.5999984741211,35.70000076293945,92.0
+h775,Strata Florida Abbey,Cistercian monks,Dyfed,False,48.83,0.0,0.0,0.0,,194.89999389648438,100.5999984741211,140.0
+h776,Maenan Abbey,Cistercian monks,Clwyd,False,26.08,0.0,0.0,0.0,,13.800000190734863,147.10000610351562,50.0
+h777,Denbigh Friary,Friars,Clwyd,False,4.61,1.0,0.5,13.1,,56.20000076293945,75.69999694824219,281.0
+h778,Rhuddlan Friary,Friars,Clwyd,False,0.41,15.0,60.3,101.2,,14.5,22.299999237060547,96.0
+h779,Valle Crucis Abbey,Cistercian monks,Clwyd,False,11.82,0.0,0.0,0.0,,112.4000015258789,211.0,98.0
+h780,Bangor Blackfriars,Friars,Gwynedd,False,46.28,0.0,0.0,0.0,,81.0,72.5,611.0
+h781,Bardsey Abbey,Augustinian canons,Gwynedd,False,105.39,0.0,0.0,0.0,,44.29999923706055,93.5,6289.0
+h782,Beddgelert Priory,Augustinian canons,Gwynedd,False,51.69,0.0,0.0,0.0,,46.20000076293945,203.3000030517578,52.0
+h783,Cymer Abbey,Cistercian monks,Gwynedd,False,52.35,0.0,0.0,0.0,,14.300000190734863,167.8000030517578,79.0
+h784,Abergavenny Priory,Benedictine monks,Gwent,False,15.56,0.0,0.0,0.0,,57.400001525878906,86.0,73.0
+h785,Chepstow Priory,Benedictine monks,Gwent,False,0.53,2.0,57.0,149.0,,18.899999618530273,79.69999694824219,315.0
+h786,Grace Dieu Abbey,Cistercian monks,Gwent,False,5.38,0.0,0.0,18.0,,40.20000076293945,35.400001525878906,31.0
+h787,Llanthony Priory,Augustinian canons,Gwent,False,3.98,1.0,0.0,23.0,,240.10000610351562,262.0,209.0
+h788,Monmouth Priory,Benedictine monks,Gwent,False,0.61,4.0,15.0,32.0,,24.399999618530273,52.79999923706055,86.0
+h789,Newport Friary,Friars,Gwent,False,3.33,2.0,2.0,2.0,,13.800000190734863,46.5,193.0
+h790,Tintern Abbey,Cistercian monks,Gwent,False,2.22,5.0,63.0,106.0,,18.100000381469727,177.5,148.0
+h791,Usk Priory,Benedictine nuns,Gwent,False,10.61,0.0,0.0,0.0,,19.0,43.599998474121094,332.0
+h792,Margam Abbey,Cistercian monks,West Glamorgan,False,36.81,0.0,0.0,0.0,,48.900001525878906,172.8000030517578,137.0
+h793,Neath Abbey,Cistercian monks,West Glamorgan,False,47.87,0.0,0.0,0.0,,9.5,66.5999984741211,102.0
+h794,Malpas Priory,Cluniac,Gwent,False,3.19,2.0,2.0,2.0,,46.29999923706055,37.0,570.0
+h795,Caldey Island Priory,Benedictine monks,Dyfed,False,59.71,0.0,0.0,0.0,,35.400001525878906,37.70000076293945,3880.0
+h796,Haverfordwest Blackfriars,Friars,Dyfed,False,86.22,0.0,0.0,0.0,,12.5,39.5,19.0
+h797,Haverfordwest Priory,Augustinian canons,Dyfed,False,85.69,0.0,0.0,0.0,,17.799999237060547,48.5,52.0
+h798,Pill Priory,Other orders,Dyfed,False,83.01,0.0,0.0,0.0,,28.5,42.099998474121094,109.0
+h799,Slebech Preceptory,Military orders,Dyfed,False,80.45,0.0,0.0,0.0,,8.899999618530273,60.29999923706055,53.0
+h800,St Dogmaels Abbey,Other orders,Dyfed,False,104.42,0.0,0.0,0.0,,26.600000381469727,125.5999984741211,76.0
+h801,Brecon Cathedral Priory,Benedictine monks,Powys,False,22.81,0.0,0.0,0.0,,152.6999969482422,70.30000305175781,111.0
+h802,Brecon Friary,Friars,Powys,False,23.29,0.0,0.0,0.0,,133.3000030517578,83.0999984741211,137.0
+h803,Cwmhir Abbey,Cistercian monks,Powys,False,18.53,0.0,0.0,0.0,,271.79998779296875,146.60000610351562,110.0
+h804,Llanllugan Abbey,Cistercian nuns,Powys,False,14.97,0.0,0.0,0.0,,212.89999389648438,82.80000305175781,98.0
+h805,Strata Marcella Abbey,Cistercian monks,Powys,False,2.57,2.0,27.0,99.0,,70.69999694824219,113.80000305175781,93.0
+h806,Penrhys Grange,Cistercian monks,Mid Glamorgan,False,32.73,0.0,0.0,0.0,,183.60000610351562,192.0,7.0
+h807,Llantarnam Abbey,Cistercian monks,Gwent,False,3.34,2.0,2.0,2.0,,36.5,51.5,162.0
